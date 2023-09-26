@@ -6,8 +6,8 @@ import CountdownTimer from "./CountdownTimer/CountdownTimer";
 const Loading = () => {
 
   return (
-    <div className="h-screen">
-      <div className="flex h-4/5 items-center justify-center">
+    <div className="h-screen pr-20">
+      <div className="flex h-4/5 pt-10 items-center justify-center">
         <div className="w-1/2"></div>
         <div className="flex h-full items-center gap-10 justify-center flex-col">
           <img src={Title} alt="title"></img>
