@@ -1,7 +1,7 @@
 
 import './App.css';
 import Loading from './Components/Loading';
-
+import AnimatedCursor from "react-animated-cursor"
 
 
 function App() {

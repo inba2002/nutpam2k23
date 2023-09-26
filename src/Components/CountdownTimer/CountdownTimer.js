@@ -26,27 +26,27 @@ const CountdownTimer = ({ CountdownTimeStampMs }) => {
   return (
     <div className="w-full">
       <div className="w-full">
-        <div className="flex items-center justify-start w-full text-5xl text-white gap-5">
+        <div className="flex items-center justify-start  w-full text-5xl text-white gap-5">
           <div>
-            <span className=" px-1 border w-16 h-24  xl:px-2 bg-white/25">
+            <span className=" px-1 border w-16 h-24 rounded xl:px-2 bg-white/25">
               {remainingTime.days}
             </span>
           </div>
           <span>:</span>
           <div>
-            <span className=" lg:px-2 px-1 border w-16 h-24  bg-white/25">
+            <span className=" lg:px-2 px-1 border rounded w-16 h-24  bg-white/25">
               {remainingTime.hours}
             </span>
           </div>
           <span>:</span>
           <div>
-            <span className=" lg:px-2 px-1 border w-16 h-24  bg-white/25">
+            <span className=" lg:px-2 px-1 border rounded w-16 h-24  bg-white/25">
               {remainingTime.minutes}
             </span>
           </div>
           <span>:</span>
           <div>
-            <span className=" lg:px-2 px-1 border w-16 h-24  bg-white/25">
+            <span className=" lg:px-2 px-1 border rounded w-16 h-24  bg-white/25">
               {remainingTime.seconds}
             </span>
           </div>
