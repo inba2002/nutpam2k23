@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import { getRemainingTimeUntilMsTimestamp } from "./utils/CountdownTimerUtils";
+import  "./count.css";
 
 const defaultRemainingTime = {
   seconds: "00",
@@ -28,29 +29,29 @@ const CountdownTimer = ({ CountdownTimeStampMs }) => {
       <div className="w-full">
         <div className="flex items-center justify-start  w-full text-5xl text-white gap-5">
           <div>
-            <span className=" px-1 border w-16 h-24 rounded xl:px-2 bg-white/25">
+            <span className=" px-1 tracking-wide  border w-10 h-10 md:w-16 md:h-24 rounded xl:px-2 bg-white/25">
               {remainingTime.days}
             </span>
           </div>
           <span>:</span>
           <div>
-            <span className=" lg:px-2 px-1 border rounded w-16 h-24  bg-white/25">
+            <span className=" lg:px-2 tracking-wide px-1 border rounded w-10 h-10 md:w-16 md:h-24  bg-white/25">
               {remainingTime.hours}
             </span>
           </div>
           <span>:</span>
           <div>
-            <span className=" lg:px-2 px-1 border rounded w-16 h-24  bg-white/25">
+            <span className=" lg:px-2 tracking-wide px-1 border rounded w-10 h-10 md:w-16 md:h-24  bg-white/25">
               {remainingTime.minutes}
             </span>
           </div>
           <span>:</span>
           <div>
-            <span className=" lg:px-2 px-1 border rounded w-16 h-24  bg-white/25">
+            <span className=" lg:px-2 tracking-wide px-1 border rounded w-10 h-10 md:w-16 md:h-24  bg-white/25">
               {remainingTime.seconds}
             </span>
           </div>
-          <p className="text-lg">
+          <p className="text-lg time-left">
             seconds more <br></br> to kick off!
           </p>
         </div>
