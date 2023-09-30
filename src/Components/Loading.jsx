@@ -15,34 +15,22 @@ import {slideIn} from "../utils/motion"
 const Loading = () => {
   return (
     <div className="h-screen pr-20">
-<<<<<<< HEAD
       <div className="flex h-4/5 pt-10 items-center justify-center">
         <div className="w-full h-full flex items-center justify-center">
-        <motion.div className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
+        <motion.div className="xl:flex-1">
         <MainLogoCanvas/>
       </motion.div>
         </div>
-=======
       <div className="md:flex h-4/5 pt-10 items-center justify-center">
         <div className="w-1/2"></div>
->>>>>>> d95aeb7a93dc878f3244ce3e9f0db7633ad0db8b
         <div className="flex h-full items-center gap-10 justify-center flex-col">
           <img className="w-full" src={Title} alt="title"></img>
           <CountdownTimer CountdownTimeStampMs={1697623200000} />
         </div>
       </div>
 
-      <div className="flex items-end justify-end px-20">
-        <img src={College} alt="college"></img>
-      </div>
+     
       <AnimatedCursor
-<<<<<<< HEAD
-        innerSize={20}
-        outerSize={20}
-        color="193, 11, 111"
-        outerAlpha={0.3}
-        innerScale={0.3}
-        outerScale={5}
         // clickables={[
         //   "a",
         //   'input[type="text"]',
@@ -67,7 +55,6 @@ const Loading = () => {
         //     },
         //   },
         // ]}
-=======
         innerSize={100}
         outerSize={100}
         color="193, 11, 111"
@@ -78,8 +65,11 @@ const Loading = () => {
           mixBlendMode: 'exclusion',
           backdropFilter: 10
         }}
->>>>>>> d95aeb7a93dc878f3244ce3e9f0db7633ad0db8b
       />
+    </div>
+    <div className="flex items-end justify-end px-20">
+        <img src={College} alt="college"></img>
+      </div>
     </div>
   );
 };
