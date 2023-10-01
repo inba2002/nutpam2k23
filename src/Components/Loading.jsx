@@ -14,17 +14,17 @@ import {slideIn} from "../utils/motion"
 
 const Loading = () => {
   return (
-    <div className="h-screen pr-20">
-      <div className="flex h-4/5 pt-10 items-center justify-center">
-        <div className="w-full h-full flex items-center justify-center">
+    <div className="h-screen overflow-x-hidden w-screen pr-20">
+      <div className="md:flex w-screen h-3/4 md:h-4/5 pt-10 items-center justify-center">
+        <div className="w-full h-1/2 md:h-full flex items-center justify-center">
         <motion.div className="xl:flex-1">
         <MainLogoCanvas/>
       </motion.div>
         </div>
-      <div className="md:flex h-4/5 pt-10 items-center justify-center">
-        <div className="w-1/2"></div>
-        <div className="flex h-full items-center gap-10 justify-center flex-col">
-          <img className="w-full" src={Title} alt="title"></img>
+      <div className="md:flex h-4/5 w-full pt-10 items-center justify-center">
+        {/* <div className="w-full"></div> */}
+        <div className="md:flex md:h-full p-5 w-full items-center gap-10 justify-center flex-col">
+          <img className="w-full  flex items-center justify-center" src={Title} alt="title"></img>
           <CountdownTimer CountdownTimeStampMs={1697623200000} />
         </div>
       </div>
@@ -66,9 +66,10 @@ const Loading = () => {
           backdropFilter: 10
         }}
       />
+      
     </div>
-    <div className="flex items-end justify-end px-20">
-        <img src={College} alt="college"></img>
+    <div className="flex items-center justify-center md:items-end md:justify-end md:px-20">
+        <img src={College} className="flex items-center justify-center" alt="college"></img>
       </div>
     </div>
   );

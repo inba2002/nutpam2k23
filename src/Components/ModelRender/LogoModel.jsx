@@ -6,13 +6,13 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 const LogoModel = () => {
     const mainlogo=useGLTF("./models/mainmodel.gltf");
     return (
-      <primitive object={mainlogo.scene} scale={1.15}/>
+      <primitive object={mainlogo.scene} scale={1.5}/>
     )
 }
 
 const MainLogoCanvas=()=>{
     return(
-      <div className='h-[35.5rem] mt-[15rem]'>
+      <div className='h-full md:h-[35.5rem] md:mt-[15rem]'>
       <Canvas shadows frameloop='demand' gl={{preserveDrawingBuffer:true}} camera={{fov:30, near:0.1, far:200, position:[2.5,20,10]}}>
         <Suspense fallback={<CanvasLoader/>}>
           <ambientLight/>
