@@ -8,6 +8,9 @@ module.exports = {
         title: "url(../src/Assets/header.svg)",
       }
     },
+    fontFamily:{
+      anurati: ["Anurati","sans-serif"],
+    }
   },
   plugins: [],
 }
