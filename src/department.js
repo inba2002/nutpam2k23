@@ -4,9 +4,9 @@ import Dept from "./Assets/dept.png"
 
 export default function Department() {
   return (
-    <div className="flex items-center justify-center p-10">
-      <div className="md:flex w-full items-center justify-center md:gap-16">
-        <p className="text-2xl w-1/2 indent-8 text-white text-justify">
+    <div className="md:flex w-screen items-center justify-center p-10">
+      <div className="md:flex items-center justify-center">
+        <p className="md:text-2xl md:w-1/2 indent-8 text-white text-justify">
           {" "}
           The Department of <span className="underline underline-offset-6">Computer Science and Engineering</span> is accredited by
           NBA, AICTE and has acquired Autonomous status under Anna University,
@@ -15,7 +15,7 @@ export default function Department() {
           Engineers. CSE Department is equipped with 36 well experienced faculty
           and 9 supporting staff.{" "}
         </p>
-        <img src={Dept} className="md:w-34"></img>
+        <img src={Dept} className="md:w-80 flex items-center justify-center"></img>
       </div>
     </div>
   );

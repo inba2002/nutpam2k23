@@ -5,27 +5,18 @@ import CountdownTimer from "./CountdownTimer/CountdownTimer";
 import Department from "../department";
 import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
-
+import Discover from "../discover";
 import MainLogoCanvas from "./ModelRender/LogoModel";
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import {slideIn} from "../utils/motion"
 import Navbar from "./Navbar";
 
 
-=======
-import { motion } from "framer-motion";
-import { slideIn } from "../utils/motion";
->>>>>>> 4cef0d780adb052c35b1e71897c0691a077528de
 
 const Loading = () => {
   return (
     <div className="h-screen overflow-x-hidden w-screen pr-20">
-<<<<<<< HEAD
-   
-=======
-      <Navbar/>
->>>>>>> 13fa1268337ea5170cc3f8f893991446dfd980e6
+      <Navbar />
       <div className="md:flex w-screen h-3/4 md:h-4/5 pt-10 items-center justify-center">
         <div className="md:mr-[-40rem] md:w-[50rem] w-[10rem] h-[5rem] md:h-[5rem] mt-[-10rem] md:mt-[-50rem] md:flex items-start justify-start pb-10">
           <svg
@@ -396,6 +387,7 @@ const Loading = () => {
         ></img>
       </div>
       <Department />
+      <Discover />
     </div>
   );
 };

@@ -12,10 +12,7 @@ import Footer from './Components/footer';
 function App() {
   return (
     <div  className="w-full overflow-x-hidden bg-back bg-cover relative">
-<<<<<<< HEAD
       
-=======
->>>>>>> 13fa1268337ea5170cc3f8f893991446dfd980e6
          {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0"> */}
       <Loading/>
       <StarsCanvas/>
