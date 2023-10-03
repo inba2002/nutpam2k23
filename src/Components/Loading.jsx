@@ -8,13 +8,14 @@ import  '../App.css';
 import MainLogoCanvas from "./ModelRender/LogoModel";
 import { motion } from 'framer-motion';
 import {slideIn} from "../utils/motion"
-
+import Navbar from "./Navbar";
 
 
 
 const Loading = () => {
   return (
     <div className="h-screen overflow-x-hidden w-screen pr-20">
+      <Navbar/>
       <div className="md:flex w-screen h-3/4 md:h-4/5 pt-10 items-center justify-center">
       <div className="mr-[-40rem] w-[50rem] h-[5rem] mt-[-50rem] flex items-start justify-start pb-10">
         <svg width="599" height="846" viewBox="0 0 599 846" fill="none" xmlns="http://www.w3.org/2000/svg">
