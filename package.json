@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.11.2",
     "@react-three/drei": "^9.85.0",
     "@react-three/fiber": "^8.14.3",
     "@testing-library/jest-dom": "^5.17.0",

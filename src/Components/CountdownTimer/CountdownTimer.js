@@ -26,7 +26,7 @@ const CountdownTimer = ({ CountdownTimeStampMs }) => {
 
   return (
     <div className="w-full">
-      <div className="w-full">
+      <div className="w-full flex items-center md:justify-start justify-center">
         <div className="md:flex items-center justify-start gap-10">
           <div className="flex items-center justify-start w-1/2 md:w-auto text-2xl md:text-5xl text-white gap-5">
             <div>
