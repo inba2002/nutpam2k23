@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import Title from "../Assets/header.svg";
 import College from "../Assets/college.svg";
 import CountdownTimer from "./CountdownTimer/CountdownTimer";
+import Department from "../department";
 import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
 
@@ -12,6 +13,7 @@ import { slideIn } from "../utils/motion";
 const Loading = () => {
   return (
     <div className="h-screen overflow-x-hidden w-screen pr-20">
+   
       <div className="md:flex w-screen h-3/4 md:h-4/5 pt-10 items-center justify-center">
         <div className="md:mr-[-40rem] md:w-[50rem] w-[10rem] h-[5rem] md:h-[5rem] mt-[-10rem] md:mt-[-50rem] md:flex items-start justify-start pb-10">
           <svg
@@ -381,6 +383,7 @@ const Loading = () => {
           alt="college"
         ></img>
       </div>
+      <Department />
     </div>
   );
 };

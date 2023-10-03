@@ -15,7 +15,7 @@ export default function Department() {
           Engineers. CSE Department is equipped with 36 well experienced faculty
           and 9 supporting staff.{" "}
         </p>
-        <img src={Dept}></img>
+        <img src={Dept} className="md:w-34"></img>
       </div>
     </div>
   );
