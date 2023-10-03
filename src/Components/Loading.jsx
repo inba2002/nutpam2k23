@@ -7,19 +7,11 @@ import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
 import Discover from "../discover";
 import MainLogoCanvas from "./ModelRender/LogoModel";
-<<<<<<< HEAD
 
-=======
->>>>>>> dd22ed69e9f4f894ba292d21d9a58f02a08e1262
 import { motion } from 'framer-motion';
 import {slideIn} from "../utils/motion"
 import Navbar from "./Navbar";
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> dd22ed69e9f4f894ba292d21d9a58f02a08e1262
 const Loading = () => {
   return (
     <div className="h-screen overflow-x-hidden w-screen pr-20">
