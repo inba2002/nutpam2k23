@@ -2,19 +2,28 @@ import React, { Suspense } from "react";
 import Title from "../Assets/header.svg";
 import College from "../Assets/college.svg";
 import CountdownTimer from "./CountdownTimer/CountdownTimer";
+import Department from "../department";
 import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
-
+import Discover from "../discover";
 import MainLogoCanvas from "./ModelRender/LogoModel";
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd22ed69e9f4f894ba292d21d9a58f02a08e1262
 import { motion } from 'framer-motion';
 import {slideIn} from "../utils/motion"
 import Navbar from "./Navbar";
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dd22ed69e9f4f894ba292d21d9a58f02a08e1262
 const Loading = () => {
   return (
     <div className="h-screen overflow-x-hidden w-screen pr-20">
-      <Navbar/>
+      <Navbar />
       <div className="md:flex w-screen h-3/4 md:h-4/5 pt-10 items-center justify-center">
         <div className="md:mr-[-40rem] md:w-[50rem] w-[10rem] h-[5rem] md:h-[5rem] mt-[-10rem] md:mt-[-50rem] md:flex items-start justify-start pb-10">
           <svg
@@ -384,6 +393,8 @@ const Loading = () => {
           alt="college"
         ></img>
       </div>
+      <Department />
+      <Discover />
     </div>
   );
 };
