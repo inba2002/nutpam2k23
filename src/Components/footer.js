@@ -3,9 +3,9 @@ import "../Assets/quest.svg";
 
 export default function Footer() {
   return (
-    <div className="w-screen h-full mb-5 flex">
-      <div className="mr-[-9.5rem]">
-        <div>
+    <div className="w-screen h-full mb-5 md:flex items-center justify-center">
+      <div className="md:mr-[-9.5rem]">
+        <div className="flex items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="300"
@@ -53,18 +53,18 @@ export default function Footer() {
         </svg>
         </div>
       </div>
-      <div className="footer-bg flex z-10 w-full">
+      <div className="footer-bg md:flex z-10 w-full">
         <div className=" w-full rounded-2xl flex text-lg p-10 z-10">
-          <div className="flex-col items-start justify-center">
+          <div className="md:flex-col items-start justify-center">
           <h1 className="font-bold text-white ">For Queries</h1>
-          <div className="text-white flex  gap-5">
+          <div className="text-white md:flex gap-10 md:gap-5">
             <div className="flex flex-col gap-5 px-10">
               <h1 className="">Student Coordinators:</h1>
 
               <div className="flex flex-col gap-5">
                 <div>
                   <h1>
-                    Vasanth Priyadarshan :{" "}
+                    Vasanth Priyadarsan :{" "}
                     <a href="tel:+919080663133">90806 63133</a>
                   </h1>
                 </div>
@@ -76,7 +76,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="md:flex flex-col gap-5 px-10">
+            <div className="md:flex flex-col gap-5 p-5 px-10">
               <h1 className="">Staff In-charge</h1>
               <div className="flex flex-col gap-5">
                 <div>
