@@ -7,11 +7,10 @@ import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
 import Discover from "../discover";
 import MainLogoCanvas from "./ModelRender/LogoModel";
+
 import { motion } from 'framer-motion';
 import {slideIn} from "../utils/motion"
 import Navbar from "./Navbar";
-
-
 
 const Loading = () => {
   return (

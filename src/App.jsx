@@ -11,15 +11,21 @@ import Footer from './Components/footer';
 
 function App() {
   return (
+
+    <div  className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
+
     <div  className="w-full overflow-x-hidden bg-back bg-cover relative">
       
+
          {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0"> */}
       <Loading/>
       <StarsCanvas/>
       {/* <CSV /> */}
-      
+      <Department />
+
       <Footer />
     {/* </div> */}
+    </div>
     </div>
   );
 }
