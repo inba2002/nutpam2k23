@@ -7,26 +7,24 @@ import StarsCanvas from "../src/Components/Stars"
 import Department from './department';
 import './index.css'
 import Footer from './Components/footer';
-
+import Navbar from './Components/Navbar';
+import Discover from './discover';
+import VisionHero from './Components/Events/VisionX/VisionHero';
 
 function App() {
   return (
+    <>
 
-    <div  className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
-
-    <div  className="w-full overflow-x-hidden bg-back bg-cover relative">
-      
-
-         {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0"> */}
+      <VisionHero/>
+         {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
       <Loading/>
       <StarsCanvas/>
-      {/* <CSV /> */}
       <Department />
-
+      <Discover/>
       <Footer />
-    {/* </div> */}
-    </div>
-    </div>
+    </div> */}
+    </>
+
   );
 }
 
