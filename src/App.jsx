@@ -6,15 +6,18 @@ import StarsCanvas from "../src/Components/Stars"
 import CSV from './Components/CSV';
 import './index.css'
 import Footer from './Components/footer';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
+    <div  className="w-full overflow-x-hidden bg-back bg-cover relative">
+      <Navbar/>
+         {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0"> */}
       <Loading/>
       <StarsCanvas/>
-      <CSV />
+      {/* <CSV /> */}
       <Footer />
-    
+    {/* </div> */}
     </div>
   );
 }
