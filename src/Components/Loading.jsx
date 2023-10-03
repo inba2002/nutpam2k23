@@ -6,16 +6,10 @@ import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
 
 import MainLogoCanvas from "./ModelRender/LogoModel";
-<<<<<<< HEAD
+
 import { motion } from 'framer-motion';
 import {slideIn} from "../utils/motion"
 import Navbar from "./Navbar";
-
-
-=======
-import { motion } from "framer-motion";
-import { slideIn } from "../utils/motion";
->>>>>>> 4cef0d780adb052c35b1e71897c0691a077528de
 
 const Loading = () => {
   return (
