@@ -5,10 +5,11 @@ import mreport from "./spaceodysseyasset/spacedesc.svg"
 import coords from "./spaceodysseyasset/spacecoords.svg"
 import rules from "./SpaceOdysseyrules"
 import SpaceOdysseyrules from './SpaceOdysseyrules'
+import Footer from '../../footer';
 
 const SpaceOdysseyHero = () => {
   return (
-    <div className='bg-visionxbg bg-cover'>
+    <div className='bg-spaceodbg bg-cover'>
       {/* <div className='z-0'>
       <img src={VisionBg} className="object-cover w-full" />
       </div> */}
@@ -47,6 +48,7 @@ const SpaceOdysseyHero = () => {
       </div> */}
     </div>
     <SpaceOdysseyrules/>
+    <Footer/>
     </div>
   )
 }

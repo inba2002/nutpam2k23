@@ -13,7 +13,7 @@ import reg from "./visionxasset/visionxreg.svg"
 
 const VisionXrules = () => {
   return (
-    <div className="flex flex-wrap flex justify-center items-center">
+    <div className="flex flex-wrap justify-center items-center">
       {/* Top row */}
       <div className="w-full md:w-1/4 p-5">
       <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-11 gap-4">
@@ -47,7 +47,7 @@ const VisionXrules = () => {
       </div>
 
       {/* Middle row */}
-      <div className="w-full px-[10rem]">
+      <div className="w-full md:w-11/12 md:px-20 p-4">
       <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-8 gap-4">
           <h1 className='text-xl font-mono font-bold text-white'>
           Rule-4

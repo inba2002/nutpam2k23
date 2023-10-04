@@ -3,9 +3,10 @@ import xtitle from './celesticalpauseasset/celestictitle.svg'
 import mreport from './celesticalpauseasset/celesticdesc.svg'
 import image from '../VisionX/visionxasset/image.svg'
 import CelesticalPauserules from './CelesticalPauserules'
+import Footer from '../../footer';
 const CelesticalPaiseHero = () => {
   return (
-    <div className='bg-visionxbg bg-cover'>
+    <div className='bg-astrobg bg-cover'>
       {/* <div className='z-0'>
       <img src={VisionBg} className="object-cover w-full" />
       </div> */}
@@ -62,6 +63,7 @@ const CelesticalPaiseHero = () => {
       </div> */}
     </div>
     <CelesticalPauserules/>
+    <Footer/>
     </div>
   )
 }

@@ -7,6 +7,7 @@ import coords from "./visionxasset/coords.svg"
 import "./visionx.css";
 import VisionXrules from './VisionXrules'
 import VisionXreg from './VisionXreg'
+import Footer from '../../footer';
 
 const VisionHero = () => {
   return (
@@ -46,7 +47,7 @@ const VisionHero = () => {
       </div> */}
     </div>
     <VisionXrules/>
-    <VisionXreg/>
+    <Footer/>
     </div>
   )
 }
