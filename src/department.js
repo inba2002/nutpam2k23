@@ -16,7 +16,7 @@ export default function Department() {
           and 9 supporting staff.{" "}
         </p>
         <div className="flex items-center justify-center">
-        <img src={Dept} className="md:w-80 flex items-center justify-center"></img>
+        <img src={Dept} className="md:w-80 w-64 flex items-center justify-center"></img>
         </div>
       </div>
     </div>
