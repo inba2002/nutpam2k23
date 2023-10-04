@@ -35,7 +35,7 @@ const VisionXrules = () => {
       <div className="w-full p-4">
       <div className="flex items-center justify-center">
         <img className='md:hidden lg:hidden' src={rule4} alt="" />
-        <img className='hidden sm:block ' src={rule4lg} alt="" />
+        <img className='hidden sm:block md:block ' src={rule4lg} alt="" />
         </div>
       </div>
 

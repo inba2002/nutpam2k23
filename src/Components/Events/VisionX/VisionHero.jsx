@@ -23,7 +23,7 @@ const VisionHero = () => {
       </div>
       <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4">
         {/* Content for the second cell */}
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center sm:flex sm:items-center sm:justify-center">
           <img className="w-3/4 h-[40rem] object-cover mb-10" src={image} alt="" />
           <img src={coords} className='md:w-3/4 lg:w-3/4 xl:w-3/4 p-4' alt="" />
         </div>
