@@ -1,0 +1,6 @@
+.bgvision {
+    background-image: url("./pixellegacyasset/visionxbg.svg"); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }

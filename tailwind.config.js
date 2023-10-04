@@ -6,12 +6,18 @@ module.exports = {
       backgroundImage: {
         back: "url(../src/Assets/updatedbg.svg)",
         visionxbg: "url(../src/Components/Events/VisionX/visionxasset/visionxbg.svg)",
+        dcbg: "url(../src/Components/Events/DimensionalConquest/dimensionalconquestasset/dcbg.png)",
         title: "url(../src/Assets/header.svg)",
+        visionxregbg: "url(../src/Components/Events/VisionX/visionxasset/bgblur.svg)",
+        pixelbg: "url(../src/Components/Events/PixelLegacy/pixellegacyasset/pixelbg.png)",
+        astrobg: "url(../src/Components/Events/AstroCapture/AstroCapture/astrocaptureasset/astrobg.png)",
+        cosmobg: "url(../src/Components/Events/CosmoCode/cosmocodeasset/cosmobg.png)",
+        spaceodbg: "url(../src/Components/Events/SpaceOdyssey/spaceodysseyasset/spaceodbg.png)",
       },
     },
     fontFamily: {
       anurati: ["Anurati", "sans-serif"],
-      beyono: ["Beyno-Test"]
+      mono: ["Space Mono"]
     },
   },
   plugins: [require("daisyui")],
