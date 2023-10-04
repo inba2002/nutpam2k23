@@ -337,7 +337,7 @@ const Loading = () => {
               src={Title}
               alt="title"
             ></img>
-            <CountdownTimer CountdownTimeStampMs={1697623200000} />
+            <CountdownTimer CountdownTimeStampMs={1697536800000} />
           </div>
         </div>
 
@@ -366,11 +366,11 @@ const Loading = () => {
           //     },
           //   },
           // ]}
-          innerSize={100}
-          outerSize={100}
-          color="193, 11, 111"
-          outerAlpha={0.3}
-          innerScale={0.7}
+          innerSize={0}
+          outerSize={25}
+          color="255, 255, 255"
+          outerAlpha={1}
+          innerScale={0}
           outerScale={0}
           innerStyle={{
             mixBlendMode: "exclusion",
