@@ -13,6 +13,7 @@ module.exports = {
         astrobg: "url(../src/Components/Events/AstroCapture/AstroCapture/astrocaptureasset/astrobg.png)",
         cosmobg: "url(../src/Components/Events/CosmoCode/cosmocodeasset/cosmobg.png)",
         spaceodbg: "url(../src/Components/Events/SpaceOdyssey/spaceodysseyasset/spaceodbg.png)",
+        aistromybg: "url(../src/Components/Events/AIstronomy/aiasset/aistromybg.png)",
       },
     },
     fontFamily: {
