@@ -6,6 +6,7 @@ import image from "./visionxasset/image.svg"
 import coords from "./visionxasset/coords.svg"
 import "./visionx.css";
 import VisionXrules from './VisionXrules'
+import VisionXreg from './VisionXreg'
 
 const VisionHero = () => {
   return (
@@ -25,7 +26,16 @@ const VisionHero = () => {
         {/* Content for the second cell */}
         <div className="flex flex-col items-center justify-center sm:flex sm:items-center sm:justify-center">
           <img className="w-3/4 h-[40rem] object-cover mb-10" src={image} alt="" />
-          <img src={coords} className='md:w-3/4 lg:w-3/4 xl:w-3/4 p-4' alt="" />
+          <div className='flex flex-col'>
+            <div className='border-b-2 w-full border-white flex items-end'>
+                <h1 className='font-mono font-bold text-2xl w-[20rem] pb-2 text-white'>Student Coordinators</h1>
+            </div>
+            <div>
+                <p className='font-mono text-white text-lg pb-2 pt-4'>Badhrinath R <a href="tel:+918248261992">8248261992</a></p>
+                <p  className='font-mono text-white text-lg pb-2'>Aanandhini S <a href="tel:+917338811212">7338811212</a></p>
+                <p  className='font-mono text-white text-lg pb-2'>JaiSurya S <a href="tel:+919840680496">9840680496</a></p>
+            </div>
+          </div>
         </div>
       </div>
       {/* <div className="md:w-1/4 lg:w-full xl:w-full flex items-end justify-end">
@@ -36,6 +46,7 @@ const VisionHero = () => {
       </div> */}
     </div>
     <VisionXrules/>
+    <VisionXreg/>
     </div>
   )
 }

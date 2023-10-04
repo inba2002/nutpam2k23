@@ -10,12 +10,16 @@ import Footer from './Components/footer';
 import Navbar from './Components/Navbar';
 import Discover from './discover';
 import VisionHero from './Components/Events/VisionX/VisionHero';
+import SpaceOdysseyHero from './Components/Events/SpaceOdyssey/SpaceOdysseyHero';
+import CelesticalPaiseHero from './Components/Events/CelesticalPause/CelesticalPaiseHero';
 
 function App() {
   return (
     <>
 
-      <VisionHero/>
+      {/* <SpaceOdysseyHero/>*/}
+      <VisionHero/> 
+      <CelesticalPaiseHero/>
          {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
       <Loading/>
       <StarsCanvas/>

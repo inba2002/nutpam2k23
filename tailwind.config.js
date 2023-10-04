@@ -7,11 +7,12 @@ module.exports = {
         back: "url(../src/Assets/updatedbg.svg)",
         visionxbg: "url(../src/Components/Events/VisionX/visionxasset/visionxbg.svg)",
         title: "url(../src/Assets/header.svg)",
+        visionxregbg: "url(../src/Components/Events/VisionX/visionxasset/bgblur.svg)"
       },
     },
     fontFamily: {
       anurati: ["Anurati", "sans-serif"],
-      beyono: ["Beyno-Test"]
+      mono: ["Space Mono"]
     },
   },
   plugins: [require("daisyui")],
