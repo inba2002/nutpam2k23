@@ -6,7 +6,7 @@ import StarsCanvas from "../src/Components/Stars"
 
 import { useState, CSSProperties } from "react";
 import CircleLoader from "react-spinners/CircleLoader";
-
+import BasicDetails from "./Components/Registration/BasicDetails"
 import Department from './department';
 import './index.css'
 import Footer from './Components/footer';
@@ -27,15 +27,15 @@ function App() {
     
     <>
 
-
+      <BasicDetails />
       {/* <VisionHero/> */}
-         <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
+         {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
       <Loading/>
       <StarsCanvas/>
       <Department />
       <Discover/>
       <Footer />
-    </div>
+    </div> */}
     {/* <div className="sweet-loading">
       <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
       <input value={color} onChange={(input) => setColor(input.target.value)} placeholder="Color of the loader" />

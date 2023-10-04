@@ -119,22 +119,22 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex items-center tex  justify-between p-5 md:px-32">
-            <div className="items-center justify-center gap-4 text-xl flex">
+            <a href="https://instagram.com/nutpam_2k23" className="items-center justify-center gap-4 text-xl flex" target="_blank">
               <AiFillInstagram size={26} />
               <h1 className="italic hidden md:flex ">nutpam_2k23</h1>
-            </div>
-            <div className="items-center justify-center gap-4 text-xl flex">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100086234925239" className="items-center justify-center gap-4 text-xl flex" target="_blank">
               <BsFacebook size={26} />
               <h1 className="italic hidden md:flex">nutpam_2k23</h1>
-            </div>
-            <div className="items-center justify-center gap-4 text-xl flex">
+            </a>
+            <a href=""className="items-center justify-center gap-4 text-xl flex" target="_blank">
               <BsLinkedin size={26} />
               <h1 className="italic hidden md:flex">nutpam_2k23</h1>
-            </div>
-            <div className="items-center justify-center gap-4 text-xl flex">
+            </a>
+            <a href="https://x.com/Nutpam2k23" className="items-center justify-center gap-4 text-xl flex" target="_blank">
               <RiTwitterXLine size={26} />
               <h1 className="italic hidden md:flex">nutpam_2k23</h1>
-            </div>
+            </a>
           </div>
         </div>
       </div>
