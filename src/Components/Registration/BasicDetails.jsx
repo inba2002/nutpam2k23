@@ -73,28 +73,28 @@ const BasicDetails = () => {
         <div className="flex items-center justify-center text-2xl md:text-4xl text-center p-10 text-white">
           Nutpam Basic Details
         </div>
-        <form className=" flex justify-center flex-col w-1/2" style={formStyle}>
+        <form className=" flex justify-center flex-col w-1/2 gap-10" style={formStyle}>
           <div className="grid grid-cols-2 gap-4">
             <input
               type="text"
-              className="w-full h-14 footer-bg text-white p-5"
+              className="w-full h-16 footer-bg text-white p-5"
               name="name"
               placeholder="NAME"
             />
             <input
               type="text"
-              className="w-full h-14 footer-bg text-white p-5"
+              className="w-full h-16 footer-bg text-white p-5"
               name="collegeName"
               placeholder="COLLEGE"
             />
             <input
               type="text"
-              className="w-full h-14 footer-bg text-white p-5"
+              className="w-full h-16 footer-bg text-white p-5"
               name="dept"
               placeholder="Department"
             />
             <select
-              className="w-full h-14 footer-bg text-white p-5"
+              className="w-full h-16 footer-bg text-white p-5"
               name="year"
             >
               <option value="1">1</option>
@@ -104,18 +104,18 @@ const BasicDetails = () => {
             </select>
             <input
               type="email"
-              className="w-full h-14 footer-bg text-white p-5"
+              className="w-full h-16 footer-bg text-white p-5"
               name="email"
               placeholder="EMAIL"
             />
             <input
               type="number"
-              className="w-full h-14 footer-bg text-white p-5"
+              className="w-full h-16 footer-bg text-white p-5"
               name="phoneNumber"
               placeholder="PHONE NUMBER"
             />
           </div>
-          <div className="flex">
+          <div className="flex ">
             {events.map((e, i) => {
               return (
                 <button
@@ -145,7 +145,7 @@ const BasicDetails = () => {
         {select && select === "DimensionalConquest" && <DimensionalConquest />}
       </div>
       <div className="pt-10">
-        <Footer />
+        
       </div>
     </div>
   );
