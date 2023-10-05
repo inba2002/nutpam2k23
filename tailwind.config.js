@@ -28,8 +28,12 @@ module.exports = {
       mono: ["Space Mono"],
     },
   },
+<<<<<<< HEAD
   plugins: [require("daisyui")],
   daisyui: {
     
   },
+=======
+  plugins: [require("daisyui"), require('tailwind-scrollbar-hide')],
+>>>>>>> 2d05ed6b573f654d5a15be83c865d89a563eca1f
 };
