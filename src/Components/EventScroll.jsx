@@ -11,6 +11,7 @@ import eve8 from "../Assets/eve8.svg"
 import Eventbg from "../Assets/eventbg.svg"
 import { RiFontFamily } from 'react-icons/ri';
 import ml from '../Assets/missionlist.svg'
+import astrobg from '../Assets/astrobg.png'
 
 const EventScroll = () => {
     const slideLeft = () => {
@@ -35,12 +36,12 @@ const HorizontalScrollCarousel = () => {
       target: targetRef,
     });
   
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-86.5%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0.75%", "-84.5%"]);
   
     return (
-      <section ref={targetRef} className="relative h-[300vh]  bg-transparent">
+      <section ref={targetRef} className="relative h-[300vh] py-8 bg-transparent">
         <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-          <motion.div style={{ x }} className="flex gap-0">
+          <motion.div style={{ x }} className="flex gap-14">
             {cards.map((card) => {
               return <Card card={card} key={card.id} />;
             })}
@@ -54,21 +55,21 @@ const HorizontalScrollCarousel = () => {
     return (
       <div
         key={card.id}
-        className="group relative h-[90vh] w-[90vw] overflow-hidden bg-neutral-200"
+        className="group relative md:h-[50rem] md:w-[80rem] overflow-hidden bg-transparent"
       >
         <div
           style={{
-            backgroundImage: `url(${Eventbg})`,
+            backgroundImage: `url(${astrobg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="absolute inset-0 z-0 transition-transform"
+          className="absolute inset-0 z-0 transition-transform duration-300 scroll-smooth "
         ></div>
-        <div className="absolute inset-0 z-10 grid place-content-center">
-          <div className="w-3/4 mx-auto bg-gradient-to-br from-white/20 to-white/0 p-8 backdrop-blur-lg">
-            <h1 className='text-[32px] uppercase text-white px-12 py-5' style={{fontFamily:'manplay'}}>{card.head}</h1>
-            <p className='text-[18px] font-mono uppercase text-white px-12 py-5 leading-10'>{card.title}</p>
-            <div className="w-full p-4 flex items-center justify-end">
+        <div className="absolute inset-0 z-10 grid place-content-center ">
+          <div className="w-full h-[90vh] md:w-3/4 mx-auto bg-gradient-to-br from-white/20 to-white/0 p-8 backdrop-blur-lg rounded-[2rem]">
+            <h1 className='text-[32px] uppercase text-white md:px-12 md:py-5' style={{fontFamily:'manplay'}}>{card.head}</h1>
+            <p className='text-[18px] font-mono uppercase text-white md:px-12 md:py-5 md:leading-10 md:text-sm'>{card.title}</p>
+            <div className="w-full md:p-4 flex items-center justify-end">
           <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
             Register Now
           </button>

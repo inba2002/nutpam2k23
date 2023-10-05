@@ -35,7 +35,7 @@ function App() {
     
     <>
 
-      <BasicDetails />
+      {/* <BasicDetails /> */}
       {/* <SpaceOdysseyHero/>
       <VisionHero/> 
       <CelesticalPaiseHero/>
@@ -45,33 +45,29 @@ function App() {
       <PixelHero/> */}
       
       {/* <VisionHero/> */}
-<<<<<<< HEAD
      <div className="w-full bg-back bg-cover relative z-0">
-=======
-<<<<<<< HEAD
-=======
-      <AIHero/>
->>>>>>> e943fa6622311dc3d6101a4e12dae2d6dddbb0db
+
+
+      {/* <AIHero/> */}
+
          {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
 
->>>>>>> 67ff30cb3f639e55cabbc1915a105020f1ff123e
-      <Loading/>
-      {/* <StarsCanvas/> */}
+      
+     <StarsCanvas/> */}
+     <Loading/>
       <Department />
       <Discover/>
       <EventScroll/>
       <Footer />
-<<<<<<< HEAD
     </div> 
     {/* <div className="sweet-loading">
 
     </div> 
     <div className="sweet-loading">
 
-=======
     </div>  */}
      {/* <div className="sweet-loading">
->>>>>>> 67ff30cb3f639e55cabbc1915a105020f1ff123e
+
       <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
       <input value={color} onChange={(input) => setColor(input.target.value)} placeholder="Color of the loader" />
 
@@ -81,13 +77,9 @@ function App() {
         loading
         size={147}
         speedMultiplier={1}
-<<<<<<< HEAD
       /> */}
     {/* </div> */}
-=======
-      />
-    </div> */}
->>>>>>> e943fa6622311dc3d6101a4e12dae2d6dddbb0db
+
     </>
 
   );
