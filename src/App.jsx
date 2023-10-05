@@ -20,11 +20,11 @@ import AstroHero from './Components/Events/AstroCapture/AstroCapture/AstroHero'
 import PixelHero from './Components/Events/PixelLegacy/PixelHero'
 import CosmoHero from './Components/Events/CosmoCode/CosmoHero'
 
-const override: CSSProperties = {
-  display: "block",
-  margin: "0 auto",
-  borderColor: "red",
-};
+// const override: CSSProperties = {
+//   display: "block",
+//   margin: "0 auto",
+//   borderColor: "red",
+// };
 
 function App() {
   let [loading, setLoading] = useState(true)
@@ -33,7 +33,7 @@ function App() {
     
     <>
 
-
+      <BasicDetails />
       {/* <SpaceOdysseyHero/>
       <VisionHero/> 
       <CelesticalPaiseHero/>
@@ -42,20 +42,15 @@ function App() {
       <AstroHero/>
       <PixelHero/> */}
       {/* <VisionHero/> */}
-         <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
+         {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
 
       <Loading/>
       <StarsCanvas/>
       <Department />
       <Discover/>
       <Footer />
-<<<<<<< HEAD
-    </div> */}
-    {/* <div className="sweet-loading">
-=======
-    </div> 
-    <div className="sweet-loading">
->>>>>>> 5a5451166443d70adad8addea3830d8d4719c45b
+    </div>  */}
+     {/* <div className="sweet-loading">
       <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
       <input value={color} onChange={(input) => setColor(input.target.value)} placeholder="Color of the loader" />
 
@@ -65,8 +60,8 @@ function App() {
         loading
         size={147}
         speedMultiplier={1}
-      />
-    </div>
+      /> */}
+    {/* </div> */}
     </>
 
   );
