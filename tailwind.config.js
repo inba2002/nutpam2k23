@@ -21,5 +21,5 @@ module.exports = {
       mono: ["Space Mono"]
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require('tailwind-scrollbar-hide')],
 };
