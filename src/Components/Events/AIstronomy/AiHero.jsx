@@ -1,5 +1,5 @@
 import React from 'react'
-import VisionBg from "../AIstronomy/aiasset/visionxbg.svg"
+
 import xtitle from "../AIstronomy/aiasset/xtitlesvg.svg"
 import mreport from "../AIstronomy/aiasset/missionreport.svg"
 import image from "./aiasset/image.svg"

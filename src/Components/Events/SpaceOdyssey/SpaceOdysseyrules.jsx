@@ -1,12 +1,5 @@
 import React from "react";
-import rule1 from "./spaceodysseyasset/spacerule1.svg";
-import rule2 from "./spaceodysseyasset/spacerule2.svg";
-import rule3 from "./spaceodysseyasset/spacerule3.svg";
-import rule4 from "./spaceodysseyasset/spacerule4.svg";
-import rule5 from "./spaceodysseyasset/spacerule5.svg";
-import rule6 from "./spaceodysseyasset/spacerule6.svg";
-import rule7 from "./spaceodysseyasset/spacerule7.svg";
-import reg1 from "../VisionX/visionxasset/visionxreg.svg";
+
 
 const SpaceOdysseyrules = () => {
   return (

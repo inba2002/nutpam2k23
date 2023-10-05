@@ -20,7 +20,73 @@ const Loading = () => {
   return (
     <>
       <div className="h-screen overflow-x-hidden w-screen pr-20">
-        <Navbar />
+        <div className="w-screen">
+          <div className="navbar navbar-end bg-transparent w-full h-32">
+            <div className="w-full flex items-center justify-end">
+              <div className="flex w-1/2 items-center justify-center">
+                <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
+                  <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center ">
+                    <a>Home</a>
+                  </li>
+                  <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
+                    <a href="#Departments">About</a>
+                  </li>
+                  <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
+                    <a href="#Missions">Mission</a>
+                  </li>
+                  
+                  <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
+                    <a>Team</a>
+                  </li>
+                  <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
+                    <a href="#Foot">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="dropdown md:hidden">
+                <label tabIndex={0} className="btn btn-ghost btn-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h7"
+                    />
+                  </svg>
+                </label>
+                <div className="flex items-center  justify-center">
+                  <ul
+                    tabIndex={0}
+                    className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                  >
+                    <li>
+                      <a href="#Departments">Home</a>
+                    </li>
+                    <li>
+                      <a>About</a>
+                    </li>
+                    <li>
+                      <a href="#Missions">Mission</a>
+                    </li>
+                    
+                    <li>
+                      <a>Team</a>
+                    </li>
+                    <li>
+                      <a href="#foot">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="md:flex w-screen h-3/4 md:h-4/5 pt-10 items-center justify-center">
           <div className="md:mr-[-40rem] md:w-[50rem] w-[10rem] h-[5rem] md:h-[5rem] mt-[-10rem] md:mt-[-50rem] md:flex items-start justify-start pb-10">
             <svg
@@ -354,10 +420,16 @@ const Loading = () => {
           ></img>
         </div>
       </div>
-      <Department />
+      <div id="Departments">
+        <Department />
+      </div>
       <Discover />
-      <EventScroll />
-      <Footer />
+      <div id="Missions">
+        <EventScroll />
+      </div>
+      <div id="Foot">
+        <Footer />
+      </div>
     </>
   );
 };
