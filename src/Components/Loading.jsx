@@ -10,6 +10,7 @@ import StarsCanvas from "./Stars";
 import Footer from "./footer";
 import EventScroll from "./EventScroll";
 import Discover from "../../src/discover";
+import Horiscroll from "./Horiscroll";
 
 import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
@@ -424,12 +425,20 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
+<<<<<<< HEAD
       <div id="Missions">
         <EventScroll />
       </div>
       <div id="Foot">
         <Footer />
       </div>
+=======
+      <div className="w-screen h-screen hidden md:block">
+        <EventScroll />
+        </div>        
+        <div className="block md:hidden"><Horiscroll/></div>
+      <Footer />
+>>>>>>> 87db230bbfb69c63106ea1b29cf7c3e41b2cd5e3
     </>
   );
 };

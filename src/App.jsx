@@ -22,6 +22,9 @@ import AIHero from "./Components/Events/AIstronomy/AiHero";
 import EventScroll from "./Components/EventScroll";
 import Aistronomy from "./Components/Registration/Aistronomy";
 
+
+import Horiscroll from "./Components/Horiscroll";
+
 // const override: CSSProperties = {
 //   display: "block",
 //   margin: "0 auto",
@@ -34,7 +37,8 @@ function App() {
   return (
     <>
       <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
-        <Routes>
+        <Loading/>
+        {/* <Routes>
           <Route path="/" element={<Loading />} />
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/astrocapture" element={<AIHero />} />
@@ -47,8 +51,49 @@ function App() {
           <Route path="/cosmocode" element={<CosmoHero />} />
           <Route path="/visionx" element={<VisionHero />} />
           <Route path="/pixellegacy" element={<PixelHero />} />
+<<<<<<< HEAD
         </Routes>
         
+=======
+        </Routes> */}
+        {/* <Horiscroll/> */}
+        <AnimatedCursor
+          // clickables={[
+          //   "a",
+          //   'input[type="text"]',
+          //   'input[type="email"]',
+          //   'input[type="number"]',
+          //   'input[type="submit"]',
+          //   'input[type="image"]',
+          //   "label[for]",
+          //   "select",
+          //   "textarea",
+          //   "button",
+          //   ".link",
+          //   {
+          //     target: ".custom",
+          //     options: {
+          //       innerSize: 12,
+          //       outerSize: 12 ,
+          //       color: "255, 255, 255",
+          //       outerAlpha: 0.3,
+          //       innerScale: 0.7,
+          //       outerScale: 5,
+          //     },
+          //   },
+          // ]}
+          innerSize={0}
+          outerSize={10}
+          color="255, 255, 255"
+          outerAlpha={1}
+          innerScale={0}
+          outerScale={0}
+          innerStyle={{
+            mixBlendMode: "exclusion",
+            backdropFilter: 10,
+          }}
+        />
+>>>>>>> 87db230bbfb69c63106ea1b29cf7c3e41b2cd5e3
       </div>
       
       {/* <SpaceOdysseyHero/>
