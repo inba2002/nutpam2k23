@@ -19,6 +19,7 @@ import DimensionalConquestHero from './Components/Events/DimensionalConquest/Dim
 import AstroHero from './Components/Events/AstroCapture/AstroCapture/AstroHero'
 import PixelHero from './Components/Events/PixelLegacy/PixelHero'
 import CosmoHero from './Components/Events/CosmoCode/CosmoHero'
+import AIHero from './Components/Events/AIstronomy/AiHero'
 
 // const override: CSSProperties = {
 //   display: "block",
@@ -42,6 +43,10 @@ function App() {
       <AstroHero/>
       <PixelHero/> */}
       {/* <VisionHero/> */}
+<<<<<<< HEAD
+=======
+      <AIHero/>
+>>>>>>> e943fa6622311dc3d6101a4e12dae2d6dddbb0db
          {/* <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
 
       <Loading/>
@@ -60,8 +65,13 @@ function App() {
         loading
         size={147}
         speedMultiplier={1}
+<<<<<<< HEAD
       /> */}
     {/* </div> */}
+=======
+      />
+    </div> */}
+>>>>>>> e943fa6622311dc3d6101a4e12dae2d6dddbb0db
     </>
 
   );
