@@ -74,47 +74,49 @@ const HorizontalScrollCarousel = () => {
             Register Now
           </button>
       </div>
-    </section>
+      </div>
+      </div>
+      </div>
   );
 };
 
-const Card = ({ card }) => {
-  return (
-    <div
-      key={card.id}
-      className="group relative h-[50vh] w-[80vw] overflow-hidden bg-transparent"
-    >
-      <div
-        style={{
-          backgroundImage: `url(${Eventbg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-        className="absolute inset-0 z-0 transition-transform"
-      ></div>
-      <div className="absolute inset-0 z-10 grid place-content-center">
-        <div className="w-3/4 mx-auto bg-gradient-to-br from-white/20 to-white/0 p-8 backdrop-blur-lg">
-          <h1
-            className="text-[32px] uppercase text-white px-12 py-5"
-            style={{ fontFamily: "manplay" }}
-          >
-            {card.head}
-          </h1>
-          <p className="text-[18px] font-mono uppercase text-white px-12 py-5 leading-10">
-            {card.title}
-          </p>
-          <div className="w-full p-4 flex items-center justify-end">
-            <Link to={card.head.replace(" ", "").toLowerCase()}>
-              <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
-                Register Now
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+// const Card = ({ card }) => {
+//   return (
+//     <div
+//       key={card.id}
+//       className="group relative h-[50vh] w-[80vw] overflow-hidden bg-transparent"
+//     >
+//       <div
+//         style={{
+//           backgroundImage: `url(${Eventbg})`,
+//           backgroundSize: "cover",
+//           backgroundPosition: "center",
+//         }}
+//         className="absolute inset-0 z-0 transition-transform"
+//       ></div>
+//       <div className="absolute inset-0 z-10 grid place-content-center">
+//         <div className="w-3/4 mx-auto bg-gradient-to-br from-white/20 to-white/0 p-8 backdrop-blur-lg">
+//           <h1
+//             className="text-[32px] uppercase text-white px-12 py-5"
+//             style={{ fontFamily: "manplay" }}
+//           >
+//             {card.head}
+//           </h1>
+//           <p className="text-[18px] font-mono uppercase text-white px-12 py-5 leading-10">
+//             {card.title}
+//           </p>
+//           <div className="w-full p-4 flex items-center justify-end">
+//             <Link to={card.head.replace(" ", "").toLowerCase()}>
+//               <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
+//                 Register Now
+//               </button>
+//             </Link>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 export default EventScroll;
 
