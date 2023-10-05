@@ -39,7 +39,7 @@ const PointHelper = () => {
 
 const MainLogoCanvas=()=>{
     return(
-      <div className='h-full md:h-[35.5rem] md:mt-[15rem]'>
+      <div className='h-full md:h-[35.5rem] md:mt-[12rem]'>
       <Canvas shadows frameloop='demand' gl={{preserveDrawingBuffer:true}} camera={{fov:60, near:1, far:10, position:[0,1,4]}}>
         <Suspense fallback={<CanvasLoader/>}>
         <PointHelper />

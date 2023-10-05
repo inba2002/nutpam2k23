@@ -5,24 +5,7 @@ import menu from "../Assets/menu.svg";
 import logo from "../Assets/logo.svg";
 import { Link } from "react-router-dom";
 
-export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
-];
+
 
 const Navbar = () => {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import reg from "./cosmocodeasset/visionxreg.svg";
+import { Link } from "react-router-dom";
 
 const CosmoCoderules = () => {
   return (
