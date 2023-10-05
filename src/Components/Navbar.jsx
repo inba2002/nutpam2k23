@@ -32,9 +32,7 @@ const Navbar = () => {
           <div className="flex w-1/2 items-center justify-center">
             <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
               <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center ">
-                <Link to="/">
-                  <a>Home</a>
-                </Link>
+                <a>Home</a>
               </li>
               <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
                 <a>About</a>

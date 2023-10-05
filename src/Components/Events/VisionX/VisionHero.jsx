@@ -9,6 +9,7 @@ import "./visionx.css";
 import VisionXrules from "./VisionXrules";
 import VisionXreg from "./VisionXreg";
 import Footer from "../../footer";
+import { Link } from "react-router-dom";
 
 const VisionHero = () => {
   return (
@@ -18,13 +19,15 @@ const VisionHero = () => {
           <div className="w-full flex items-center justify-start">
             <div className="flex w-1/2 items-center justify-center">
               <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
-                <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center ">
-                  <a>Home</a>
-                </li>
+                <Link to="/">
+                  <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center ">
+                    <a>Home</a>
+                  </li>
+                </Link>
                 <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center">
                   <a>Vision X</a>
                 </li>
-                
+
                 <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center">
                   <a href="#Foot">Contact</a>
                 </li>
@@ -58,7 +61,7 @@ const VisionHero = () => {
                   <li>
                     <a>Vision X</a>
                   </li>
-                  
+
                   <li>
                     <a>Contact</a>
                   </li>
@@ -152,7 +155,7 @@ const VisionHero = () => {
       />
       <VisionXrules />
       <div id="Foot">
-      <Footer  />
+        <Footer />
       </div>
     </div>
   );
