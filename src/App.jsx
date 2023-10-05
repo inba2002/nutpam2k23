@@ -5,7 +5,6 @@ import StarsCanvas from "../src/Components/Stars";
 
 import { useState, CSSProperties } from "react";
 import CircleLoader from "react-spinners/CircleLoader";
-<<<<<<< HEAD
 import BasicDetails from "./Components/Registration/BasicDetails";
 import Department from "./department";
 import "./index.css";
@@ -21,7 +20,7 @@ import PixelHero from "./Components/Events/PixelLegacy/PixelHero";
 import CosmoHero from "./Components/Events/CosmoCode/CosmoHero";
 import AIHero from "./Components/Events/AIstronomy/AiHero";
 import { Routes, Route } from "react-router-dom";
-=======
+
 import BasicDetails from "./Components/Registration/BasicDetails"
 import Department from './department';
 import './index.css'
@@ -43,24 +42,23 @@ import EventScroll from './Components/EventScroll';
 //   margin: "0 auto",
 //   borderColor: "red",
 // };
->>>>>>> 2d05ed6b573f654d5a15be83c865d89a563eca1f
+
 
 function App() {
   let [loading, setLoading] = useState(true);
   let [color, setColor] = useState("#ffffff");
   return (
     <>
-<<<<<<< HEAD
       <VisionHero />
       <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
         <Routes>
           <Route path="/" element={<Loading />}></Route>
-          <Route path="/Register" element={<BasicDetails />}></Route>
+          {/* <Route path="/Register" element={<BasicDetails />}></Route> */}
         </Routes>
         
         <Footer />
       </div>
-=======
+
 
       {/* <BasicDetails /> */}
       {/* <SpaceOdysseyHero/>
@@ -106,15 +104,7 @@ function App() {
         speedMultiplier={1}
       /> */}
     {/* </div> */}
-<<<<<<< HEAD
 
-=======
-=======
-      />
-    </div> */}
->>>>>>> e943fa6622311dc3d6101a4e12dae2d6dddbb0db
->>>>>>> 2d05ed6b573f654d5a15be83c865d89a563eca1f
->>>>>>> e3adf5f7625a3fd439e6c0084a310ba8071eda5c
     </>
   );
 }
