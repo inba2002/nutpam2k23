@@ -51,10 +51,6 @@ function App() {
           <Route path="/cosmocode" element={<CosmoHero />} />
           <Route path="/visionx" element={<VisionHero />} />
           <Route path="/pixellegacy" element={<PixelHero />} />
-<<<<<<< HEAD
-        </Routes>
-        
-=======
         </Routes> */}
         {/* <Horiscroll/> */}
         <AnimatedCursor
@@ -93,9 +89,8 @@ function App() {
             backdropFilter: 10,
           }}
         />
->>>>>>> 87db230bbfb69c63106ea1b29cf7c3e41b2cd5e3
       </div>
-      
+
       {/* <SpaceOdysseyHero/>
       <VisionHero/> 
       <CelesticalPaiseHero/>
