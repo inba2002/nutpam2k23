@@ -22,6 +22,9 @@ import AIHero from "./Components/Events/AIstronomy/AiHero";
 import EventScroll from "./Components/EventScroll";
 import Aistronomy from "./Components/Registration/Aistronomy";
 
+
+import Horiscroll from "./Components/Horiscroll";
+
 // const override: CSSProperties = {
 //   display: "block",
 //   margin: "0 auto",
@@ -34,7 +37,8 @@ function App() {
   return (
     <>
       <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
-        <Routes>
+        <Loading/>
+        {/* <Routes>
           <Route path="/" element={<Loading />} />
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/astrocapture" element={<AIHero />} />
@@ -47,7 +51,8 @@ function App() {
           <Route path="/cosmocode" element={<CosmoHero />} />
           <Route path="/visionx" element={<VisionHero />} />
           <Route path="/pixellegacy" element={<PixelHero />} />
-        </Routes>
+        </Routes> */}
+        {/* <Horiscroll/> */}
         <AnimatedCursor
           // clickables={[
           //   "a",
