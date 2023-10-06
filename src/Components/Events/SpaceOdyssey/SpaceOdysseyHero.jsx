@@ -28,7 +28,7 @@ const SpaceOdysseyHero = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown md:hidden flex items-center justify-end">
+          <div className="dropdown md:hidden w-full flex items-center justify-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,17 +48,19 @@ const SpaceOdysseyHero = () => {
             <div className="flex items-center  justify-center">
               <ul
                 tabIndex={0}
-                className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                className="menu flex  justify-center items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
               >
-                <li>
-                  <a>Home</a>
-                </li>
+                <Link to="/">
+                  <li>
+                    <a>Home</a>
+                  </li>
+                </Link>
                 <li>
                   <a className="w-64">Space Odyssey</a>
                 </li>
-
-                <li>
-                  <a>Contact</a>
+                
+                <li >
+                  <a href="#Foot">Contact</a>
                 </li>
               </ul>
             </div>
@@ -119,7 +121,9 @@ const SpaceOdysseyHero = () => {
       </div> */}
       </div>
       <SpaceOdysseyrules />
-      <Footer />
+      <div id="Foot">
+        <Footer />
+      </div>
     </div>
   );
 };
