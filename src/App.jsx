@@ -35,6 +35,7 @@ import Deck from "./Components/Slider/Deck";
 import Eventshoriscroll from "./Components/Eventshoriscroll";
 import { Loader } from "@react-three/drei";
 
+
 // const override: CSSProperties = {
 //   display: "block",
 //   margin: "0 auto",
@@ -111,6 +112,7 @@ function App() {
           }}
         />
       </div>
+      
     </>
   );
 }

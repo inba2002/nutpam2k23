@@ -8,6 +8,7 @@ import eve6 from "../Assets/eve6.png"
 import eve7 from "../Assets/eve7.png"
 import eve8 from "../Assets/eve8.png"
 import ml from "../Assets/missionlist.svg"
+import { Link } from 'react-router-dom'
 
 
 const tarotDeck = [
@@ -80,11 +81,13 @@ const Eventshoriscroll = () => {
                 <p className="text-[18px] font-mono uppercase text-white md:px-12 md:py-5 md:leading-10 md:text-sm">
                   {item.desc}
                 </p>
+                <Link >
                 <div className="w-full md:p-4 flex items-center justify-end">
                 <button className="footer-bg text-white w-[12rem] h-[3rem] text-lg font-mono hover:shadow-xl hover:bg-white/75">
                   Learn More
                 </button>
                 </div>
+                </Link>
               </div>
               </div>
             </li>

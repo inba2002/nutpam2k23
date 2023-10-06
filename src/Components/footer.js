@@ -3,7 +3,7 @@ import { HiMail } from "react-icons/hi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
-import {RiTwitterXLine} from "react-icons/ri"
+import { RiTwitterXLine } from "react-icons/ri";
 import "../Assets/quest.svg";
 import "../App.css";
 
@@ -98,10 +98,10 @@ export default function Footer() {
                   <FaPhoneAlt />
                   <a href="tel:+919362946267">93629 46267</a>
                 </div>
-                <p>Vasanth Priyadharshan V</p>
+                <p>Nirmala Devi G</p>
                 <div className="flex items-center gap-5">
                   <FaPhoneAlt />
-                  <a href="tel:+919080663133">90806 63133</a>
+                  <a href="tel:+916381248906">63812 48906</a>
                 </div>
               </div>
             </div>
@@ -119,19 +119,35 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex items-center tex  justify-between p-5 md:px-32">
-            <a href="https://instagram.com/nutpam_2k23" className="items-center justify-center gap-4 text-xl flex" target="_blank">
+            <a
+              href="https://instagram.com/nutpam_2k23"
+              className="items-center justify-center gap-4 text-xl flex"
+              target="_blank"
+            >
               <AiFillInstagram size={26} />
               <h1 className="italic hidden md:flex ">nutpam_2k23</h1>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100086234925239" className="items-center justify-center gap-4 text-xl flex" target="_blank">
+            <a
+              href="https://www.facebook.com/profile.php?id=100086234925239"
+              className="items-center justify-center gap-4 text-xl flex"
+              target="_blank"
+            >
               <BsFacebook size={26} />
               <h1 className="italic hidden md:flex">nutpam_2k23</h1>
             </a>
-            <a href=""className="items-center justify-center gap-4 text-xl flex" target="_blank">
+            <a
+              href=""
+              className="items-center justify-center gap-4 text-xl flex"
+              target="_blank"
+            >
               <BsLinkedin size={26} />
               <h1 className="italic hidden md:flex">nutpam_2k23</h1>
             </a>
-            <a href="https://x.com/Nutpam2k23" className="items-center justify-center gap-4 text-xl flex" target="_blank">
+            <a
+              href="https://x.com/Nutpam2k23"
+              className="items-center justify-center gap-4 text-xl flex"
+              target="_blank"
+            >
               <RiTwitterXLine size={26} />
               <h1 className="italic hidden md:flex">nutpam_2k23</h1>
             </a>
