@@ -40,11 +40,7 @@ export default function Discover() {
             <img src={DisNut} className="md:w-auto w-42"></img>
           </div>
           <p className="md:text-2xl md:w-3/4 w-full indent-8 tex text-white text-justify">
-            Nutpam 2k22 is created with the theme of “The Mighty Ocean”. With a
-            simple, yet intriguing theme, we are obliged to make an indulging
-            knowledge pool for all the engineers, just like the mighty ocean
-            with exciting and innovative events designed to be fun,
-            entertaining, and hectic at the same time.{" "}
+          Nutpam 2023, hosted by Sri Sai Ram Institute of Technology, is a one-day tech carnival celebrating human ingenuity with the theme "SPACE." It unites students, professionals, and enthusiasts for learning, collaboration, and inspiration, bridging the gap between science fiction and reality to explore new frontiers in science and technology.{" "}
           </p>
         </div>
       </div>
