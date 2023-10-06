@@ -131,14 +131,14 @@ const SpaceOdyssey = () => {
               />
             </div>
             <div class="form-row">
-              <label for="TeamLeadEmail1">Team Lead College Name *:</label>
+              <label for="TeamLeadEmail1">Team Lead College Name:</label>
               <input
               className="input w-3/4 md:w-full h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
               }}
-                type="email"
+                type="name"
                 id="TeamLeadEmail1"
                 name="TeamLeadEmail1"
                 placeholder="Enter TeamLead email"
@@ -153,7 +153,7 @@ const SpaceOdyssey = () => {
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
               }}
-                type="email"
+                type="name"
                 id="TeammateCollege"
                 name="TeammateCollege"
                 placeholder="Enter teammate's email"

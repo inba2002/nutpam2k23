@@ -1,6 +1,6 @@
 import React from "react";
 import reg from "./aiasset/visionxreg.svg";
-
+import { Link } from "react-router-dom";
 const Airules = () => {
   return (
     <div className="flex flex-wrap flex justify-center items-center">
@@ -48,11 +48,13 @@ const Airules = () => {
         </div>
       </div>
       <div className="w-full p-4">
-        <div className="w-full p-4 flex items-center justify-center p-5">
-          <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
-            Register Now
-          </button>
-        </div>
+        <Link to="/AistronomyRegistration">
+          <div className="w-full p-4 flex items-center justify-center ">
+            <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
+              Register Now
+            </button>
+          </div>
+        </Link>
       </div>
     </div>
   );

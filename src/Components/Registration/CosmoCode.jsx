@@ -5,7 +5,7 @@ import AnimatedCursor from "react-animated-cursor";
 const CosmoCode = () => {
   return (
     <>
-     <div className="bg-visionxformbg bg-cover h-screeen flex flex-col items-center justify-center">
+     <div className="bg-visionxformbg bg-cover h-screen flex flex-col items-center justify-center">
      <AnimatedCursor className="z-50"
           // clickables={[
           //   "a",

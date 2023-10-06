@@ -1,9 +1,9 @@
 import React from 'react'
 import reg from "./astrocaptureasset/visionxreg.svg"
-
+import { Link } from 'react-router-dom'
 const AstroCapturerules = () => {
   return (
-    <div className="flex flex-wrap flex justify-center items-center">
+    <div className="flex flex-wrap  justify-center items-center">
       {/* Top row */}
       <div className="w-full md:w-1/4 p-2 md:p-1">
       <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-11 gap-4">
@@ -65,10 +65,12 @@ const AstroCapturerules = () => {
           </p>
       </div>
       </div>
-      <div className="w-full p-4">
-      <div className="w-full p-4 flex items-center justify-center p-5">
-      <button className='footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75'>Register Now</button>
-      </div>
+      <div className="w-full flex items-center justify-center p-4">
+      <Link to="/astroCaptureRegistration">
+          <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
+            Register Now
+          </button>
+        </Link>
       </div>
     </div>
   )

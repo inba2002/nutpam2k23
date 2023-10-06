@@ -259,10 +259,6 @@ const HorizontalScrollCarousel = () => {
       </div>
       </div> */}
       </div>
-<<<<<<< HEAD
-    
-=======
->>>>>>> ed4040ad93f7ab4487e3c8bf20f891731ad95e5b
   );
 };
 

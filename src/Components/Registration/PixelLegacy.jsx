@@ -56,7 +56,7 @@ const PixelLegacy = () => {
             Pixel Legacy Registration
           </h1>
           <div className="md:grid md:text-xl flex flex-col items-center justify-center grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
-            <div class="form-row flex md:flex-row flex-col  w-full col-span-2">
+            <div class="form-row flex flex-col   w-full col-span-2">
               <label for="TeamName" className="text-start">Team Name:</label>
               <input
               className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
@@ -137,7 +137,7 @@ const PixelLegacy = () => {
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
               }}
-                type="email"
+                type="name"
                 id="TeamLeadEmail1"
                 name="TeamLeadEmail1"
                 placeholder="Enter TeamLead email"
@@ -152,7 +152,7 @@ const PixelLegacy = () => {
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
               }}
-                type="email"
+                type="name"
                 id="TeammateCollege"
                 name="TeammateCollege"
                 placeholder="Enter teammate's email"

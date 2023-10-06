@@ -1,13 +1,13 @@
 import React from "react";
-import VisionBg from "../VisionX/visionxasset/visionxbg.svg";
+
 import xtitle from "../VisionX/visionxasset/xtitlesvg.svg";
 import mreport from "../VisionX/visionxasset/missionreport.svg";
 import AnimatedCursor from "react-animated-cursor";
 import image from "./visionxasset/image.svg";
-import coords from "./visionxasset/coords.svg";
+
 import "./visionx.css";
 import VisionXrules from "./VisionXrules";
-import VisionXreg from "./VisionXreg";
+
 import Footer from "../../footer";
 import { Link } from "react-router-dom";
 

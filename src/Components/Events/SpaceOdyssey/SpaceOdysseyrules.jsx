@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const SpaceOdysseyrules = () => {
   return (
-    <div className="flex flex-wrap flex justify-center items-center">
+    <div className="flex flex-wrap  justify-center items-center">
       {/* Top row */}
       <div className="w-full md:w-1/4 ml-5 p-1 mr-8 md:ml-[-0.1rem]">
         <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-8 gap-4">
@@ -69,11 +69,11 @@ const SpaceOdysseyrules = () => {
         </div>
       </div>
       <div className="w-full md:w-1/4 p-2">
-        <div className="w-full p-4 flex items-center justify-center p-5">
+      <Link to="/spaceodysseyRegistration">
           <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
             Register Now
           </button>
-        </div>
+        </Link>
       </div>
     </div>
   );

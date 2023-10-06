@@ -144,7 +144,7 @@ const Aistronomy = () => {
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
               }}
-                type="email"
+                type="text"
                 id="TeamLeadCollege"
                 name="TeamLeadCollege"
                 placeholder="College Name"
@@ -159,7 +159,7 @@ const Aistronomy = () => {
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
               }}
-                type="email"
+                type="text"
                 id="Teammate1College"
                 name="Teammate1College"
                 placeholder="College Name"

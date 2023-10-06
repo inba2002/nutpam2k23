@@ -85,7 +85,7 @@ const VisionXrules = () => {
         </div>
       </div>
       <div className="w-full p-4 flex items-center justify-center">
-        <Link to="/Register">
+        <Link to="/visionxRegistration">
           <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
             Register Now
           </button>
