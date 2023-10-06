@@ -427,11 +427,17 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
+<<<<<<< HEAD
       <div id="Missions" className="hidden md:block">
         <Eventshoriscroll/>
       </div>
       <div className="block md:hidden">
         <Horiscroll/>
+=======
+      
+      <div id="Missions" className="md:block hidden">
+        <Eventshoriscroll/>
+>>>>>>> 6db7b3cae03e7243ec1d1a525b493e038b713090
       </div>
       
       
@@ -441,6 +447,7 @@ const Loading = () => {
       <div id="Foot">
         <Footer />
       </div>
+<<<<<<< HEAD
       {/* <div className="w-screen h-screen hidden md:block">
         <EventScroll />
         </div>   */}
@@ -450,6 +457,44 @@ const Loading = () => {
               
         {/* <div className="block md:hidden"><Horiscroll/></div>
       <Footer /> */}
+=======
+      <AnimatedCursor
+          // clickables={[
+          //   "a",
+          //   'input[type="text"]',
+          //   'input[type="email"]',
+          //   'input[type="number"]',
+          //   'input[type="submit"]',
+          //   'input[type="image"]',
+          //   "label[for]",
+          //   "select",
+          //   "textarea",
+          //   "button",
+          //   ".link",
+          //   {
+          //     target: ".custom",
+          //     options: {
+          //       innerSize: 12,
+          //       outerSize: 12 ,
+          //       color: "255, 255, 255",
+          //       outerAlpha: 0.3,
+          //       innerScale: 0.7,
+          //       outerScale: 5,
+          //     },
+          //   },
+          // ]}
+          innerSize={0}
+          outerSize={10}
+          color="255, 255, 255"
+          outerAlpha={1}
+          innerScale={0}
+          outerScale={0}
+          innerStyle={{
+            mixBlendMode: "exclusion",
+            backdropFilter: 10,
+          }}
+        />
+>>>>>>> 6db7b3cae03e7243ec1d1a525b493e038b713090
     </>
   );
 };
