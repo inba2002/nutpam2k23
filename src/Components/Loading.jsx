@@ -16,6 +16,8 @@ import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
 import Navbar from "./Navbar";
 import { Stars } from "@react-three/drei";
+import Deck from "./Slider/Deck";
+import Eventshoriscroll from "./Eventshoriscroll";
 
 const Loading = () => {
   return (
@@ -425,17 +427,24 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
-      <div id="Missions">
-        <EventScroll />
+      <div id="Missions" className="hidden md:block">
+        <Eventshoriscroll/>
+      </div>
+      <div className="block md:hidden">
+        <Horiscroll/>
       </div>
       <div id="Foot">
         <Footer />
       </div>
-      <div className="w-screen h-screen hidden md:block">
+      {/* <div className="w-screen h-screen hidden md:block">
         <EventScroll />
-        </div>        
-        <div className="block md:hidden"><Horiscroll/></div>
-      <Footer />
+        </div>   */}
+        {/* <div className="block sm:hidden">
+        <Deck/>
+        </div> */}
+              
+        {/* <div className="block md:hidden"><Horiscroll/></div>
+      <Footer /> */}
     </>
   );
 };

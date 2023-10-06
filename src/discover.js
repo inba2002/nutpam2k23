@@ -3,12 +3,13 @@ import Arrow from "./Assets/double arrow.svg";
 import DisNut from "./Assets/DISCOVER NUTPAM.png";
 import Heading from "./Assets/Heading.png";
 import './App.css';
+import Dnut from "./Assets/dnut.png"
 
 export default function Discover() {
   return (
     <div className="flex items-center justify-center w-screen p-14">
       <div className="md:flex items-center justify-center">
-        <img src={Discovers} className="md:w-1/4"></img>
+        <img src={Dnut} className="md:w-1/4"></img>
         <div className="flex flex-col items-center justify-center md:w-1/2 gap-10">
           <div className="flex items-center justify-center gap-8 text-white text-2xl w-auto rounded bg-white/[0.2] p-4">
             <svg

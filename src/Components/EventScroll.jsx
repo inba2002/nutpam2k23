@@ -70,7 +70,7 @@ const HorizontalScrollCarousel = () => {
                   <div className="w-full h-11/12 md:w-3/4 mx-auto bg-gradient-to-br from-white/20 to-white/0 p-8 backdrop-blur-lg rounded-[2rem]">
                     <h1
                       className="text-[32px] uppercase text-white md:px-12 md:py-5"
-                      style={{ fontFamily: "manplay" }}
+                      style={{ fontFamily: "manplay"}}
                     >
                       AISTRONOMY
                     </h1>

@@ -25,6 +25,10 @@ import Aistronomy from "./Components/Registration/Aistronomy";
 
 import Horiscroll from "./Components/Horiscroll";
 
+import Deck from "./Components/Slider/Deck";
+import Eventshoriscroll from "./Components/Eventshoriscroll";
+import { Loader } from "@react-three/drei";
+
 // const override: CSSProperties = {
 //   display: "block",
 //   margin: "0 auto",
@@ -36,7 +40,9 @@ function App() {
   let [color, setColor] = useState("#ffffff");
   return (
     <>
-      <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
+    
+      <div className="w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
+        
         <Loading/>
         {/* <Routes>
           <Route path="/" element={<Loading />} />
