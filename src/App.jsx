@@ -2,6 +2,7 @@ import "./App.css";
 import Loading from "./Components/Loading";
 import AnimatedCursor from "react-animated-cursor";
 import StarsCanvas from "../src/Components/Stars";
+import DimensionalConquest from "./Components/Registration/DimensionalConquest";
 import { Routes, Route } from "react-router-dom";
 import { useState, CSSProperties } from "react";
 import CircleLoader from "react-spinners/CircleLoader";
@@ -24,6 +25,9 @@ import Aistronomy from "./Components/Registration/Aistronomy";
 
 
 import Horiscroll from "./Components/Horiscroll";
+import Visionx from "./Components/Registration/Visionx";
+import SpaceOdyssey from "./Components/Registration/SpaceOdyssey";
+import PixelLegacy from "./Components/Registration/PixelLegacy";
 
 // const override: CSSProperties = {
 //   display: "block",
@@ -37,7 +41,7 @@ function App() {
   return (
     <>
       <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
-        <Loading/>
+        {/* <Loading/> */}
         {/* <Routes>
           <Route path="/" element={<Loading />} />
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
@@ -51,10 +55,8 @@ function App() {
           <Route path="/cosmocode" element={<CosmoHero />} />
           <Route path="/visionx" element={<VisionHero />} />
           <Route path="/pixellegacy" element={<PixelHero />} />
-<<<<<<< HEAD
         </Routes>
         
-=======
         </Routes> */}
         {/* <Horiscroll/> */}
         <AnimatedCursor
@@ -93,8 +95,8 @@ function App() {
             backdropFilter: 10,
           }}
         />
->>>>>>> 87db230bbfb69c63106ea1b29cf7c3e41b2cd5e3
       </div>
+      <SpaceOdyssey />
       
       {/* <SpaceOdysseyHero/>
       <VisionHero/> 

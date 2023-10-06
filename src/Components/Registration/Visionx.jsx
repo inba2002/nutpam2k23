@@ -1,20 +1,60 @@
 import React from "react";
 import "../footer.css";
+import AnimatedCursor from "react-animated-cursor";
 
 function Visionx() {
   return (
     <>
-      <div className="bg-visionxformbg h-[100vh] flex items-center justify-center">
+      <div className="bg-visionxbg p-10 bg-cover h-full flex flex-col items-center justify-center">
+      <AnimatedCursor className="z-50"
+          // clickables={[
+          //   "a",
+          //   'input[type="text"]',
+          //   'input[type="email"]',
+          //   'input[type="number"]',
+          //   'input[type="submit"]',
+          //   'input[type="image"]',
+          //   "label[for]",
+          //   "select",
+          //   "textarea",
+          //   "button",
+          //   ".link",
+          //   {
+          //     target: ".custom",
+          //     options: {
+          //       innerSize: 12,
+          //       outerSize: 12 ,
+          //       color: "255, 255, 255",
+          //       outerAlpha: 0.3,
+          //       innerScale: 0.7,
+          //       outerScale: 5,
+          //     },
+          //   },
+          // ]}
+          innerSize={0}
+          outerSize={10}
+          color="255, 255, 255"
+          outerAlpha={1}
+          innerScale={0}
+          outerScale={0}
+          innerStyle={{
+            mixBlendMode: "exclusion",
+            backdropFilter: 10,
+          }}
+        />
+      
         <form
-          action=""
+          action="https://app.unoforms.xyz/submit/qb-__2_ucxi"
+          method="post"
           class="team-form"
-          className="flex flex-col justify-center rounded-lg bg-white/0.2 backdrop-blur-sm w-max mx-auto bg-transparent"
+          className="flex flex-col justify-center rounded-lg bg-white/0.2 backdrop-blur-sm  bg-transparent"
           style={{
             background: "rgba(0, 0, 0, 0.60)",
             borderRadius: "21px",
             backdropFilter: "blur(10px)",
           }}
         >
+          
           <h1 className="md:text-4xl text-center p-5 text-white font-mono">
             Vision X Registration
           </h1>
@@ -26,7 +66,7 @@ function Visionx() {
             <div class="form-row col-span-2">
               <label for="teamName">Team Name:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teamName"
                 name="teamName"
@@ -41,7 +81,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teamLeaderName">Team Leader Name:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teamLeaderName"
                 name="teamLeaderName"
@@ -56,7 +96,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teammateName1">Teammate Name 1:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teammateName1"
                 name="teammateName1"
@@ -71,7 +111,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teamLeadEmail">Team Leader Email:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="email"
                 id="teamLeadEmail"
                 name="teamLeadEmail"
@@ -86,7 +126,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teammateEmail1">Teammate 1 Email:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="email"
                 id="teammateEmail1"
                 name="teammateEmail1"
@@ -101,7 +141,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teamLeadDept">Team Leader Department:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teamLeadDept"
                 name="teamLeadDept"
@@ -116,7 +156,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teammateDept1">Teammate 1 Department:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teammateDept1"
                 name="teammateDept1"
@@ -131,7 +171,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teamLeadWhatsApp">Team Leader WhatsApp Number:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="tel"
                 id="teamLeadWhatsApp"
                 name="teamLeadWhatsApp"
@@ -146,7 +186,7 @@ function Visionx() {
             <div class="form-row">
               <label for="teammateWhatsApp1">Teammate 1 WhatsApp Number:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="tel"
                 id="teammateWhatsApp1"
                 name="teammateWhatsApp1"
@@ -161,7 +201,7 @@ function Visionx() {
             <div className="form-row">
               <label htmlFor="teammateName2">Teammate Name 2:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teammateName2"
                 name="teammateName2"
@@ -176,7 +216,7 @@ function Visionx() {
             <div className="form-row">
               <label htmlFor="teammateEmail2">Teammate 2 Email:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="email"
                 id="teammateEmail2"
                 name="teammateEmail2"
@@ -193,7 +233,7 @@ function Visionx() {
                 Teammate 2 College Name:
               </label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teammateCollegeName2"
                 name="teammateCollegeName2"
@@ -208,7 +248,7 @@ function Visionx() {
             <div className="form-row">
               <label htmlFor="teammateDept2">Teammate 2 Department:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teammateDept2"
                 name="teammateDept2"
@@ -223,7 +263,7 @@ function Visionx() {
             <div className="form-row">
               <label htmlFor="teammateYear2">Teammate 2 Year:</label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teammateYear2"
                 name="teammateYear2"
@@ -240,7 +280,7 @@ function Visionx() {
                 Teammate 2 WhatsApp Number:
               </label>
               <input
-                className="input w-full h-16 rounded-xl px-4"
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="tel"
                 id="teammateWhatsApp2"
                 name="teammateWhatsApp2"
