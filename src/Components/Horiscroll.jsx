@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import eve1 from "../Assets/vxbg.svg";
 import eve2 from "../Assets/aobg.svg";
 import eve3 from "../Assets/ccbgsvg.svg";
-import eve4 from "../Assets/plbg.svg";
+import eve4 from "../Assets/plbg.png";
 import eve5 from "../Assets/cpbg.svg";
 import eve6 from "../Assets/acbg.svg";
 import eve7 from "../Assets/sobg.svg";
