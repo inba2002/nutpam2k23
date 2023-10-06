@@ -56,6 +56,7 @@ const trans = (r, s) => `perspective(1500px) rotateX(15deg) rotateY(${r / 10}deg
 // }
 
 function Deck() {
+  
   const cards = tarotDeck
   const [gone] = useState(() => new Set())
   const [props, set] = useSprings(cards.length, (i) => ({ ...too(i), from: from(i) })) 
@@ -76,6 +77,10 @@ function Deck() {
   })
 
   return props.map(({ x, y, rot, scale }, i) => (
+    <div className='maindiv'>
+      <div className='subdiv'>
+        <div>
+          <div>
     <animated.div key={i} style={{ transform: to([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>
       {
         
@@ -101,6 +106,10 @@ function Deck() {
                 </div>
       </animated.div>
     </animated.div>
+    </div>
+    </div>
+    </div>
+    </div>
   ))
 }
 

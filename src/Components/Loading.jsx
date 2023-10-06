@@ -427,7 +427,10 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
-      <div id="Missions" className="hidden md:block">
+      <div id="deck">
+        <Deck/>
+      </div>
+      {/* <div id="Missions" className="hidden md:block">
         <Eventshoriscroll/>
       </div>
       <div className="block md:hidden">
@@ -437,7 +440,7 @@ const Loading = () => {
       
       <div className="block md:hidden">
         <Horiscroll />
-      </div>
+      </div> */}
       <div id="Foot">
         <Footer />
       </div>
