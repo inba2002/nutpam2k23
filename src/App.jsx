@@ -46,17 +46,22 @@ function App() {
   let [color, setColor] = useState("#ffffff");
   return (
     <>
+<<<<<<< HEAD
     
       <div className="w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
         
         <Loading/>
         {/* <Routes>
+=======
+      <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
+        <Routes>
+>>>>>>> 944fabdd00d87e9703f462b4bbb5a8a6e0cf3eb2
           <Route path="/" element={<Loading />} />
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/aistronomy" element={<AIHero />} />
           <Route path="/spaceodyssey" element={<SpaceOdysseyHero />} />
           <Route path="/astrocapture" element={<AstroHero />} />
-
+          
           <Route
             path="/dimensionalconquest"
             element={<DimensionalConquestHero />}

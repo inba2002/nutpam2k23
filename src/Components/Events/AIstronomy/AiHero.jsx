@@ -28,7 +28,7 @@ const AiHero = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown md:hidden flex items-center justify-end">
+          <div className="dropdown w-full md:hidden flex items-center justify-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

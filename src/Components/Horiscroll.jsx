@@ -1,5 +1,6 @@
 import { motion, useTransform, useScroll, m } from "framer-motion";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import eve1 from "../Assets/vxbg.svg";
 import eve2 from "../Assets/aobg.svg";
 import eve3 from "../Assets/ccbgsvg.svg";
@@ -72,11 +73,13 @@ const Horiscroll = () => {
               get ready for a surprising event that awaits you! ✨🌟🌟 Let your
               creativity soar and embrace the unexpected at VisionX!
             </p>
+            <Link to="/visionx">
             <div className="w-full p-4 flex items-center justify-center">
               <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
                 Register Now
               </button>
             </div>
+            </Link>
           </div>
           {/* Add other card content here */}
         </div>
@@ -97,11 +100,13 @@ const Horiscroll = () => {
               and Machine Learning, which evaluates your knowledge in AI, ML and
               makes your mind to train like a Astro.
             </p>
+            <Link to="/aistronomy">
             <div className="w-full p-4 flex items-center justify-center">
               <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
                 Register Now
               </button>
             </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
@@ -123,11 +128,13 @@ const Horiscroll = () => {
               coding enthusiast or a seasoned programmer, this event is your
               opportunity to shine and earn an recognition among your peers.
             </p>
+            <Link to="/cosmocode">
             <div className="w-full p-4 flex items-center justify-center">
               <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
                 Register Now
               </button>
             </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
@@ -149,11 +156,13 @@ const Horiscroll = () => {
               theme of space exploration. Let your imagination soar among the
               stars as you craft innovative, user-centric solutions.
             </p>
-            <div className="w-full p-4 flex items-center justify-center">
-              <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
-                Register Now
-              </button>
-            </div>
+            <Link to="/pixellegacy">
+              <div className="w-full p-4 flex items-center justify-center">
+                <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
+                  Register Now
+                </button>
+              </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
@@ -174,11 +183,13 @@ const Horiscroll = () => {
               enjoy your time with music.Celestical Pause is an musical fun
               based event , where you can enjoy your time with music
             </p>
-            <div className="w-full p-4 flex items-center justify-center">
-              <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
-                Register Now
-              </button>
-            </div>
+            <Link to="/celestialpause">
+              <div className="w-full p-4 flex items-center justify-center">
+                <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
+                  Register Now
+                </button>
+              </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
@@ -198,11 +209,13 @@ const Horiscroll = () => {
               AstroCapture delves into life on land, capturing mesmerizing
               visuals to reveal the world in night mode.
             </p>
-            <div className="w-full p-4 flex items-center justify-center">
-              <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
-                Register Now
-              </button>
-            </div>
+            <Link to="/astrocapture">
+              <div className="w-full p-4 flex items-center justify-center">
+                <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
+                  Register Now
+                </button>
+              </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
@@ -227,11 +240,13 @@ const Horiscroll = () => {
               hidden treasure(clues) . The first two teams who is hunting the
               treasure will be rewarded with cash price.
             </p>
-            <div className="w-full p-4 flex items-center justify-center">
-              <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
-                Register Now
-              </button>
-            </div>
+            <Link to="/spaceodyssey">
+              <div className="w-full p-4 flex items-center justify-center">
+                <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
+                  Register Now
+                </button>
+              </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
@@ -254,11 +269,13 @@ const Horiscroll = () => {
               experience & potentially make a name for themselves in the
               competitive valorant scene.{" "}
             </p>
-            <div className="w-full p-4 flex items-center justify-center">
-              <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
-                Register Now
-              </button>
-            </div>
+            <Link to="/dimensionalconquest">
+              <div className="w-full p-4 flex items-center justify-center">
+                <button className="footer-bg text-white w-44 h-16 text-lg font-mono hover:shadow-xl hover:bg-white/75">
+                  Register Now
+                </button>
+              </div>
+            </Link>
             {/* Add other card content here */}
           </div>
         </div>
