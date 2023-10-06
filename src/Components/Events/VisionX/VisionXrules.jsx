@@ -19,7 +19,7 @@ const VisionXrules = () => {
         <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-11 gap-4">
           <h1 className="text-xl font-mono font-bold text-white">Rule-2</h1>
           <p className="font-mono font-bold text-white">
-            A team can consist of up to 3 members at most
+            Stopclocks will be utilized to keep track of the time.
           </p>
         </div>
       </div>

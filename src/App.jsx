@@ -46,16 +46,11 @@ function App() {
   let [color, setColor] = useState("#ffffff");
   return (
     <>
-<<<<<<< HEAD
     
       <div className="w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
         
         <Loading/>
         {/* <Routes>
-=======
-      <div className="w-full overflow-x-hidden bg-back bg-cover relative z-0">
-        <Routes>
->>>>>>> 422afa5113afb45ba4d6e11b30f48e738551f0b6
           <Route path="/" element={<Loading />} />
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/aistronomy" element={<AIHero />} />
@@ -80,7 +75,7 @@ function App() {
           <Route path="/celesticalRegistration" element={<CelesticalPause />}></Route>
           <Route path="/astroCaptureRegistration" element={<AstroCapture />}></Route>
           <Route path="/AistronomyRegistration" element={<Aistronomy />}></Route>
-        </Routes>
+  </Routes> */}
 
         <AnimatedCursor
           // clickables={[
