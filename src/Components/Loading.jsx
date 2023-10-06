@@ -37,7 +37,7 @@ const Loading = () => {
                   <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
                     <a href="#Missions">Mission</a>
                   </li>
-                  
+
                   <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
                     <a>Team</a>
                   </li>
@@ -77,7 +77,7 @@ const Loading = () => {
                     <li>
                       <a href="#Missions">Mission</a>
                     </li>
-                    
+
                     <li>
                       <a>Team</a>
                     </li>
@@ -427,13 +427,25 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
+<<<<<<< HEAD
       <div id="Missions" className="hidden md:block">
         <Eventshoriscroll/>
       </div>
       <div className="block md:hidden">
         <Horiscroll/>
+=======
+      
+      <div id="Missions" className="md:block hidden">
+        <EventScroll />
+>>>>>>> 422afa5113afb45ba4d6e11b30f48e738551f0b6
+      </div>
+      
+      
+      <div className="block md:hidden">
+        <Horiscroll />
       </div>
       <div id="Foot">
+<<<<<<< HEAD
         <Footer />
       </div>
       {/* <div className="w-screen h-screen hidden md:block">
@@ -445,6 +457,10 @@ const Loading = () => {
               
         {/* <div className="block md:hidden"><Horiscroll/></div>
       <Footer /> */}
+=======
+      <Footer />
+      </div>
+>>>>>>> 422afa5113afb45ba4d6e11b30f48e738551f0b6
     </>
   );
 };
