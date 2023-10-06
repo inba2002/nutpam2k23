@@ -55,8 +55,11 @@ function App() {
           <Route path="/cosmocode" element={<CosmoHero />} />
           <Route path="/visionx" element={<VisionHero />} />
           <Route path="/pixellegacy" element={<PixelHero />} />
+<<<<<<< HEAD
         </Routes>
         
+=======
+>>>>>>> ed4040ad93f7ab4487e3c8bf20f891731ad95e5b
         </Routes> */}
         {/* <Horiscroll/> */}
         <AnimatedCursor
@@ -98,6 +101,7 @@ function App() {
       </div>
       <SpaceOdyssey />
       
+
       {/* <SpaceOdysseyHero/>
       <VisionHero/> 
       <CelesticalPaiseHero/>

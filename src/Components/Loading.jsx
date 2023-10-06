@@ -425,7 +425,11 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
+<<<<<<< HEAD
       <div id="Missions" className="w-screen h-screen hidden md:block">
+=======
+      <div id="Missions">
+>>>>>>> ed4040ad93f7ab4487e3c8bf20f891731ad95e5b
         <EventScroll />
       </div>
       <div className="block md:hidden">
@@ -434,6 +438,14 @@ const Loading = () => {
       <div id="Foot">
         <Footer />
       </div>
+<<<<<<< HEAD
+=======
+      <div className="w-screen h-screen hidden md:block">
+        <EventScroll />
+        </div>        
+        <div className="block md:hidden"><Horiscroll/></div>
+      <Footer />
+>>>>>>> ed4040ad93f7ab4487e3c8bf20f891731ad95e5b
     </>
   );
 };
