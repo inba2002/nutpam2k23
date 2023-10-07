@@ -9,7 +9,7 @@ import "../App.css";
 
 export default function Footer() {
   return (
-    <div className="w-screen h-full mb-5 flex items-center justify-center">
+    <div className="w-screen h-full flex items-center justify-center">
       <div className="md:mr-[-9.5rem] mr-[-1.5rem]">
         <div className="flex items-center md:w-full w-32 md:m-0  justify-center">
           <svg
@@ -69,11 +69,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bg text-white tex md:m-0 -ml-10 md:flex z-10  w-full">
-        <div className=" w-full  rounded-2xl flex flex-col text-lg p-10 z-10">
+        <div className=" w-full  rounded-2xl flex flex-col text-lg px-8 py-8 z-10">
           <div className="md:flex items-center md:text-2xl md:px-10  justify-between">
             <p>CONTACT US</p>
             <p className="flex items-center justify-center gap-2 text-md md:text-2xl md:gap-4">
-              <HiMail /> nutpam.cse@sairamit.edu.in
+            <HiMail /> <a href="mailto:nutpam.cse@sairamit.edu.in">nutpam.cse@sairamit.edu.in</a>
             </p>
           </div>
           <div className="md:flex md:px-32 items-center justify-between md:p-16">

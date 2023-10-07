@@ -11,7 +11,7 @@ const DimensionalConquestHero = () => {
       <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">
-            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
+            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 font-mono text-white gap-10 text-xl p-2  w-full">
               <Link to="/">
                 <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center ">
                   <a>Home</a>
@@ -46,7 +46,7 @@ const DimensionalConquestHero = () => {
             <div className="flex items-center  justify-center">
               <ul
                 tabIndex={0}
-                className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                className="menu flex font-mono text-white  justify-center items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
               >
                 <Link to="/">
                   
@@ -55,7 +55,7 @@ const DimensionalConquestHero = () => {
                   </li>
                 </Link>
                 <li>
-                  <a className="w-64">Dimensional Conquest</a>
+                  <a className="w-72">Dimensional Conquest</a>
                 </li>
 
                 <li>
@@ -73,8 +73,16 @@ const DimensionalConquestHero = () => {
         <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
           {/* Content for the first cell */}
           <div className=" flex flex-col items-center justify-center ">
-            <img className="md:px-8" src={xtitle} alt="" />
-            <img className="md:px-8" src={mreport} alt="" />
+            <img className="px-4 md:px-8" src={xtitle} alt="" />
+            {/* <img className="md:px-8" src={mreport} alt="" /> */}
+            <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-8'>
+            <div className=' w-full  flex-col  flex items-start justify-start'>
+                <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
+                <div className=' w-full text-justify  flex flex-col items-start justify-start'>
+                <p className='font-mono  text-white font-bold text-[20px] pb-2 pt-8'>Dimensional Conquest is an exciting Valorant Tournament that showcases the skills & teamwork of your squad. It provides an excellent platform for amateur & semi-pro players to compete, gain experience & potentially make a name for themselves in the competitive valorant scene. </p>
+                </div>
+            </div>
+          </div>
             <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
               <div className=" w-full  flex-col  flex items-start justify-start">
                 <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
@@ -186,6 +194,10 @@ const DimensionalConquestHero = () => {
                 <p className="font-mono text-white text-lg pb-2">
                   Karthik Maharaja AV <a href="tel:+917708320081">7708320081</a>
                 </p>
+                <p className="font-mono text-white text-lg pb-2">
+                Aravindan <a href="tel:+919789236655">9789236655</a>
+                </p>
+                 
               </div>
             </div>
           </div>

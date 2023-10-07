@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const CosmoCoderules = () => {
   return (
     <div className="flex flex-wrap flex justify-center items-center">
-      <div className="navbar navbar-end bg-transparent w-full h-32">
+      {/* <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">
             <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
@@ -59,7 +59,7 @@ const CosmoCoderules = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Top row */}
       <div className="w-full md:w-1/4 p-2 md:p-1">
         <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-8 gap-4">

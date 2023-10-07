@@ -1,10 +1,10 @@
 import React from 'react'
 import VisionBg from "../AstroCapture/astrocaptureasset/visionxbg.svg"
-import xtitle from "../AstroCapture/astrocaptureasset/xtitlesvg.svg"
+import xtitle from "../AstroCapture/astrocaptureasset/astrotit.png"
 import criteria from "../AstroCapture/astrocaptureasset/criteria.svg"
 import mreport from "../AstroCapture/astrocaptureasset/missionreport.svg"
 import { Link } from 'react-router-dom'
-import image from "./astrocaptureasset/image.svg"
+import image from "./astrocaptureasset/astrocbg.png"
 import "./astrocapture.css";
 import AstroCapturerules from './AstroCapturerules'
 import Footer from '../../../footer';
@@ -15,14 +15,14 @@ const AstroHero = () => {
       <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">
-            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
+            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 font-mono text-white gap-10 text-xl p-2  w-full">
               <Link to="/">
                 <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center ">
                   <a>Home</a>
                 </li>
               </Link>
               <li className="hover:text-white/50 w-64 h-10 hover:bg-white/25 flex items-center justify-center">
-                <a>Astro Capture</a>
+                <a>AstroCapture</a>
               </li>
 
               <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center">
@@ -50,13 +50,13 @@ const AstroHero = () => {
             <div className="flex items-center  justify-center">
               <ul
                 tabIndex={0}
-                className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                className="menu font-mono text-white items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
               >
                 <li>
                   <a>Home</a>
                 </li>
                 <li>
-                  <a className="w-64">Astro Capture</a>
+                  <a className="w-64">AstroCapture</a>
                 </li>
 
                 <li>
@@ -75,8 +75,20 @@ const AstroHero = () => {
         {/* Content for the first cell */}
         <div className=" flex flex-col items-center justify-center">
           <img src={xtitle} className='pt-20' alt=""/>
-          <img src={mreport} className='pt-10 md:ml-[-5rem]' alt="" />
-          <img src={criteria} className='pt-10 pb-[5rem] ml-[2rem]' alt="" />
+          {/* <img src={mreport} className='pt-10 md:ml-[-5rem]' alt="" /> */}
+          {/* <img src={criteria} className='pt-10 pb-[5rem] ml-[2rem]' alt="" /> */}
+          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12'>
+            <div className=' w-full  flex-col  flex items-start justify-start'>
+                <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
+                <div className=' w-full text-justify  flex flex-col items-start justify-start'>
+                <p className='font-mono  text-white font-bold text-[20px] pb-2 pt-8'>AstroCapture delves into life on land, capturing mesmerizing visuals to reveal the world in night mode.</p>
+                <p  className='font-mono text-white font-bold text-[20px] pb-2 pt-6'>Instagram ID; @astrocapture</p>
+                <p  className='font-mono text-white font-bold text-[20px] pb-2 pt-6'>Theme: Life on Land (Night photography)</p>
+                <p  className='font-mono text-white font-bold text-[20px] pb-2 pt-6'>Evaluation criteria: </p>
+                <p  className='font-mono text-white font-bold text-[20px] pb-2 '>1.Theme      2.Frame composition  3.Sharpness and contrast   4.Focus frame and background      5.Lighting </p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4">
@@ -88,8 +100,10 @@ const AstroHero = () => {
                 <h1 className='font-mono font-bold text-2xl w-[20rem] pb-2 text-white'>Student Coordinators</h1>
             </div>
           <div>
-                <p className='font-mono text-white text-lg pb-2 pt-4'>Suresh S <a href="tel:+916383412312">6383412312</a></p>
-                <p  className='font-mono text-white text-lg pb-2'>Minu Dhakshina B S <a href="tel:+918438686045">8438686045</a></p>
+                <p  className='font-mono text-white text-lg pb-2 pt-4'>Minu Dhakshina B S <a href="tel:+918438686045">8438686045</a></p>
+                <p className='font-mono text-white text-lg pb-2'>Suresh S <a href="tel:+916383412312">6383412312</a></p>
+                <p className='font-mono text-white text-lg pb-2'>Nivetha S <a href="tel:+917305265098">7305265098</a></p>
+                <p  className='font-mono text-white text-lg pb-2'>Krushnasayi S <a href="tel:+918438686045">6381905654</a></p>
             </div>
           </div>
         </div>

@@ -68,7 +68,7 @@ const SpaceOdysseyrules = () => {
           </p>
         </div>
       </div>
-      <div className="w-full md:w-1/4 p-2">
+      <div className="w-full md:w-1/4 p-2 flex items-center justify-center">
       <Link to="/spaceodysseyRegistration">
           <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
             Register Now

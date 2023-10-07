@@ -14,7 +14,7 @@ const CosmoHero = () => {
       <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">
-            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
+            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 font-mono text-white gap-10 text-xl p-2  w-full">
               <Link to="/">
                 <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center ">
                   <a>Home</a>
@@ -49,7 +49,7 @@ const CosmoHero = () => {
             <div className="flex items-center  justify-center">
               <ul
                 tabIndex={0}
-                className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                className="menu flex font-mono text-white  justify-center items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
               >
                 <Link to="/">
                 <li>
@@ -75,20 +75,55 @@ const CosmoHero = () => {
         <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
           {/* Content for the first cell */}
           <div className=" flex flex-col items-center justify-center">
-            <img src={xtitle} className="pt-20" alt="" />
-            <div className="text-white font-mono w-full flex flex-col gap-5 items-center justify-start py-10">
-              <li className="list-disc text-4xl w-1/2 italic text-start">
-                MISSION REPORT
-              </li>
-              <p className="text-justify textxl indent-12 w-1/2 text-xl">
-                Cosmo Code is a Technical Event promises excitement,
-                competition, and a chance to showcase your coding abilities.
-                Whether you are a coding enthusiast or a seasoned programmer,
-                this event is your opportunity to shine and earn an recognition
-                among your peers.
-              </p>
+            <img src={xtitle} className="px-4 md:px-8" alt="" />
+            <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-8'>
+            <div className=' w-full  flex-col  flex items-start justify-start'>
+                <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
+                <div className=' w-full text-justify  flex flex-col items-start justify-start'>
+                <p className='font-mono  text-white font-bold text-[20px] pb-2 pt-8'>    Cosmo Code is a Technical Event promises excitement, competition, and a chance to showcase your coding abilities. Whether you are a coding enthusiast or a seasoned programmer, this event is your opportunity to shine and earn an recognition among your peers.</p>
+                </div>
             </div>
           </div>
+            <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
+              <div className=" w-full  flex-col  flex items-start justify-start">
+                <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
+                Round 1
+                </h1>
+                <div className=" w-full text-justify  flex flex-col items-start justify-start">
+                  <p className="font-mono text-white text-lg pb-2 pt-4">
+                  In the first round, participants will embark on a 30-minute coding journey filled with challenges. They will encounter three intriguing coding challenges:
+                  </p>
+                  <ol className="list-decimal">
+                    <li className="font-mono text-white text-lg pb-2 pt-4">Jumbled Coding: Untangle the code and bring order to chaos.</li>
+                    <li className="font-mono text-white text-lg pb-2 pt-4">Debugging: Hunt down and fix elusive bugs in the provided code.</li>
+                    <li className="font-mono text-white text-lg pb-2 pt-4">Blind Coding: Trust your instincts and code without seeing the output in real-time.</li>
+                  </ol>
+                  <p className="font-mono text-white text-lg pb-2 pt-4">  
+                  Participants can arrive anytime until 12:30 pm to begin their 30-minute challenge.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
+              <div className=" w-full  flex-col  flex items-start justify-start">
+                <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
+                Round 2
+                </h1>
+                <div className=" w-full text-justify  flex flex-col items-start justify-start">
+                  <p className="font-mono text-white text-lg pb-2 pt-4">
+                  Only the best coders from Round 1 will advance to the final round, Code To Cosmos.
+                  </p>
+                  <p className="font-mono text-white text-lg pb-2">  
+                  In this round, participants will face two coding questions, and they have 30 minutes to demonstrate their coding skills.
+                  </p>
+                  <p className="font-mono text-white text-lg pb-2">  
+                  The choice of programming language is flexible, allowing participants to showcase their coding proficiency in their preferred language.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
         <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4">
           {/* Content for the second cell */}

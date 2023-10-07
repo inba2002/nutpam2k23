@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors:{
+          pixelf:'#7f35f8',
+          pixele:'#ff0cf5'
+      },
       backgroundImage: {
         back: "url(../src/Assets/updatedbg.svg)",
         visionxbg:
@@ -28,5 +32,5 @@ module.exports = {
       mono: ["Space Mono"],
     },
   },
-  plugins: [require("daisyui"), require('tailwind-scrollbar-hide')],
+  plugins: [require("daisyui"), require('tailwind-scrollbar-hide'), require('tailwind-scrollbar')({ nocompatible: true })],
 };

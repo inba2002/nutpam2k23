@@ -27,7 +27,7 @@ const Loading = () => {
           <div className="navbar navbar-end bg-transparent w-full h-32">
             <div className="w-full flex items-center justify-end">
               <div className="flex w-1/2 items-center justify-center">
-                <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
+                <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white font-mono gap-10 text-xl p-2  w-full">
                   <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center ">
                     <a>Home</a>
                   </li>
@@ -66,7 +66,7 @@ const Loading = () => {
                 <div className="flex items-center  justify-center">
                   <ul
                     tabIndex={0}
-                    className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                    className="menu text-white flex items-center justify-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
                   >
                     <li>
                       <a href="#Departments">Home</a>
@@ -427,20 +427,12 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
-      <div id="deck">
-        <Deck/>
-      </div>
-      {/* <div id="Missions" className="hidden md:block">
+      <div id="Missions" className="hidden md:block">
         <Eventshoriscroll/>
       </div>
       <div className="block md:hidden">
         <Horiscroll/>
       </div>
-      
-      
-      <div className="block md:hidden">
-        <Horiscroll />
-      </div> */}
       <div id="Foot">
         <Footer />
       </div>

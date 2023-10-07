@@ -1,7 +1,7 @@
 import React from 'react'
 import xtitle from './celesticalpauseasset/celestictitle.svg'
 import mreport from './celesticalpauseasset/celesticdesc.svg'
-import image from '../VisionX/visionxasset/image.svg'
+import image from '../CelesticalPause/celesticalpauseasset/cpbg.png'
 import CelesticalPauserules from './CelesticalPauserules'
 import { Link } from 'react-router-dom'
 import Footer from '../../footer';
@@ -11,14 +11,14 @@ const CelesticalPaiseHero = () => {
       <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">
-            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 text-white gap-10 text-xl p-2  w-full">
+            <ul className="md:flex hidden border-b-2 border-white/25 items-center justify-between px-10 font-mono text-white gap-10 text-xl p-2  w-full">
               <Link to="/">
                 <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center ">
                   <a>Home</a>
                 </li>
               </Link>
               <li className="hover:text-white/50 w-64 h-10 hover:bg-white/25 flex items-center justify-center">
-                <a>Celestical Paise</a>
+                <a>Celestial Pause</a>
               </li>
 
               <li className="hover:text-white/50 w-28 h-10 hover:bg-white/25 flex items-center justify-center">
@@ -46,13 +46,13 @@ const CelesticalPaiseHero = () => {
             <div className="flex items-center  justify-center">
               <ul
                 tabIndex={0}
-                className="menu flex flex-col items-center justify-center  backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
+                className="menu flex flex-col text-white items-center font-mono justify-center  backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
               >
                 <li>
                   <a>Home</a>
                 </li>
                 <li>
-                  <a className="w-64">Celestical Paise</a>
+                  <a className="w-64">Celestial Pause</a>
                 </li>
 
                 <li>
@@ -70,18 +70,26 @@ const CelesticalPaiseHero = () => {
       <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
         {/* Content for the first cell */}
         <div className=" flex flex-col items-center justify-center">
-          <img src={xtitle} alt=""/>
-          <img className='pt-8' src={mreport} alt="" />
-          <div className='w-3/5 flex flex-col items-start justify-start pt-12 px-10'>
+          <img src={xtitle} className='px-8 md:px-8' alt=""/>
+          {/* <img className='pt-8' src={mreport} alt="" /> */}
+          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-8'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
-                <h1 className='font-mono font-bold text-2xl w-[20rem] pb-2 text-white'>Round 1:</h1>
-                <div className=' w-full text-justify  flex flex-col items-center justify-center'>
-                <p className='font-mono text-white text-lg pb-2 pt-4'>1.English lyrics of an tamil song will be displayed on the screen,participants should find the answer(tamil song)</p>
-                <p  className='font-mono text-white text-lg pb-2'>2.ballon should be blowed and blast to answer the question.</p>
+                <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
+                <div className=' w-full text-justify  flex flex-col items-start justify-start'>
+                <p className='font-mono  text-white font-bold text-[20px] pb-2 pt-8'>Celestial Pause is an musical fun based event , where you can enjoy your time with music.Celestical Pause is an musical fun based event , where you can enjoy your time with music</p>
                 </div>
             </div>
           </div>
-          <div className='w-3/5 flex flex-col items-start justify-start pt-12 px-10'>
+          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10'>
+            <div className=' w-full  flex-col  flex items-start justify-start'>
+                <h1 className='font-mono font-bold text-[20px] w-[20rem] pb-2 text-white'>Round 1:</h1>
+                <div className=' w-full text-justify  flex flex-col items-center justify-center'>
+                <p className='font-mono text-white text-[20px] pb-2 pt-4'>1.English lyrics of an tamil song will be displayed on the screen,participants should find the answer(tamil song)</p>
+                <p  className='font-mono text-white text-[20px] pb-2'>2.ballon should be blowed and blast to answer the question.</p>
+                </div>
+            </div>
+          </div>
+          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold text-2xl w-[20rem] pb-2 text-white'>Round 2:</h1>
                 <div className=' w-full text-justify  flex flex-col items-center justify-center'>
@@ -102,11 +110,11 @@ const CelesticalPaiseHero = () => {
                 <h1 className='font-mono font-bold text-2xl w-[20rem] pb-2 text-white'>Student Coordinators</h1>
             </div>
             <div>
-                <p className='font-mono text-white text-lg pb-2 pt-4'>Madhumitha D  <a href="tel:+918778022975">8778022975</a></p>
-                <p  className='font-mono text-white text-lg pb-2'>Sai Naveen D  <a href="tel:+917305311603">7305311603</a></p>
-                <p  className='font-mono text-white text-lg pb-2'>Barath Kumar S  <a href="tel:+919944676832">9944676832</a></p>
-                <p  className='font-mono text-white text-lg pb-2'>Vignesh T  <a href="tel:+919789575454">9789575454</a></p>
-                <p className='font-mono text-white text-lg pb-2'>Pavithra S  <a href="tel:+919952273570">9952273570</a></p>
+                <p className='font-mono text-white text-lg pb-2 pt-4'>BARATH KUMAR S<a href="tel:+919944676832">9944676832</a></p>
+                <p  className='font-mono text-white text-lg pb-2'>MADHUMITHA D<a href="tel:+918778022975">8778022975</a></p>
+                <p  className='font-mono text-white text-lg pb-2'>DEEYAANESH S<a href="tel:+917010608205">7010608205</a></p>
+                <p  className='font-mono text-white text-lg pb-2'>Pavithra S<a href="tel:+919952273570">9952273570</a></p>
+                <p className='font-mono text-white text-lg pb-2'>Vignesh T <a href="tel:+919789575454">9789575454</a></p>
             </div>
           </div>
         </div>

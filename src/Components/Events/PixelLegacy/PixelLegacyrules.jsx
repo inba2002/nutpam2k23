@@ -59,7 +59,7 @@ const PixelLegacyrules = () => {
       <div className="w-full md:p-4 flex items-center justify-center p-2">
         <Link to="/pixelLegacyRegistration">
           <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
-            Register Now
+            <p className="bg-gradient-to-r from-pixelf to-pixele bg-clip-text">Register Now</p>
           </button>
         </Link>
       </div>
