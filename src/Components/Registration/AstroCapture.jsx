@@ -3,10 +3,12 @@ import AstroCapturerules from "../Events/AstroCapture/AstroCapture/AstroCapturer
 import AnimatedCursor from "react-animated-cursor";
 
 
+import "./regform.css";
+
 const AstroCapture = () => {
   return (
     <>
-      <div className="bg-visionxformbg bg-cover h-screen flex flex-col items-center justify-center">
+      <div className="bg-astrocaptureregbg p-10 bg-cover h-[230vh] md:h-[170vh] flex flex-col items-center justify-center">
         <AnimatedCursor
           className="z-50"
           // clickables={[
@@ -44,145 +46,119 @@ const AstroCapture = () => {
             backdropFilter: 10,
           }}
         />
-        <form
-          action="https://app.unoforms.xyz/submit/6MmAJkwYtpX"
-          method="post"
-          class="team-form"
-          className="flex flex-col justify-center rounded-lg bg-white/0.2 backdrop-blur-sm  bg-transparent"
-          style={{
-            background: "rgba(0, 0, 0, 0.60)",
-            borderRadius: "21px",
-            backdropFilter: "blur(10px)",
-          }}
-        >
-          <input type="hidden" name="event_name" value="AstroCapture" />
-          <h1 className="md:text-4xl text-center p-5 text-white font-mono">
-            AstroCapture Registration
+
+        <div className="reg-container">
+          <h1 className="reg-title">
+            Astro Capture <span> Registration </span>
           </h1>
-          <div className="md:grid md:text-xl grid-cols-2 gap-4 pl-10 md:p-10 max-w-screen-2xl mx-auto">
-            <div class="form-row flex flex-col">
-              <label for="Name">Name:</label>
+          <form
+            action="https://app.unoforms.xyz/submit/6MmAJkwYtpX"
+            method="post"
+            class="team-form"
+            className="form-container"
+            style={{ marginTop: "3rem" }}
+          >
+            <input type="hidden" name="event_name" value="AstroCapture" />
+
+            <div class="ip-container gspan-2">
+              <label className="ip-title" for="Name">
+                Name <span className="req">*</span>
+              </label>
               <input
-                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-                style={{
-                  borderRadius: "14px",
-                  background: " rgba(0, 2, 13, 0.75)",
-                }}
+                className="ip-box"
                 type="text"
                 id="Name"
                 name="Name"
-                // placeholder="Name"
+                placeholder="Name"
                 required
               />
             </div>
-            <div class="form-row flex flex-col">
-              <label for="Email">Email:</label>
+            <div class="ip-container">
+              <label className="ip-title" for="Email">
+                Email <span className="req">*</span>
+              </label>
               <input
-                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-                style={{
-                  borderRadius: "14px",
-                  background: " rgba(0, 2, 13, 0.75)",
-                }}
+                className="ip-box"
                 type="email"
                 id="Email"
                 name="Email"
-                // placeholder="Email"
+                placeholder="Email"
                 required
               />
             </div>
-            <div class="form-row">
-              <label for="College">College Name *:</label>
+            <div class="ip-container">
+              <label className="ip-title" for="College">
+                College Name <span className="req">*</span>
+              </label>
               <input
-                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-                style={{
-                  borderRadius: "14px",
-                  background: " rgba(0, 2, 13, 0.75)",
-                }}
+                className="ip-box"
                 type="text"
                 id="College"
                 name="College"
-                // placeholder="College Name"
+                placeholder="College Name"
                 required
               />
             </div>
-            <div className="md:flex md:flex-row flex-col justify-between items-center ">
-              <div class="form-row flex flex-col">
-                <label for="Department">Department:</label>
-                <input
-                  className="input w-3/4 h-16 rounded-xl px-4"
-                  style={{
-                    borderRadius: "14px",
-                    background: " rgba(0, 2, 13, 0.75)",
-                  }}
-                  type="text"
-                  id="Department"
-                  name="Department"
-                  // placeholder="Department"
-                  required
-                />
-              </div>
-              <div class="form-row flex flex-col ">
-                <label for="Year"> Year *:</label>
-                <input
-                  className="input w-3/4 h-16 rounded-xl px-4"
-                  style={{
-                    borderRadius: "14px",
-                    background: " rgba(0, 2, 13, 0.75)",
-                  }}
-                  type="text"
-                  id="Year"
-                  name="Year"
-                  // placeholder="Year"
-                  required
-                />
-              </div>
-            </div>
-            <div class="form-row">
-              <label for="WhatsApp">WhatsApp Number:</label>
+
+            <div class="ip-container">
+              <label className="ip-title" for="Department">
+                Department <span className="req">*</span>
+              </label>
               <input
-                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-                style={{
-                  borderRadius: "14px",
-                  background: " rgba(0, 2, 13, 0.75)",
-                }}
+                className="ip-box"
+                type="text"
+                id="Department"
+                name="Department"
+                placeholder="Department"
+                required
+              />
+            </div>
+            <div class="ip-container ">
+              <label className="ip-title" for="Year">
+                Year <span className="req">*</span>
+              </label>
+              <input
+                className="ip-box"
+                type="text"
+                id="Year"
+                name="Year"
+                placeholder="Year"
+                required
+              />
+            </div>
+
+            <div class="ip-container">
+              <label className="ip-title" for="WhatsApp">
+                WhatsApp Number <span className="req">*</span>
+              </label>
+              <input
+                className="ip-box"
                 type="tel"
                 id="WhatsApp"
                 name="WhatsApp"
-                // placeholder="WhatsApp number"
+                placeholder="WhatsApp number"
                 required
               />
             </div>
-            <div class="form-row">
-              <label for="Instagram">Instagram UserName:</label>
+            <div class="ip-container">
+              <label className="ip-title" for="Instagram">
+                Instagram Username <span className="req">*</span>
+              </label>
               <input
-                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-                style={{
-                  borderRadius: "14px",
-                  background: " rgba(0, 2, 13, 0.75)",
-                }}
+                className="ip-box"
                 type="tel"
                 id="Instagram"
                 name="Instagram"
-                // placeholder="Instagram UserName"
+                placeholder="Instagram Username"
                 required
               />
             </div>
-          </div>
-          <div className="flex items-center justify-center p-10">
-            <button
-              className="btn w-32 items-center justify-center hover:bg-white/10 px-20 hover:shadow-lg bg-white/25 text-rgba-50-95-255-70 text-center text-#325FFFB2 font-space-mono text-24 font-semibold leading-192 tracking-0.72"
-              style={{
-                borderRadius: "4px",
-                border: "1px solid rgba(255, 255, 255, 0.12)",
-                background:
-                  "linear-gradient(266deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%)",
-                backdropFilter: "blur(15px)",
-              }}
-            >
-              Submit
-            </button>
-          </div>
-        </form>
+
+            <div className="flex items-center justify-center gspan-2">
+              <button className="sub-button">SUBMIT</button>
+            </div>
+          </form>
+        </div>
       </div>
     </>
   );

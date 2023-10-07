@@ -23,7 +23,7 @@ import Eventshoriscroll from "./Eventshoriscroll";
 const Loading = () => {
   return (
     <>
-      <div className="h-screen overflow-x-hidden w-screen pr-20">
+      <div className="h-screen w-screen pr-20">
         <div className="w-screen">
           <div className="navbar navbar-end bg-transparent w-full h-32">
             <div className="w-full flex items-center justify-end">
