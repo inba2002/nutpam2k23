@@ -47,7 +47,7 @@ function Visionx() {
           action="https://app.unoforms.xyz/submit/qb-__2_ucxi"
           method="post"
           class="team-form"
-          className="flex flex-col justify-center rounded-lg bg-white/0.2 backdrop-blur-sm  bg-transparent"
+          className="flex flex-col justify-center rounded-lg bg-white/0.2 md:mt-96 mt-[990px]  backdrop-blur-sm p-4 gap-4  bg-transparent"
           style={{
             background: "rgba(0, 0, 0, 0.60)",
             borderRadius: "21px",
@@ -63,14 +63,14 @@ function Visionx() {
             not to give any wrong/same details.
           </h1>
           <div className="md:grid md:text-xl grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
-            <div class="form-row col-span-2">
+            <div class="form-row col-span-2"> 
               <label for="teamName">Team Name:</label>
               <input
                 className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="teamName"
                 name="teamName"
-                placeholder="Team Name"
+                // placeholder="Team Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -85,7 +85,7 @@ function Visionx() {
                 type="text"
                 id="teamLeaderName"
                 name="teamLeaderName"
-                placeholder="Leader Name"
+                // placeholder="Leader Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -100,7 +100,7 @@ function Visionx() {
                 type="text"
                 id="teammateName1"
                 name="teammateName1"
-                placeholder="Teammate Name 1"
+                // placeholder="Teammate Name 1"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -115,7 +115,7 @@ function Visionx() {
                 type="email"
                 id="teamLeadEmail"
                 name="teamLeadEmail"
-                placeholder="Team LEader Mail"
+                // placeholder="Team LEader Mail"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -130,7 +130,7 @@ function Visionx() {
                 type="email"
                 id="teammateEmail1"
                 name="teammateEmail1"
-                placeholder="Teammate 1 Email"
+                // placeholder="Teammate 1 Email"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -145,7 +145,7 @@ function Visionx() {
                 type="text"
                 id="teamLeadDept"
                 name="teamLeadDept"
-                placeholder="Team Leader Department"
+                // placeholder="Team Leader Department"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -160,7 +160,7 @@ function Visionx() {
                 type="text"
                 id="teammateDept1"
                 name="teammateDept1"
-                placeholder="Teammate 1 Department"
+                // placeholder="Teammate 1 Department"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -175,7 +175,7 @@ function Visionx() {
                 type="tel"
                 id="teamLeadWhatsApp"
                 name="teamLeadWhatsApp"
-                placeholder="Team Leader WhatsApp Number"
+                // placeholder="Team Leader WhatsApp Number"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -190,7 +190,7 @@ function Visionx() {
                 type="tel"
                 id="teammateWhatsApp1"
                 name="teammateWhatsApp1"
-                placeholder="Teammate 1 WhatsApp Number"
+                // placeholder="Teammate 1 WhatsApp Number"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -205,7 +205,7 @@ function Visionx() {
                 type="text"
                 id="teammateName2"
                 name="teammateName2"
-                placeholder="Teammate Name 2"
+                // placeholder="Teammate Name 2"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -220,7 +220,7 @@ function Visionx() {
                 type="email"
                 id="teammateEmail2"
                 name="teammateEmail2"
-                placeholder="Teammate 2 Email"
+                // placeholder="Teammate 2 Email"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -237,7 +237,7 @@ function Visionx() {
                 type="text"
                 id="teammateCollegeName2"
                 name="teammateCollegeName2"
-                placeholder="Teammate 2 College Name"
+                // placeholder="Teammate 2 College Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -252,7 +252,7 @@ function Visionx() {
                 type="text"
                 id="teammateDept2"
                 name="teammateDept2"
-                placeholder="Teammate 2 Department"
+                // placeholder="Teammate 2 Department"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -267,7 +267,7 @@ function Visionx() {
                 type="text"
                 id="teammateYear2"
                 name="teammateYear2"
-                placeholder="Teammate 2 Year"
+                // placeholder="Teammate 2 Year"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -284,7 +284,7 @@ function Visionx() {
                 type="tel"
                 id="teammateWhatsApp2"
                 name="teammateWhatsApp2"
-                placeholder="Teammate 2 Whatsapp No."
+                // placeholder="Teammate 2 Whatsapp No."
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",

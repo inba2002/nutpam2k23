@@ -4,8 +4,8 @@ import AnimatedCursor from "react-animated-cursor";
 const Aistronomy = () => {
   return (
     <>
-      <div className="bg-visionxformbg bg-cover h-full flex flex-col items-center justify-center">
-      <AnimatedCursor className="z-50"
+      <div className="bg-visionxformbg bg-cover h-screen md:mt-10 mt-96 p-5 flex flex-col items-center justify-center">
+      <AnimatedCursor 
           // clickables={[
           //   "a",
           //   'input[type="text"]',
@@ -60,7 +60,7 @@ const Aistronomy = () => {
             Team Lead & Teammates are two separate participants, hence make sure
             not to give any wrong/same details.
           </h1>
-          <div className="md:grid md:text-xl grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
+          <div className="md:grid md:text-xl grid-cols-2 gap-4 pl-5 md:p-10 max-w-screen-2xl mx-auto">
             <div class="form-row col-span-2">
               <label for="TeamName">Team Name:</label>
               <input
@@ -72,7 +72,7 @@ const Aistronomy = () => {
                 type="text"
                 id="TeamName"
                 name="TeamName"
-                placeholder="Name"
+                // placeholder="Name"
                 required
               />
             </div>
@@ -87,7 +87,7 @@ const Aistronomy = () => {
                 type="text"
                 id="TeamLeaderName"
                 name="TeamLeaderName"
-                placeholder="Name"
+                // placeholder="Name"
                 required
               />
             </div>
@@ -102,7 +102,7 @@ const Aistronomy = () => {
                 type="text"
                 id="TeammateName1"
                 name="TeammateName1"
-                placeholder="Name"
+                // placeholder="Name"
                 required
               />
             </div>
@@ -117,7 +117,7 @@ const Aistronomy = () => {
                 type="email"
                 id="TeamLeadEmail"
                 name="TeamLeadEmail"
-                placeholder="E-mail"
+                // placeholder="E-mail"
                 required
               />
             </div>
@@ -132,7 +132,7 @@ const Aistronomy = () => {
                 type="email"
                 id="TeammateEmail1"
                 name="TeammateEmail1"
-                placeholder="E-mail"
+                // placeholder="E-mail"
                 required
               />
             </div>
@@ -147,7 +147,7 @@ const Aistronomy = () => {
                 type="text"
                 id="TeamLeadCollege"
                 name="TeamLeadCollege"
-                placeholder="College Name"
+                // placeholder="College Name"
                 required
               />
             </div>
@@ -162,7 +162,7 @@ const Aistronomy = () => {
                 type="text"
                 id="Teammate1College"
                 name="Teammate1College"
-                placeholder="College Name"
+                // placeholder="College Name"
                 required
               />
             </div>
@@ -170,7 +170,7 @@ const Aistronomy = () => {
             <div class="form-row">
               <label for="teamLeadDept">Team Leader Department:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -178,14 +178,14 @@ const Aistronomy = () => {
                 type="text"
                 id="TeamLeadDept"
                 name="TeamLeadDept"
-                placeholder="Department"
+                // placeholder="Department"
                 required
               />
             </div>
             <div class="form-row ">
               <label for="TeamLeadYear">Team Lead Year *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -193,7 +193,7 @@ const Aistronomy = () => {
                 type="text"
                 id="TeamLeadYear"
                 name="TeamLeadYear"
-                placeholder="Year"
+                // placeholder="Year"
                 required
               />
             </div>
@@ -202,7 +202,7 @@ const Aistronomy = () => {
             <div class="form-row">
               <label for="Teammate1Dept">Teammate 1 Department:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -210,14 +210,14 @@ const Aistronomy = () => {
                 type="text"
                 id="Teammate1Dept"
                 name="Teammate1Dept"
-                placeholder="Department"
+                // placeholder="Department"
                 required
               />
             </div>
             <div class="form-row ">
               <label for="Teammate1Year">Teammate 1 Year *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -225,7 +225,7 @@ const Aistronomy = () => {
                 type="text"
                 id="Teammate1Year"
                 name="Teammate1Year"
-                placeholder="Year"
+                // placeholder="Year"
                 required
               />
             </div>
@@ -241,7 +241,7 @@ const Aistronomy = () => {
                 type="tel"
                 id="TeamLeadWhatsApp"
                 name="TeamLeadWhatsApp"
-                placeholder="WhatsApp number"
+                // placeholder="WhatsApp number"
                 required
               />
             </div>
@@ -256,7 +256,7 @@ const Aistronomy = () => {
                 type="tel"
                 id="TeammateWhatsApp1"
                 name="TeammateWhatsApp1"
-                placeholder="WhatsApp number"
+                // placeholder="WhatsApp number"
                 required
               />
             </div>

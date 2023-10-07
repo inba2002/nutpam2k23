@@ -8,7 +8,7 @@ function CelesticalPause() {
 
   return (
     <>
-      <div className="bg-visionxformbg bg-cover h-full flex flex-col items-center justify-center">
+      <div className="bg-visionxformbg bg-cover h-screen flex flex-col mt-[620px] md:mt-48 items-center justify-center">
       <AnimatedCursor className="z-50"
           // clickables={[
           //   "a",
@@ -64,15 +64,15 @@ function CelesticalPause() {
             Team Lead & Teammates are two separate participants, hence make sure
             not to give any wrong/same details.
           </h1>
-          <div className="md:grid md:text-xl grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
-            <div class="form-row col-span-2">
+          <div className="md:grid md:text-xl grid-cols-2 gap-4 pl-4 md:p-10 max-w-screen-2xl mx-auto">
+            <div class="form-row col-span-2 flex flex-col">
               <label for="teamName">Team Name:</label>
               <input
                 className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="TeamName"
                 name="TeamName"
-                placeholder="Team Name"
+                // placeholder="Team Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -80,14 +80,14 @@ function CelesticalPause() {
                 required
               />
             </div>
-            <div class="form-row">
+            <div class="form-row flex flex-col">
               <label for="TeamLeaderName">Team Leader Name:</label>
               <input
                 className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="TeamLeaderName"
                 name="TeamLeaderName"
-                placeholder="Leader Name"
+                // placeholder="Leader Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -102,7 +102,7 @@ function CelesticalPause() {
                 type="text"
                 id="TeammateName1"
                 name="TeammateName1"
-                placeholder="Teammate Name 1"
+                // placeholder="Teammate Name 1"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -117,7 +117,7 @@ function CelesticalPause() {
                 type="email"
                 id="TeamLeadEmail"
                 name="TeamLeadEmail"
-                placeholder="Team Leader Mail"
+                // placeholder="Team Leader Mail"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -132,7 +132,7 @@ function CelesticalPause() {
                 type="email"
                 id="TeammateEmail1"
                 name="TeammateEmail1"
-                placeholder="Teammate 1 Email"
+                // placeholder="Teammate 1 Email"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -143,7 +143,7 @@ function CelesticalPause() {
             <div class="form-row ">
               <label for="TeamLeaderCllg">TeamLeader College *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 md:w-full h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -151,14 +151,14 @@ function CelesticalPause() {
                 type="text"
                 id="TeamLeaderYear"
                 name="TeamLeaderYear"
-                placeholder="College Name"
+                // placeholder="College Name"
                 required
               />
             </div>
             <div class="form-row ">
               <label for="TeamMateCllg">Teammate College *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 md:w-full h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -166,7 +166,7 @@ function CelesticalPause() {
                 type="text"
                 id="TeamMateCllg"
                 name="TeamMateCllg"
-                placeholder="College Name"
+                // placeholder="College Name"
                 required
               />
             </div>
@@ -174,7 +174,7 @@ function CelesticalPause() {
             <div class="form-row">
               <label for="TeamLeaderDept">TeamLeader Department:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4  h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -182,14 +182,14 @@ function CelesticalPause() {
                 type="text"
                 id="TeamLeaderDept"
                 name="TeamLeaderDept"
-                placeholder="Department"
+                // placeholder="Department"
                 required
               />
             </div>
             <div class="form-row ">
               <label for="TeamLeaderYear">TeamLeader Year *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -197,7 +197,7 @@ function CelesticalPause() {
                 type="text"
                 id="TeamLeaderYear"
                 name="TeamLeaderYear"
-                placeholder="Year"
+                // placeholder="Year"
                 required
               />
             </div>
@@ -206,7 +206,7 @@ function CelesticalPause() {
             <div class="form-row">
               <label for="Teammate1Dept">Teammate 1 Department:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -214,14 +214,14 @@ function CelesticalPause() {
                 type="text"
                 id="Teammate1Dept"
                 name="Teammate1Dept"
-                placeholder="Department"
+                // placeholder="Department"
                 required
               />
             </div>
             <div class="form-row ">
               <label for="Teammate1Year">Teammate1 Year *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -229,7 +229,7 @@ function CelesticalPause() {
                 type="text"
                 id="Teammate1Year"
                 name="Teammate1Year"
-                placeholder="Year"
+                // placeholder="Year"
                 required
               />
             </div>
@@ -241,7 +241,7 @@ function CelesticalPause() {
                 type="tel"
                 id="TeamLeadWhatsApp"
                 name="TeamLeadWhatsApp"
-                placeholder="Team Leader WhatsApp Number"
+                // placeholder="Team Leader WhatsApp Number"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -256,7 +256,7 @@ function CelesticalPause() {
                 type="tel"
                 id="TeammateWhatsApp1"
                 name="TeammateWhatsApp1"
-                placeholder="Teammate 1 WhatsApp Number"
+                // placeholder="Teammate 1 WhatsApp Number"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -271,7 +271,7 @@ function CelesticalPause() {
                 type="text"
                 id="TeammateName2"
                 name="TeammateName2"
-                placeholder="Teammate Name 2"
+                // placeholder="Teammate Name 2"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -285,7 +285,7 @@ function CelesticalPause() {
                 type="email"
                 id="TeammateEmail2"
                 name="TeammateEmail2"
-                placeholder="Teammate 2 Email"
+                // placeholder="Teammate 2 Email"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -301,7 +301,7 @@ function CelesticalPause() {
                 type="text"
                 id="TeammateCollegeName2"
                 name="TeammateCollegeName2"
-                placeholder="Teammate 2 College Name"
+                // placeholder="Teammate 2 College Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -312,7 +312,7 @@ function CelesticalPause() {
             <div class="form-row">
               <label for="Teammate2Dept">Teammate 2 Department:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -320,13 +320,13 @@ function CelesticalPause() {
                 type="text"
                 id="Teammate2Dept"
                 name="Teammate2Dept"
-                placeholder="Department"
+                // placeholder="Department"
               />
             </div>
             <div class="form-row ">
               <label for="Teammate2Year">Teammate 2 Year *:</label>
               <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+              className="input w-3/4 h-16 rounded-xl px-4"
               style={{
                 borderRadius: "14px",
                 background: " rgba(0, 2, 13, 0.75)",
@@ -334,7 +334,7 @@ function CelesticalPause() {
                 type="text"
                 id="Teammate2Year"
                 name="Teammate2Year"
-                placeholder="Year"
+                // placeholder="Year"
               />
             </div>
             </div>
@@ -347,7 +347,7 @@ function CelesticalPause() {
                 type="tel"
                 id="TeammateWhatsApp2"
                 name="TeammateWhatsApp2"
-                placeholder="Teammate 2 Whatsapp No."
+                // placeholder="Teammate 2 Whatsapp No."
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",

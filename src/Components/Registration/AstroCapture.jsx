@@ -59,8 +59,8 @@ const AstroCapture = () => {
           <h1 className="md:text-4xl text-center p-5 text-white font-mono">
             AstroCapture Registration
           </h1>
-          <div className="md:grid md:text-xl grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
-            <div class="form-row">
+          <div className="md:grid md:text-xl grid-cols-2 gap-4 pl-10 md:p-10 max-w-screen-2xl mx-auto">
+            <div class="form-row flex flex-col">
               <label for="Name">Name:</label>
               <input
                 className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
@@ -71,11 +71,11 @@ const AstroCapture = () => {
                 type="text"
                 id="Name"
                 name="Name"
-                placeholder="Name"
+                // placeholder="Name"
                 required
               />
             </div>
-            <div class="form-row">
+            <div class="form-row flex flex-col">
               <label for="Email">Email:</label>
               <input
                 className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
@@ -86,7 +86,7 @@ const AstroCapture = () => {
                 type="email"
                 id="Email"
                 name="Email"
-                placeholder="Email"
+                // placeholder="Email"
                 required
               />
             </div>
@@ -101,15 +101,15 @@ const AstroCapture = () => {
                 type="text"
                 id="College"
                 name="College"
-                placeholder="College Name"
+                // placeholder="College Name"
                 required
               />
             </div>
             <div className="md:flex md:flex-row flex-col justify-between items-center ">
-              <div class="form-row">
+              <div class="form-row flex flex-col">
                 <label for="Department">Department:</label>
                 <input
-                  className="input w-full md:w-3/4 h-16 rounded-xl px-4"
+                  className="input w-3/4 h-16 rounded-xl px-4"
                   style={{
                     borderRadius: "14px",
                     background: " rgba(0, 2, 13, 0.75)",
@@ -117,14 +117,14 @@ const AstroCapture = () => {
                   type="text"
                   id="Department"
                   name="Department"
-                  placeholder="Department"
+                  // placeholder="Department"
                   required
                 />
               </div>
-              <div class="form-row ">
+              <div class="form-row flex flex-col ">
                 <label for="Year"> Year *:</label>
                 <input
-                  className="input w-full md:w-7/8 h-16 rounded-xl px-4"
+                  className="input w-3/4 h-16 rounded-xl px-4"
                   style={{
                     borderRadius: "14px",
                     background: " rgba(0, 2, 13, 0.75)",
@@ -132,7 +132,7 @@ const AstroCapture = () => {
                   type="text"
                   id="Year"
                   name="Year"
-                  placeholder="Year"
+                  // placeholder="Year"
                   required
                 />
               </div>
@@ -148,7 +148,7 @@ const AstroCapture = () => {
                 type="tel"
                 id="WhatsApp"
                 name="WhatsApp"
-                placeholder="WhatsApp number"
+                // placeholder="WhatsApp number"
                 required
               />
             </div>
@@ -163,7 +163,7 @@ const AstroCapture = () => {
                 type="tel"
                 id="Instagram"
                 name="Instagram"
-                placeholder="Instagram UserName"
+                // placeholder="Instagram UserName"
                 required
               />
             </div>
