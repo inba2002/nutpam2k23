@@ -84,7 +84,7 @@ export default function Footer() {
                 <FaPhoneAlt />
                 <a href="tel:+919362946267">93629 46267</a>
               </div>
-              <p>Vasanth Priyadharshan V</p>
+              <p>Vasanth Priyadharsan V</p>
               <div className="flex items-center gap-5">
                 <FaPhoneAlt />
                 <a href="tel:+919080663133">90806 63133</a>
@@ -93,12 +93,12 @@ export default function Footer() {
             <div>
               <div className="flex flex-col gap-5">
                 <p>Staff Coordinators:</p>
-                <p>Padhmanaban</p>
+                <p>Mr. J. Padmanaban</p>
                 <div className="flex items-center gap-5">
                   <FaPhoneAlt />
-                  <a href="tel:+919362946267">93629 46267</a>
+                  <a href="tel:+916383154281">63831 54281</a>
                 </div>
-                <p>Nirmala Devi G</p>
+                <p>Mrs. G. Nirmala Devi</p>
                 <div className="flex items-center gap-5">
                   <FaPhoneAlt />
                   <a href="tel:+916381248906">63812 48906</a>
