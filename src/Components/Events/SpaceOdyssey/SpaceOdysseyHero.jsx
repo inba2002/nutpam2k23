@@ -9,7 +9,7 @@ import Footer from "../../footer";
 
 const SpaceOdysseyHero = () => {
   return (
-    <div className="bg-spaceodbg bg-cover">
+    <div className="bg-spaceodbg bg-cover w-screen">
       <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">
