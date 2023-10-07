@@ -93,10 +93,17 @@ export default function Footer() {
             <div>
               <div className="flex flex-col gap-5">
                 <p>Staff Coordinators:</p>
+<<<<<<< HEAD
                 <p>Mr. J. Padmanaban</p>
                 <div className="flex items-center gap-5">
                   <FaPhoneAlt />
                   <a href="tel:+916383154281">63831 54281</a>
+=======
+                <p>Pathmanaban.J</p>
+                <div className="flex items-center gap-5">
+                  <FaPhoneAlt />
+                  <a href="tel:+919751595403">9751595403</a>
+>>>>>>> 8ac93060b0f03b18a12c991437f945c9d3d441e3
                 </div>
                 <p>Mrs. G. Nirmala Devi</p>
                 <div className="flex items-center gap-5">

@@ -5,6 +5,21 @@ import SP from "../../Assets/visionxsample.pdf"
 import "./regform.css";
 
 function Visionx() {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("src\Components\Registration\assets\Vision-XTemplateMU.pptx").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Vision-XTemplateMU.pptx";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <>
       <div className="bg-visionxregbg p-10 bg-cover h-[350vh] md:h-[200vh] flex flex-col items-center justify-center">
@@ -62,7 +77,7 @@ function Visionx() {
             method="post"
             class="team-form"
             className="form-container"
-          > 
+          >
             <div class="ip-container gspan-2">
               <label className="ip-title" for="teamName">
                 Team Name <span className="req">*</span>
@@ -209,7 +224,7 @@ function Visionx() {
             </div>
             {/* <div className="ip-container">
               <label className="ip-title" htmlFor="teammateCollegeName2">
-                Teammate 2 College Name <span className="req">*</span>
+                Team Leader College Name <span className="req">*</span>
               </label>
               <input
                 className="ip-box"
@@ -259,14 +274,22 @@ function Visionx() {
                 required
               />
             </div>
+<<<<<<< HEAD
             <div className="text-white font-bold text-xl pt-8 flex items-center justify-center gspan-2">
             <a download="" href={SP}>Click Here to Download the Sample PPT</a>
             </div>
+=======
+            <div className="ip-container flex items-center justify-center">
+              <label className="ip-title flex items-center justify-center" htmlFor="teammateWhatsApp2">
+                PPT Template will be shared from the event Team<span className="req">*</span>
+              </label>
+              {/* <button className="flex items-center justify-center btn btn-primary" onClick={onButtonClick}>Download PPT</button> */}
+            </div>
+
+>>>>>>> 8ac93060b0f03b18a12c991437f945c9d3d441e3
             <div className="flex items-center justify-center gspan-2">
               <button className="sub-button">SUBMIT</button>
             </div>
-
-            
           </form>
         </div>
       </div>
