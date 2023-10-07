@@ -144,13 +144,16 @@ const CosmoHero = () => {
                   Harish Kumar S <a href="tel:+919176941079">9176941079</a>
                 </p>
                 <p className="font-mono text-white text-lg pb-2">
+                  Aiswarya V <a href="tel:+919444783843">9444783843</a>
+                </p>
+                <p className="font-mono text-white text-lg pb-2">
                   Adhavan M <a href="tel:+917550194049">7550194049</a>
                 </p>
                 <p className="font-mono text-white text-lg pb-2">
-                  Saran R <a href="tel:+919499040940">9499040940</a>
+                Harini V  <a href="tel:+919345411309">9345411309</a>
                 </p>
                 <p className="font-mono text-white text-lg pb-2">
-                  Aiswarya V <a href="tel:+919444783843">9444783843</a>
+                Siddharth S Swamy <a href="tel:+919894202251">9894202251</a>
                 </p>
               </div>
             </div>
