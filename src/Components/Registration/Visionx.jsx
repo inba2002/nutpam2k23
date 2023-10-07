@@ -274,11 +274,9 @@ function Visionx() {
                 required
               />
             </div>
-<<<<<<< HEAD
             <div className="text-white font-bold text-xl pt-8 flex items-center justify-center gspan-2">
             <a download="" href={SP}>Click Here to Download the Sample PPT</a>
             </div>
-=======
             <div className="ip-container flex items-center justify-center">
               <label className="ip-title flex items-center justify-center" htmlFor="teammateWhatsApp2">
                 PPT Template will be shared from the event Team<span className="req">*</span>
@@ -286,7 +284,6 @@ function Visionx() {
               {/* <button className="flex items-center justify-center btn btn-primary" onClick={onButtonClick}>Download PPT</button> */}
             </div>
 
->>>>>>> 8ac93060b0f03b18a12c991437f945c9d3d441e3
             <div className="flex items-center justify-center gspan-2">
               <button className="sub-button">SUBMIT</button>
             </div>
