@@ -79,19 +79,19 @@ const BasicDetails = () => {
               type="text"
               className="w-full h-16 footer-bg text-white p-5"
               name="name"
-              placeholder="NAME"
+              // placeholder="NAME"
             />
             <input
               type="text"
               className="w-full h-16 footer-bg text-white p-5"
               name="collegeName"
-              placeholder="COLLEGE"
+              // placeholder="COLLEGE"
             />
             <input
               type="text"
               className="w-full h-16 footer-bg text-white p-5"
               name="dept"
-              placeholder="Department"
+              // placeholder="Department"
             />
             <select
               className="w-full h-16 footer-bg text-white p-5"
@@ -106,13 +106,13 @@ const BasicDetails = () => {
               type="email"
               className="w-full h-16 footer-bg text-white p-5"
               name="email"
-              placeholder="EMAIL"
+              // placeholder="EMAIL"
             />
             <input
               type="number"
               className="w-full h-16 footer-bg text-white p-5"
               name="phoneNumber"
-              placeholder="PHONE NUMBER"
+              // placeholder="PHONE NUMBER"
             />
           </div>
           <div className="flex ">

@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import Title from "../Assets/header.svg";
 import College from "../Assets/college.svg";
 import CountdownTimer from "./CountdownTimer/CountdownTimer";
+import { Link } from "react-router-dom";
 import Department from "../department";
 import AnimatedCursor from "react-animated-cursor";
 import "../App.css";
@@ -68,21 +69,23 @@ const Loading = () => {
                     tabIndex={0}
                     className="menu items-center backdrop-blur-md menu-lg dropdown-content mt-64 z-[1] mr-32 p-2 border border-white/10 shadow-xl pr-96 rounded-box w-28"
                   >
+                    <Link to="/">
                     <li>
-                      <a href="#Departments">Home</a>
+                      <a >Home</a>
+                    </li>
+                    </Link>
+                    <li>
+                      <a href="#Departments">About</a>
                     </li>
                     <li>
-                      <a>About</a>
-                    </li>
-                    <li>
-                      <a href="#Missions">Mission</a>
+                      <a href="#Missionss">Mission</a>
                     </li>
 
                     <li>
                       <a>Team</a>
                     </li>
                     <li>
-                      <a href="#foot">Contact</a>
+                      <a href="#Foot">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -430,17 +433,15 @@ const Loading = () => {
       <div id="deck">
         <Deck/>
       </div>
-      {/* <div id="Missions" className="hidden md:block">
+      <div id="Missions" className="hidden md:block">
         <Eventshoriscroll/>
       </div>
-      <div className="block md:hidden">
+      <div id="Missionss" className="block md:hidden">
         <Horiscroll/>
       </div>
       
       
-      <div className="block md:hidden">
-        <Horiscroll />
-      </div> */}
+      
       <div id="Foot">
         <Footer />
       </div>

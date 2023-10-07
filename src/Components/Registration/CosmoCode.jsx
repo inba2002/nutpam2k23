@@ -5,8 +5,9 @@ import AnimatedCursor from "react-animated-cursor";
 const CosmoCode = () => {
   return (
     <>
-     <div className="bg-visionxformbg bg-cover h-screen flex flex-col items-center justify-center">
-     <AnimatedCursor className="z-50"
+      <div className="bg-visionxformbg bg-cover h-screen p-5 flex flex-col items-center justify-center">
+        <AnimatedCursor
+          className="z-50"
           // clickables={[
           //   "a",
           //   'input[type="text"]',
@@ -42,30 +43,30 @@ const CosmoCode = () => {
             backdropFilter: 10,
           }}
         />
-      <form
-        action="https://app.unoforms.xyz/submit/szueUkkgaeQ"
-        method="post"
-        class="team-form"
-        className="flex flex-col justify-center rounded-lg bg-white/0.2 backdrop-blur-sm  bg-transparent"
-        style={{
-          background: "rgba(0, 0, 0, 0.60)",
-          borderRadius: "21px",
-          backdropFilter: "blur(10px)",
-        }}
-      >
+        <form
+          action="https://app.unoforms.xyz/submit/szueUkkgaeQ"
+          method="post"
+          class="team-form"
+          className="flex flex-col justify-center rounded-lg gap-5 bg-white/0.2 backdrop-blur-sm  bg-transparent"
+          style={{
+            background: "rgba(0, 0, 0, 0.60)",
+            borderRadius: "21px",
+            backdropFilter: "blur(10px)",
+          }}
+        >
           <input type="hidden" name="event_name" value="CosmoCode" />
           <h1 className="md:text-4xl text-center p-5 text-white font-mono">
-          Cosmo Code Registration
+            Cosmo Code Registration
           </h1>
-          <div className="md:grid md:text-xl grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
-          <div class="form-row col-span-2">
+          <div className="md:grid md:text-xl grid-cols-2 flex flex-col gap-4 pl-5 md:p-10 max-w-screen-2xl mx-auto">
+            <div class="form-row col-span-2">
               <label for="CollegeName">College Name:</label>
               <input
                 className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
                 type="text"
                 id="CollegeName"
                 name="CollegeName"
-                placeholder="College Name"
+                // placeholder="College Name"
                 style={{
                   borderRadius: "14px",
                   background: " rgba(0, 2, 13, 0.75)",
@@ -73,80 +74,80 @@ const CosmoCode = () => {
                 required
               />
             </div>
-            <div class="form-row">
+            <div class="form-row flex flex-col">
               <label for="Name">Name:</label>
               <input
-              className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-              style={{
-                borderRadius: "14px",
-                background: " rgba(0, 2, 13, 0.75)",
-              }}
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
+                style={{
+                  borderRadius: "14px",
+                  background: " rgba(0, 2, 13, 0.75)",
+                }}
                 type="text"
                 id="Name"
                 name="Name"
-                placeholder="Name"
+                // placeholder="Name"
                 required
               />
             </div>
-            <div class="form-row">
+            <div class="form-row flex flex-col">
               <label for="Email">Email:</label>
               <input
-              className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-              style={{
-                borderRadius: "14px",
-                background: " rgba(0, 2, 13, 0.75)",
-              }}
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
+                style={{
+                  borderRadius: "14px",
+                  background: " rgba(0, 2, 13, 0.75)",
+                }}
                 type="email"
                 id="Email"
                 name="Email"
-                placeholder="E-mail"
+                // placeholder="E-mail"
                 required
               />
             </div>
             <div className="md:flex md:flex-row flex-col justify-between items-center ">
-            <div class="form-row">
-              <label for="Dept">Department:</label>
-              <input
-              className="input w-full md:w-3/4 h-16 rounded-xl px-4"
-              style={{
-                borderRadius: "14px",
-                background: " rgba(0, 2, 13, 0.75)",
-              }}
-                type="text"
-                id="Dept"
-                name="Dept"
-                placeholder="Department"
-                required
-              />
-            </div>
-            <div class="form-row ">
-              <label for="Year"> Year *:</label>
-              <input
-              className="input w-full md:w-7/8 h-16 rounded-xl px-4"
-              style={{
-                borderRadius: "14px",
-                background: " rgba(0, 2, 13, 0.75)",
-              }}
-                type="text"
-                id="Year"
-                name="Year"
-                placeholder="Year"
-                required
-              />
-            </div>
+              <div class="form-row flex flex-col">
+                <label for="Dept">Department:</label>
+                <input
+                  className="input w-3/4 h-16 rounded-xl px-4"
+                  style={{
+                    borderRadius: "14px",
+                    background: " rgba(0, 2, 13, 0.75)",
+                  }}
+                  type="text"
+                  id="Dept"
+                  name="Dept"
+                  // placeholder="Department"
+                  required
+                />
+              </div>
+              <div class="form-row flex flex-col">
+                <label for="Year"> Year *:</label>
+                <input
+                  className="input w-3/4 md:w-full h-16 rounded-xl px-4"
+                  style={{
+                    borderRadius: "14px",
+                    background: " rgba(0, 2, 13, 0.75)",
+                  }}
+                  type="text"
+                  id="Year"
+                  name="Year"
+                  // placeholder="Year"
+                  required
+                />
+              </div>
             </div>
             <div class="form-row">
               <label for="WhatsApp">WhatsApp Number:</label>
               <input
-              className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
-              style={{
-                borderRadius: "14px",
-                background: " rgba(0, 2, 13, 0.75)",
-              }}
+                className="input w-3/4 md:w-full h-16 rounded-xl md:px-4"
+                style={{
+                  borderRadius: "14px",
+                  background: " rgba(0, 2, 13, 0.75)",
+                }}
                 type="tel"
                 id="WhatsApp"
                 name="WhatsApp"
-                placeholder="WhatsApp number"
+                // placeholder="WhatsApp number"
                 required
               />
             </div>

@@ -56,7 +56,7 @@ const SpaceOdyssey = () => {
           <h1 className="md:text-4xl text-center p-5 text-white font-mono">
           Space Odyssey Registration
           </h1>
-          <div className="md:grid flex flex-col items-center justify-center md:text-xl grid-cols-2 gap-4 md:p-10 max-w-screen-2xl mx-auto">
+          <div className="md:grid flex flex-col items-center justify-center md:text-xl grid-cols-2 pl-4 gap-4 md:p-10 max-w-screen-2xl mx-auto">
             <div class="form-row col-span-2">
               <label for="TeamName">Team Name:</label>
               <input
@@ -68,7 +68,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeamName"
                 name="TeamName"
-                placeholder="Enter team name"
+                // placeholder="Enter team name"
                 required
               />
             </div>
@@ -83,7 +83,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeamLeaderName"
                 name="TeamLeaderName"
-                placeholder="Enter team leader name"
+                // placeholder="Enter team leader name"
                 required
               />
             </div>
@@ -98,7 +98,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeammateName1"
                 name="TeammateName1"
-                placeholder="Enter teammate's name"
+                // placeholder="Enter teammate's name"
               />
             </div>
             <div class="form-row">
@@ -112,7 +112,7 @@ const SpaceOdyssey = () => {
                 type="email"
                 id="TeamLeadEmail"
                 name="TeamLeadEmail"
-                placeholder="Enter team leader's email"
+                // placeholder="Enter team leader's email"
                 required
               />
             </div>
@@ -127,7 +127,7 @@ const SpaceOdyssey = () => {
                 type="email"
                 id="TeammateEmail1"
                 name="TeammateEmail1"
-                placeholder="Enter Teammate email"
+                // placeholder="Enter Teammate email"
               />
             </div>
             <div class="form-row">
@@ -141,7 +141,7 @@ const SpaceOdyssey = () => {
                 type="name"
                 id="TeamLeadEmail1"
                 name="TeamLeadEmail1"
-                placeholder="Enter TeamLead email"
+                // placeholder="Enter TeamLead email"
                 required
               />
             </div>
@@ -156,7 +156,7 @@ const SpaceOdyssey = () => {
                 type="name"
                 id="TeammateCollege"
                 name="TeammateCollege"
-                placeholder="Enter teammate's email"
+                // placeholder="Enter teammate's email"
               />
             </div>
             <div className="md:flex md:flex-row flex-col justify-between items-center ">
@@ -171,7 +171,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeamLeadDept"
                 name="TeamLeadDept"
-                placeholder="Enter team leader's department"
+                // placeholder="Enter team leader's department"
                 required
               />
             </div>
@@ -186,7 +186,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeamLeadYear"
                 name="TeamLeadYear"
-                placeholder="Enter teammate's department"
+                // placeholder="Enter teammate's department"
                 required
               />
             </div>
@@ -203,7 +203,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeamMateDept"
                 name="TeamMateDept"
-                placeholder="Enter team leader's department"
+                // placeholder="Enter team leader's department"
               />
             </div>
             <div class="form-row ">
@@ -217,7 +217,7 @@ const SpaceOdyssey = () => {
                 type="text"
                 id="TeamMateYear"
                 name="TeamMateYear"
-                placeholder="Enter teammate's department"
+                // placeholder="Enter teammate's department"
               />
             </div>
             </div>
@@ -232,7 +232,7 @@ const SpaceOdyssey = () => {
                 type="tel"
                 id="TeamLeadWhatsApp"
                 name="TeamLeadWhatsApp"
-                placeholder="Enter team leader's WhatsApp number"
+                // placeholder="Enter team leader's WhatsApp number"
                 required
               />
             </div>
@@ -247,7 +247,7 @@ const SpaceOdyssey = () => {
                 type="tel"
                 id="TeammateWhatsApp1"
                 name="TeammateWhatsApp1"
-                placeholder="Enter teammate's WhatsApp number"
+                // placeholder="Enter teammate's WhatsApp number"
               />
             </div>
           </div>
