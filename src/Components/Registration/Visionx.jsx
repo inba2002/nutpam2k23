@@ -1,7 +1,7 @@
 import React from "react";
 import "../footer.css";
 import AnimatedCursor from "react-animated-cursor";
-
+import SP from "../../Assets/visionxsample.pdf"
 import "./regform.css";
 
 function Visionx() {
@@ -222,7 +222,7 @@ function Visionx() {
                 required
               />
             </div>
-            <div className="ip-container">
+            {/* <div className="ip-container">
               <label className="ip-title" htmlFor="teammateCollegeName2">
                 Team Leader College Name <span className="req">*</span>
               </label>
@@ -234,7 +234,7 @@ function Visionx() {
                 placeholder="Teammate 2 College Name"
                 required
               />
-            </div>
+            </div> */}
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateDept2">
                 Teammate 2 Department <span className="req">*</span>
@@ -248,7 +248,7 @@ function Visionx() {
                 required
               />
             </div>
-            <div className="ip-container">
+            {/* <div className="ip-container">
               <label className="ip-title" htmlFor="teammateYear2">
                 Teammate 2 Year <span className="req">*</span>
               </label>
@@ -260,7 +260,7 @@ function Visionx() {
                 placeholder="Teammate 2 Year"
                 required
               />
-            </div>
+            </div> */}
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateWhatsApp2">
                 Teammate 2 WhatsApp Number <span className="req">*</span>
@@ -273,6 +273,9 @@ function Visionx() {
                 placeholder="Teammate 2 Whatsapp No."
                 required
               />
+            </div>
+            <div className="text-white font-bold text-xl pt-8 flex items-center justify-center gspan-2">
+            <a download="" href={SP}>Click Here to Download the Sample PPT</a>
             </div>
             <div className="ip-container flex items-center justify-center">
               <label className="ip-title flex items-center justify-center" htmlFor="teammateWhatsApp2">

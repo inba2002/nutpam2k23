@@ -82,8 +82,34 @@
   letter-spacing: 1.8px;
   transform: ease 0.5s;
 }
+.sub-button1 {
+  margin-top: 4rem;
+  width: max(300px, 15vw);
+  padding-block: 0.8rem;
+  border-radius: 4px;
+  
+  background: rgba(0, 0, 0, 0.70);
+  backdrop-filter: blur(15px);
+
+  
+  color: rgba(255, 255, 255, 0.70);
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 192%;
+  letter-spacing: 1.8px;
+  transform: ease 0.5s;
+}
 
 .sub-button:hover {
+  color: rgba(0, 0, 0);
+  background: rgba(255, 255, 255, 0.40);
+  box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.20);
+  
+}
+.sub-button1:hover {
   color: rgba(0, 0, 0);
   background: rgba(255, 255, 255, 0.40);
   box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.20);
