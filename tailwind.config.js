@@ -8,11 +8,14 @@ module.exports = {
           pixele:'#ff0cf5'
       },
       backgroundImage: {
-        back: "url(../src/Assets/updatedbg.svg)",
+        back: 
+        "url(../src/Assets/updatedbg.svg)",
         visionxbg:
           "url(../src/Components/Events/VisionX/visionxasset/visionxbg.svg)",
-        dcbg: "url(../src/Components/Events/DimensionalConquest/dimensionalconquestasset/dcbg.png)",
-        title: "url(../src/Assets/header.svg)",
+        dcbg: 
+          "url(../src/Components/Events/DimensionalConquest/dimensionalconquestasset/dcbg.png)",
+        title: 
+          "url(../src/Assets/header.svg)",
         visionxregbg:
           "url(../src/Components/Events/VisionX/visionxasset/bgblur.svg)",
         pixelbg:
@@ -25,6 +28,22 @@ module.exports = {
           "url(../src/Components/Events/SpaceOdyssey/spaceodysseyasset/spaceodbg.png)",
         aistromybg:
           "url(../src/Components/Events/AIstronomy/aiasset/aistromybg.png)",
+          visionxregbg:
+          "url(../src/Assets/VisionX_Reg_BG.png)",
+          aistronomyregbg:
+          "url(../src/Assets/Aistronomy_reg_bg.jpg)",
+          cosmocoderegbg:
+          "url(../src/Assets/Cosmocode_reg_bg.png)",
+          pixellegacyregbg:
+          "url(../src/Assets/pixellegacy_reg_bg.png)",
+          celestialpauseregbg:
+          "url(../src/Assets/celestialpause_reg_bg.png)",
+          astrocaptureregbg:
+          "url(../src/Assets/astrocapture_reg_bg.png)",
+          spaceodysseyregbg:
+          "url(../src/Assets/spaceodyssey_reg_bg.jpg)",
+          dcregbg:
+          "url(../src/Assets/dimensionalconquest_reg_bg.png)"
       },
     },
     fontFamily: {

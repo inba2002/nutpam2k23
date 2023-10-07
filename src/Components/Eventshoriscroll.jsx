@@ -75,7 +75,7 @@ const Eventshoriscroll = () => {
         <ul id='slider' className="flex flex-row gap-4 overflow-y-auto scrollbar scrollbar-thumb-pixelf scrollbar-thumb-rounded-lg scrollbar-track-transparent scrollbar-track-rounded-lg p-4 scroll-smooth">
           {cards.map((item) => (
             <li>
-                <div style={{backgroundImage:`url(${item.image})`,backgroundSize: "cover",}} className='w-[80rem] h-[40rem] flex items-center justify-end'>
+                <div style={{backgroundImage:`url(${item.image})`,backgroundSize: "cover",}} className='w-[80rem] h-[40rem] flex items-center justify-end rounded-[1rem]'>
               <div className="w-[50rem] h-[30rem] mr-10 bg-opacity-30 backdrop-filter backdrop-blur-md bg-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 scroll-smooth">
                 <h2 className="text-[32px] uppercase text-white md:px-12 md:py-5"
                       style={{ fontFamily: "manplay"}}>{item.head}</h2>
@@ -83,7 +83,7 @@ const Eventshoriscroll = () => {
                   {item.desc}
                 </p>
                 <Link to={item.navigation}>
-                <div className="w-full md:p-4 flex items-center justify-end">
+                <div className="rounded-[1rem] w-full md:p-4 flex items-center justify-end">
                 <button className="footer-bg text-white w-[18rem] h-[3rem] text-lg font-mono hover:shadow-xl hover:bg-white/75">
                 Explore & Register Now
                 </button>
