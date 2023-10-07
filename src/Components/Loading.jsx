@@ -430,24 +430,12 @@ const Loading = () => {
         <Department />
       </div>
       <Discover />
-<<<<<<< HEAD
-=======
-      <div id="deck">
-        <Deck/>
-      </div>
->>>>>>> 12334a8be42c91a9f4c48c05a14c25950278f10c
       <div id="Missions" className="hidden md:block">
         <Eventshoriscroll/>
       </div>
       <div id="Missionss" className="block md:hidden">
         <Horiscroll/>
       </div>
-<<<<<<< HEAD
-=======
-      
-      
-      
->>>>>>> 12334a8be42c91a9f4c48c05a14c25950278f10c
       <div id="Foot">
         <Footer />
       </div>
