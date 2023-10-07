@@ -47,7 +47,7 @@ function Visionx() {
           action="https://app.unoforms.xyz/submit/qb-__2_ucxi"
           method="post"
           class="team-form"
-          className="flex flex-col justify-center rounded-lg bg-white/0.2 backdrop-blur-sm p-4 gap-4  bg-transparent"
+          className="flex flex-col justify-center rounded-lg bg-white/0.2 md:mt-96 mt-[990px]  backdrop-blur-sm p-4 gap-4  bg-transparent"
           style={{
             background: "rgba(0, 0, 0, 0.60)",
             borderRadius: "21px",
