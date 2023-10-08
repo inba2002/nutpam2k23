@@ -11,7 +11,7 @@ const VisionXrules = () => {
         <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-11 gap-4">
           <h1 className="text-xl font-mono font-bold text-white">Rule-1</h1>
           <p className="font-mono font-bold text-white">
-            A team can consist of up to 3 members at most
+            A team consist of 2 members (min) and 3 members (max).
           </p>
         </div>
       </div>
