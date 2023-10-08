@@ -198,7 +198,8 @@ function Visionx() {
             </div>
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateName2">
-                Teammate Name 2 <span className="req">*</span>
+                Teammate Name 2 
+                {/* <span className="req">*</span> */}
               </label>
               <input
                 className="ip-box"
@@ -206,12 +207,13 @@ function Visionx() {
                 id="teammateName2"
                 name="teammateName2"
                 placeholder="Teammate Name 2"
-                required
+                
               />
             </div>
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateEmail2">
-                Teammate 2 Email <span className="req">*</span>
+                Teammate 2 Email 
+                {/* <span className="req">*</span> */}
               </label>
               <input
                 className="ip-box"
@@ -219,7 +221,7 @@ function Visionx() {
                 id="teammateEmail2"
                 name="teammateEmail2"
                 placeholder="Teammate 2 Email"
-                required
+                
               />
             </div>
             {/* <div className="ip-container">
@@ -237,7 +239,8 @@ function Visionx() {
             </div> */}
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateDept2">
-                Teammate 2 Department <span className="req">*</span>
+                Teammate 2 Department 
+                {/* <span className="req">*</span> */}
               </label>
               <input
                 className="ip-box"
@@ -245,7 +248,7 @@ function Visionx() {
                 id="teammateDept2"
                 name="teammateDept2"
                 placeholder="Teammate 2 Department"
-                required
+                
               />
             </div>
             {/* <div className="ip-container">
@@ -263,7 +266,8 @@ function Visionx() {
             </div> */}
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateWhatsApp2">
-                Teammate 2 WhatsApp Number <span className="req">*</span>
+                Teammate 2 WhatsApp Number 
+                {/* <span className="req">*</span> */}
               </label>
               <input
                 className="ip-box"
@@ -271,18 +275,18 @@ function Visionx() {
                 id="teammateWhatsApp2"
                 name="teammateWhatsApp2"
                 placeholder="Teammate 2 Whatsapp No."
-                required
+                
               />
             </div>
             <div className="text-white font-bold text-xl pt-8 flex items-center justify-center gspan-2">
             <a download="" href={SP}>Click Here to Download the Sample PPT</a>
             </div>
-            <div className="ip-container flex items-center justify-center">
+            {/* <div className="ip-container flex items-center justify-center">
               <label className="ip-title flex items-center justify-center" htmlFor="teammateWhatsApp2">
                 PPT Template will be shared from the event Team<span className="req">*</span>
               </label>
-              {/* <button className="flex items-center justify-center btn btn-primary" onClick={onButtonClick}>Download PPT</button> */}
-            </div>
+               <button className="flex items-center justify-center btn btn-primary" onClick={onButtonClick}>Download PPT</button>
+            </div> */}
 
             <div className="flex items-center justify-center gspan-2">
               <button className="sub-button">SUBMIT</button>
