@@ -52,7 +52,7 @@ function App() {
 {/*         
         <Loading/> */}
         <Routes>
-          <Route path="/" element={<Loading />} />
+          
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/aistronomy" element={<AIHero />} />
           <Route path="/spaceodyssey" element={<SpaceOdysseyHero />} />
@@ -76,6 +76,7 @@ function App() {
           <Route path="/celesticalRegistration" element={<CelesticalPause />}></Route>
           <Route path="/astroCaptureRegistration" element={<AstroCapture />}></Route>
           <Route path="/AistronomyRegistration" element={<Aistronomy />}></Route>
+          <Route path="/" element={<Loading />} />
   </Routes>
 
         <AnimatedCursor
