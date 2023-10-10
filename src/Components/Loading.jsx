@@ -415,7 +415,7 @@ const Loading = () => {
                 src={Title}
                 alt="title"
               ></img>
-              <CountdownTimer CountdownTimeStampMs={1697536800000} />
+              <CountdownTimer CountdownTimeStampMs={1697513400000} />
             </div>
           </div>
         </div>
