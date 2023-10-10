@@ -41,7 +41,7 @@ const Teams = () => {
       <div className="w-1/2 mx-5">
         <img src={tl} alt="" />
       </div>
-      <section className="bswipe">
+      <section className="bswipe flex items-center justify-center">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
