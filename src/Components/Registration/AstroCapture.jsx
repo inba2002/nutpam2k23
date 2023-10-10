@@ -2,7 +2,6 @@ import React from "react";
 import AstroCapturerules from "../Events/AstroCapture/AstroCapture/AstroCapturerules";
 import AnimatedCursor from "react-animated-cursor";
 
-
 import "./regform.css";
 
 const AstroCapture = () => {
@@ -46,6 +45,8 @@ const AstroCapture = () => {
             backdropFilter: 10,
           }}
         />
+        
+          
 
         <div className="reg-container">
           <h1 className="reg-title">
@@ -153,7 +154,15 @@ const AstroCapture = () => {
                 required
               />
             </div>
-
+            <li className="text-md md:text-2xl">
+              Kindly send both the images to:
+              <a
+                className="underline underline-offset-8"
+                href="mailto:astrocapture@nutpam2k23.in"
+              >
+                astrocapture@nutpam2k23.in
+              </a>
+            </li>
             <div className="flex items-center justify-center gspan-2">
               <button className="sub-button">SUBMIT</button>
             </div>

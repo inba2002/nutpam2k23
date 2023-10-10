@@ -43,7 +43,8 @@ module.exports = {
           spaceodysseyregbg:
           "url(../src/Assets/spaceodyssey_reg_bg.jpg)",
           dcregbg:
-          "url(../src/Assets/dimensionalconquest_reg_bg.png)"
+          "url(../src/Assets/dimensionalconquest_reg_bg.png)",
+          successbg:"url(../src/Assets/success-bg.png)"
       },
     },
     fontFamily: {

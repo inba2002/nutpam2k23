@@ -34,6 +34,7 @@ import AstroCapture from "./Components/Registration/AstroCapture";
 import Deck from "./Components/Slider/Deck";
 import Eventshoriscroll from "./Components/Eventshoriscroll";
 import { Loader } from "@react-three/drei";
+import Success from "./Components/success";
 
 
 // const override: CSSProperties = {
@@ -76,6 +77,7 @@ function App() {
           <Route path="/celesticalRegistration" element={<CelesticalPause />}></Route>
           <Route path="/astroCaptureRegistration" element={<AstroCapture />}></Route>
           <Route path="/AistronomyRegistration" element={<Aistronomy />}></Route>
+          <Route path="/RegistrationSuccessful" element={<Success />}></Route>
           <Route path="/" element={<Loading />} />
   </Routes>
 
