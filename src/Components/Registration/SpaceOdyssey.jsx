@@ -164,7 +164,7 @@ const SpaceOdyssey = () => {
 
             <div class="form-row">
               <label className="ip-title" for="TeammateName1">
-                Teammate Name <span className="req">*</span>
+                Teammate Name 
               </label>
               <input
                 className="ip-box"
@@ -176,7 +176,7 @@ const SpaceOdyssey = () => {
             </div>
             <div class="form-row">
               <label className="ip-title" for="TeammateEmail1">
-                Teammate Email <span className="req">*</span>
+                Teammate Email 
               </label>
               <input
                 className="ip-box"
@@ -188,7 +188,7 @@ const SpaceOdyssey = () => {
             </div>
             <div class="form-row">
               <label className="ip-title" for="TeammateCollege">
-                Teammate College Name * <span className="req">*</span>
+                Teammate College Name 
               </label>
               <input
                 className="ip-box"
@@ -201,7 +201,7 @@ const SpaceOdyssey = () => {
 
             <div class="form-row">
               <label className="ip-title" for="TeamMateDept">
-                TeamMate Department <span className="req">*</span>
+                TeamMate Department 
               </label>
               <input
                 className="ip-box"
@@ -213,7 +213,7 @@ const SpaceOdyssey = () => {
             </div>
             <div class="form-row ">
               <label className="ip-title" for="TeamMateYear">
-                TeamMate Year * <span className="req">*</span>
+                TeamMate Year 
               </label>
               <input
                 className="ip-box"
@@ -225,7 +225,7 @@ const SpaceOdyssey = () => {
             </div>
             <div class="form-row">
               <label className="ip-title" for="TeammateWhatsApp1">
-                Teammate WhatsApp Number <span className="req">*</span>
+                Teammate WhatsApp Number 
               </label>
               <input
                 className="ip-box"
