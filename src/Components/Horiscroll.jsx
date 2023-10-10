@@ -179,9 +179,8 @@ const Horiscroll = () => {
             </h1>
             <p className="text-[18px] font-mono text-white">
               {" "}
-              Celestical Pause is an musical fun based event , where you can
-              enjoy your time with music.Celestical Pause is an musical fun
-              based event , where you can enjoy your time with music
+              Celestial Pause is an musical fun based event , where you can
+              enjoy your time with music.
             </p>
             <Link to="/celestialpause">
               <div className="w-full p-4 flex items-center justify-center">

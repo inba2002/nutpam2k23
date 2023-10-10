@@ -237,7 +237,7 @@ function Visionx() {
                 
               />
             </div>
-            {/* <div className="ip-container">
+            <div className="ip-container">
               <label className="ip-title" htmlFor="teammateCollegeName2">
                 Team Leader College Name <span className="req">*</span>
               </label>
@@ -249,7 +249,7 @@ function Visionx() {
                 placeholder="Teammate 2 College Name"
                 required
               />
-            </div> */}
+            </div>
             <div className="ip-container">
               <label className="ip-title" htmlFor="teammateDept2">
                 Teammate 2 Department 
@@ -292,7 +292,7 @@ function Visionx() {
               />
             </div>
             <div className="text-white font-bold text-xl pt-8 flex items-center justify-center gspan-2">
-            <a download="" href={SP}>Click Here to Download the Sample PPT</a>
+            <a download="" className="underline underline-offset-4 decoration-blue-500" href={SP}>Click Here to Download the Sample PPT</a>
             </div>
             {/* <div className="ip-container flex items-center justify-center">
               <label className="ip-title flex items-center justify-center" htmlFor="teammateWhatsApp2">
