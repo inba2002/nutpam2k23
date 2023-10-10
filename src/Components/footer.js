@@ -93,7 +93,7 @@ export default function Footer() {
             <div>
               <div className="pt-8 md:pt-0 flex flex-col gap-5">
                 <p>Staff Coordinators:</p>
-                <p>Mr. J. Padmanaban</p>
+                <p>Mr. J. Pathmanaban</p>
                 <div className="flex items-center gap-5">
                   <FaPhoneAlt />
                   <a href="tel:+916383154281">63831 54281</a>
