@@ -70,9 +70,12 @@ const CelesticalPaiseHero = () => {
       <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
         {/* Content for the first cell */}
         <div className=" flex flex-col items-center justify-center">
+          <div className='w-full md:w-5/6'>
           <img src={xtitle} className='px-8 md:px-8' alt=""/>
+          </div>
+          
           {/* <img className='pt-8' src={mreport} alt="" /> */}
-          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-8'>
+          <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-8'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
                 <div className=' w-full text-justify  flex flex-col items-start justify-start'>
@@ -80,19 +83,19 @@ const CelesticalPaiseHero = () => {
                 </div>
             </div>
           </div>
-          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10'>
+          <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-10'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold text-[20px] w-[20rem] pb-2 text-white'>Round 1:</h1>
-                <div className=' w-full text-justify  flex flex-col items-center justify-center'>
+                <div className=' w-full text-justify  flex flex-col items-start justify-center'>
                 <p className='font-mono text-white text-[20px] pb-2 pt-4'>1.English lyrics of an tamil song will be displayed on the screen,participants should find the answer(tamil song)</p>
                 <p  className='font-mono text-white text-[20px] pb-2'>2.ballon should be blowed and blast to answer the question.</p>
                 </div>
             </div>
           </div>
-          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10'>
+          <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-10'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold text-2xl w-[20rem] pb-2 text-white'>Round 2:</h1>
-                <div className=' w-full text-justify  flex flex-col items-center justify-center'>
+                <div className=' w-full text-justify  flex flex-col items-start justify-center'>
                 <p className='font-mono text-white text-lg pb-2 pt-4'>1.Pictures are displayed on the screen,guess the song by connecting the pics</p>
                 <p  className='font-mono text-white text-lg pb-2'>2.special drink should be drink by an team member to answer the question</p>
                 </div>

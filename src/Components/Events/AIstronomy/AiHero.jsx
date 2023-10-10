@@ -72,9 +72,12 @@ const AiHero = () => {
       <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
         {/* Content for the first cell */}
         <div className=" flex flex-col items-center justify-center">
+          <div className='w-full md:w-5/6'>
           <img src={xtitle} className='px-8 md:px-8' alt=""/>
+          </div>
+          
           {/* <img src={mreport} className='pt-8 md:pl-[5rem] pb-8' alt="" /> */}
-          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-8'>
+          <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-8'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
                 <div className=' w-full text-justify  flex flex-col items-start justify-start'>
@@ -82,7 +85,7 @@ const AiHero = () => {
                 </div>
             </div>
           </div>
-          <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
+          <div className="w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-10">
               <div className=" w-full  flex-col  flex items-start justify-start">
                 <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
                 Round 1
@@ -97,7 +100,7 @@ const AiHero = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
+            <div className="w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-10">
               <div className=" w-full  flex-col  flex items-start justify-start">
                 <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
                 Round 2

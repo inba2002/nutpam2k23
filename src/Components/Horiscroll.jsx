@@ -255,7 +255,7 @@ const Horiscroll = () => {
         >
           <div className=" text-justify bg-gradient-to-br from-white/20 to-white/0 backdrop-blur-lg p-4 m-8 flex flex-col items-center justify-center">
             <h1
-              className="text-[32px] uppercase text-white pb-8"
+              className=" text-[32px] uppercase text-white pb-8"
               style={{ fontFamily: "manplay" }}
             >
               DIMENSIONAL CONQUEST

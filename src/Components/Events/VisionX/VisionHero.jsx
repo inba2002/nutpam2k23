@@ -77,12 +77,15 @@ const VisionHero = () => {
       <img src={VisionBg} className="object-cover w-full" />
       </div> */}
       <div className="flex flex-wrap z-10 h-full">
-        <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
+        <div className="w-full md:w-5/6 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
           {/* Content for the first cell */}
           <div className=" flex flex-col items-center justify-center">
-            <img src={xtitle} alt="" />
+            <div className="w-full md:w-5/6">
+            <img src={xtitle} alt="" />  
+            </div>
+            
             {/* <img src={mreport} alt="" /> */}
-            <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12'>
+            <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
                 <div className=' w-full text-justify  flex flex-col items-start justify-start'>
@@ -115,9 +118,6 @@ const VisionHero = () => {
                 </p>
                 <p className="font-mono text-white text-lg pb-2">
                   JaiSurya S <a href="tel:+919840680496">9840680496</a>
-                </p>
-                <p className="font-mono text-white text-lg pb-2">
-                Navin D <a href="tel:+916369097508">6369097508</a>
                 </p>
                 <p className="font-mono text-white text-lg pb-2">
                 Muthu Priya <a href="tel:+9172009 65530">72009 65530</a>

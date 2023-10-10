@@ -46,6 +46,10 @@ module.exports = {
           "url(../src/Assets/dimensionalconquest_reg_bg.png)",
           successbg:"url(../src/Assets/success-bg.png)"
       },
+      cursor: {
+        // Define your custom cursor styles here
+        'custom-cursor': 'url(../src/Assets/curso.png), auto',
+      },
     },
     fontFamily: {
       anurati: ["Anurati", "sans-serif"],

@@ -22,7 +22,7 @@ function Visionx() {
 
   return (
     <>
-      <div className="bg-visionxregbg p-10 bg-cover h-[350vh] md:h-[200vh] flex flex-col items-center justify-center">
+      <div className="bg-visionxregbg p-10 bg-cover flex flex-col items-center justify-center">
         <AnimatedCursor
           className="z-50"
           // clickables={[
@@ -101,6 +101,19 @@ function Visionx() {
                 id="teamLeaderName"
                 name="teamLeaderName"
                 placeholder="Leader Name"
+                required
+              />
+            </div>
+            <div className="ip-container">
+              <label className="ip-title" htmlFor="teammateCollegeName2">
+                Team Leader College Name <span className="req">*</span>
+              </label>
+              <input
+                className="ip-box"
+                type="text"
+                id="teammateCollegeName2"
+                name="teammateCollegeName2"
+                placeholder="Teammate 2 College Name"
                 required
               />
             </div>
