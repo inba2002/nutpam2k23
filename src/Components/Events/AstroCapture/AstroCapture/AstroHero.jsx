@@ -74,10 +74,12 @@ const AstroHero = () => {
       <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
         {/* Content for the first cell */}
         <div className=" flex flex-col items-center justify-center">
+          <div className='w-full md:w-5/6'>
           <img src={xtitle} className='pt-20' alt=""/>
+          </div>
           {/* <img src={mreport} className='pt-10 md:ml-[-5rem]' alt="" /> */}
           {/* <img src={criteria} className='pt-10 pb-[5rem] ml-[2rem]' alt="" /> */}
-          <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12'>
+          <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
                 <div className=' w-full text-justify  flex flex-col items-start justify-start'>
@@ -85,7 +87,7 @@ const AstroHero = () => {
                 <p  className='font-mono text-white font-bold text-[20px] pb-2 pt-6'>Instagram ID; @astrocapture</p>
                 <p  className='font-mono text-white font-bold text-[20px] pb-2 pt-6'>Theme: Life on Land (Night photography)</p>
                 <p  className='font-mono text-white font-bold text-[20px] pb-2 pt-6'>Evaluation criteria: </p>
-                <p  className='font-mono text-white font-bold text-[20px] pb-2 '>1.Theme      2.Frame composition  3.Sharpness and contrast   4.Focus frame and background      5.Lighting </p>
+                <p  className='font-mono text-white font-bold text-[20px] pb-2 '>1.Theme      2.Frame composition  3.Sharpness and contrast      4.Lighting </p>
                 </div>
             </div>
           </div>

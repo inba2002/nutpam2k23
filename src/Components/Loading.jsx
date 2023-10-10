@@ -19,6 +19,7 @@ import Navbar from "./Navbar";
 import { Stars } from "@react-three/drei";
 import Deck from "./Slider/Deck";
 import Eventshoriscroll from "./Eventshoriscroll";
+import Teams from "./Teams/Teams";
 
 const Loading = () => {
   return (
@@ -40,7 +41,7 @@ const Loading = () => {
                   </li>
 
                   <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
-                    <a>Team</a>
+                    <a href="#Teams">Team</a>
                   </li>
                   <li className="hover:text-white/50 w-24 h-10 hover:bg-white/25 flex items-center justify-center">
                     <a href="#Foot">Contact</a>
@@ -82,7 +83,7 @@ const Loading = () => {
                     </li>
 
                     <li>
-                      <a>Team</a>
+                      <a href="#Teams">Team</a>
                     </li>
                     <li>
                       <a href="#Foot">Contact</a>
@@ -435,6 +436,9 @@ const Loading = () => {
       </div>
       <div id="Missionss" className="block md:hidden">
         <Horiscroll/>
+      </div>
+      <div id="Teams" >
+        <Teams/>
       </div>
       <div id="Foot">
         <Footer />

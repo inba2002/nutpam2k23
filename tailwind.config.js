@@ -45,6 +45,10 @@ module.exports = {
           dcregbg:
           "url(../src/Assets/dimensionalconquest_reg_bg.png)"
       },
+      cursor: {
+        // Define your custom cursor styles here
+        'custom-cursor': 'url(../src/Assets/curso.png), auto',
+      },
     },
     fontFamily: {
       anurati: ["Anurati", "sans-serif"],

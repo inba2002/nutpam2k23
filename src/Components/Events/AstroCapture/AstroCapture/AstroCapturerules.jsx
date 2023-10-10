@@ -31,7 +31,7 @@ const AstroCapturerules = () => {
           Rule-3
           </h1>
           <p className='font-mono text-white'>
-          The contest image must be sent along with a photo taken using GPS camera from same location.
+          The contest image must be sent along with a RAW (Unedited) image.
           </p>
       </div>
       </div>

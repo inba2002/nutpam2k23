@@ -75,8 +75,11 @@ const CosmoHero = () => {
         <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 flex  justify-center p-8">
           {/* Content for the first cell */}
           <div className=" flex flex-col items-center justify-center">
+            <div className="w-full md:w-5/6">
             <img src={xtitle} className="px-4 md:px-8" alt="" />
-            <div className='w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-8'>
+            </div>
+            
+            <div className='w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-8'>
             <div className=' w-full  flex-col  flex items-start justify-start'>
                 <h1 className='font-mono font-bold italic text-[24px] w-[20rem] pb-2 text-white'>MISSION REPORT</h1>
                 <div className=' w-full text-justify  flex flex-col items-start justify-start'>
@@ -84,7 +87,7 @@ const CosmoHero = () => {
                 </div>
             </div>
           </div>
-            <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
+            <div className="w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-10">
               <div className=" w-full  flex-col  flex items-start justify-start">
                 <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
                 Round 1
@@ -93,7 +96,7 @@ const CosmoHero = () => {
                   <p className="font-mono text-white text-lg pb-2 pt-4">
                   In the first round, participants will embark on a 30-minute coding journey filled with challenges. They will encounter three intriguing coding challenges:
                   </p>
-                  <ol className="list-decimal">
+                  <ol className="list-decimal ">
                     <li className="font-mono text-white text-lg pb-2 pt-4">Jumbled Coding: Untangle the code and bring order to chaos.</li>
                     <li className="font-mono text-white text-lg pb-2 pt-4">Debugging: Hunt down and fix elusive bugs in the provided code.</li>
                     <li className="font-mono text-white text-lg pb-2 pt-4">Blind Coding: Trust your instincts and code without seeing the output in real-time.</li>
@@ -104,7 +107,7 @@ const CosmoHero = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-3/5 flex flex-col items-start justify-start pt-12 px-10">
+            <div className="w-full md:w-5/6 flex flex-col items-start justify-start pt-12 px-10">
               <div className=" w-full  flex-col  flex items-start justify-start">
                 <h1 className="font-mono font-bold text-2xl w-[20rem] pb-2 text-white">
                 Round 2

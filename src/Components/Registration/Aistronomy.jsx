@@ -6,7 +6,7 @@ import "./regform.css";
 const Aistronomy = () => {
   return (
     <>
-      <div className="bg-aistronomyregbg p-10 bg-cover h-[390vh] md:h-[250vh] flex flex-col items-center justify-center">
+      <div className="bg-aistronomyregbg p-10 bg-cover  flex flex-col items-center justify-center">
         <AnimatedCursor
           className="z-50"
           // clickables={[

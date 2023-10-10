@@ -36,6 +36,7 @@ import Eventshoriscroll from "./Components/Eventshoriscroll";
 import { Loader } from "@react-three/drei";
 
 
+
 // const override: CSSProperties = {
 //   display: "block",
 //   margin: "0 auto",
@@ -48,7 +49,7 @@ function App() {
   return (
     <>
     
-      <div className="w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
+      <div className="cursor-custom-cursor w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
 {/*         
         <Loading/> */}
         <Routes>
@@ -79,7 +80,7 @@ function App() {
           <Route path="/" element={<Loading />} />
   </Routes>
 
-        <AnimatedCursor
+        {/* <AnimatedCursor
           // clickables={[
           //   "a",
           //   'input[type="text"]',
@@ -114,7 +115,7 @@ function App() {
             mixBlendMode: "exclusion",
             backdropFilter: 10,
           }}
-        />
+        /> */}
       </div>
       
     </>

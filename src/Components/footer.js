@@ -73,11 +73,11 @@ export default function Footer() {
           <div className="md:flex items-center md:text-2xl md:px-10  justify-between">
             <p>CONTACT US</p>
             <p className="flex items-center justify-center gap-2 text-md md:text-2xl md:gap-4">
-            <HiMail /> <a href="mailto:nutpam.cse@sairamit.edu.in">nutpam.cse@sairamit.edu.in</a>
+            <HiMail /> <a href="mailto:nutpam.cse@sairamit.edu.in">nutpam@sairamit.edu.in</a>
             </p>
           </div>
           <div className="md:flex md:px-32 items-center justify-between md:p-16">
-            <div className="flex flex-col gap-5">
+            <div className="pt-8 md:pt-0 flex flex-col gap-5">
               <p>Student Coordinators:</p>
               <p>Sownthararaaj S</p>
               <div className="flex items-center gap-5">
@@ -91,7 +91,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col gap-5">
+              <div className="pt-8 md:pt-0 flex flex-col gap-5">
                 <p>Staff Coordinators:</p>
                 <p>Mr. J. Padmanaban</p>
                 <div className="flex items-center gap-5">
@@ -105,7 +105,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="pt-8 md:pt-0 flex flex-col gap-4">
               <p>Location</p>
               <div className="w-auto h-auto">
                 <iframe
