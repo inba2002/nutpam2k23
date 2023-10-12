@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import xtitle from "../PixelLegacy/pixellegacyasset/xtitlesvg.svg";
-import mreport from "../PixelLegacy/pixellegacyasset/missionreport.svg";
 import image from "./pixellegacyasset/pixel.png";
-import "./pixellegacy.css";
+
 import PixelLegacyrules from "./PixelLegacyrules";
 import Footer from "../../footer";
 

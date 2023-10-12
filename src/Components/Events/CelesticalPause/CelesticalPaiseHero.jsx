@@ -1,6 +1,5 @@
 import React from 'react'
 import xtitle from './celesticalpauseasset/celestictitle.svg'
-import mreport from './celesticalpauseasset/celesticdesc.svg'
 import image from '../CelesticalPause/celesticalpauseasset/cpbg.png'
 import CelesticalPauserules from './CelesticalPauserules'
 import { Link } from 'react-router-dom'

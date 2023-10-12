@@ -1,5 +1,5 @@
 import React from 'react'
-import reg from "./astrocaptureasset/visionxreg.svg"
+
 import { Link } from 'react-router-dom'
 const AstroCapturerules = () => {
   return (

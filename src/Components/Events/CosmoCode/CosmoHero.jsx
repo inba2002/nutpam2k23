@@ -1,12 +1,11 @@
 import React from "react";
-import VisionBg from "../CosmoCode/cosmocodeasset/visionxbg.svg";
 import xtitle from "../CosmoCode/cosmocodeasset/xtitlesvg.svg";
-import mreport from "../CosmoCode/cosmocodeasset/missionreport.svg";
 import { Link } from "react-router-dom";
 import image from "./cosmocodeasset/image.svg";
 import "./cosmocode.css";
 import CosmoCoderules from "./CosmoCoderules";
 import Footer from "../../footer";
+
 
 const CosmoHero = () => {
   return (

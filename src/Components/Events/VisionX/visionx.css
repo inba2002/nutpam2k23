@@ -1,5 +1,5 @@
-.bgvision {
-    background-image: url("./visionxasset/visionxbg.svg"); /* Replace with your background image path */
+/* .bgvision {
+    background-image: url("./visionxasset/visionxbg.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,4 +12,4 @@
       rgba(244, 244, 249, 0) 108.47%
     );
     backdrop-filter: blur(4px);
-  }
+  } */

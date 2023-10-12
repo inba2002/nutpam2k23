@@ -1,8 +1,5 @@
 import React from 'react'
-import VisionBg from "../AstroCapture/astrocaptureasset/visionxbg.svg"
 import xtitle from "../AstroCapture/astrocaptureasset/astrotit.png"
-import criteria from "../AstroCapture/astrocaptureasset/criteria.svg"
-import mreport from "../AstroCapture/astrocaptureasset/missionreport.svg"
 import { Link } from 'react-router-dom'
 import image from "./astrocaptureasset/astrocbg.png"
 import "./astrocapture.css";

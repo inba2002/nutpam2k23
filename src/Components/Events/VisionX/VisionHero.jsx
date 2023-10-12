@@ -1,11 +1,10 @@
 import React from "react";
 
 import xtitle from "../VisionX/visionxasset/xtitlesvg.svg";
-import mreport from "../VisionX/visionxasset/missionreport.svg";
 import AnimatedCursor from "react-animated-cursor";
 import image from "./visionxasset/visionbg.png";
 
-import "./visionx.css";
+
 import VisionXrules from "./VisionXrules";
 
 import Footer from "../../footer";
