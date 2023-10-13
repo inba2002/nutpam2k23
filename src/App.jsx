@@ -86,6 +86,7 @@ function App() {
           ></Route>
           <Route path="/RegistrationSuccessful" element={<Success />}></Route>
           <Route path="/" element={<Loading />} />
+          <Route path="/teams" element={<Teamstree/>}></Route>
         </Routes>
 
         <AnimatedCursor
