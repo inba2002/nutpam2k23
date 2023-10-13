@@ -15,7 +15,7 @@ import tl from "../../Assets/teamlist.svg"
 import hod from "../../Assets/Crew/Staff/hod.jpg"
 import padhu from "../../Assets/Crew/Staff/padhu.jpg"
 import nirmala from "../../Assets/Crew/Staff/nirmaladevi.jpg"
-
+import sangeetha from "../../Assets/Crew/Core/sangeetha.jpg"
 import vasanth from "../../Assets/Crew/Core/vasanth.jpeg"
 import sownthar from "../../Assets/Crew/Core/sownthar.jpg"
 import ebhish from "../../Assets/Crew/Core/ebhish.jpg"
@@ -28,9 +28,9 @@ const Teams = () => {
     {image:padhu,name:"Mr.J.Pathmanaban",designation:"Event Coordinator",role:""},
     {image:sownthar,name:"S.Sownthararaaj",designation:"Chairman",role:""},
     {image:ebhish,name:"G.V.Ebishdon",designation:"Vice Chairman",role:""},
-    {image:vasanth,name:"V.Vasanthpriyadharsan",designation:"Secretary",role:""},
+    {image:vasanth,name:"V.Vasanth Priyadharsan",designation:"Secretary",role:""},
     {image:abhi,name:"M.Abhishek",designation:"Vice Secretary",role:""},
-    {image:"",name:"S.Sangeetha",designation:"Treasurer",role:""},
+    {image:sangeetha,name:"S.Sangeetha",designation:"Treasurer",role:""},
     {image:indhu,name:"S.Indhu Priyadharhini",designation:"Vice Treasurer"},
     {image:nirmala,name:"Mrs.G.Nirmala Devi",designation:"Event Coordinator",role:""},
     
@@ -41,7 +41,7 @@ const Teams = () => {
       <div className="w-1/2 mx-5">
         <img src={tl} alt="" />
       </div>
-      <section className="bswipe flex items-center justify-center">
+      <section className="bswipe w-full flex items-center justify-center">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
