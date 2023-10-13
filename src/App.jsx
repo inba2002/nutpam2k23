@@ -36,8 +36,7 @@ import Eventshoriscroll from "./Components/Eventshoriscroll";
 import { Loader } from "@react-three/drei";
 import Success from "./Components/success";
 import Teamstree from "./Components/Teams/Teamstree";
-
-
+import Closed from "./Components/closed";
 
 // const override: CSSProperties = {
 //   display: "block",
@@ -50,18 +49,14 @@ function App() {
   let [color, setColor] = useState("#ffffff");
   return (
     <>
-    
       <div className="cursor-custom-cursor w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
-      <Teamstree/>
-{/*         
-        <Loading/> */}
-        {/* <Routes>
-          
+        
+        <Routes>
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/aistronomy" element={<AIHero />} />
           <Route path="/spaceodyssey" element={<SpaceOdysseyHero />} />
           <Route path="/astrocapture" element={<AstroHero />} />
-          
+          <Route path="/closed" element={<Closed />}></Route>
           <Route
             path="/dimensionalconquest"
             element={<DimensionalConquestHero />}
@@ -70,21 +65,30 @@ function App() {
           <Route path="/visionx" element={<VisionHero />} />
           <Route path="/pixellegacy" element={<PixelHero />} />
           <Route path="/visionxRegistration" element={<Visionx />}></Route>
+          <Route path="/spaceodysseyRegistration" element={<SpaceOdyssey />} />
+          <Route path="/pixelLegacyRegistration" element={<PixelLegacy />} />
           <Route
-            path="/spaceodysseyRegistration"
-            element={<SpaceOdyssey />}
+            path="/dimensionalConquestRegistration"
+            element={<DimensionalConquest />}
           />
-          <Route path="/pixelLegacyRegistration" element={<PixelLegacy/>}/>
-          <Route path="/dimensionalConquestRegistration" element={<DimensionalConquest />} />
-          <Route path="/cosmoCodeRegistration" element={<CosmoCode />}/>
-          <Route path="/celesticalRegistration" element={<CelesticalPause />}></Route>
-          <Route path="/astroCaptureRegistration" element={<AstroCapture />}></Route>
-          <Route path="/AistronomyRegistration" element={<Aistronomy />}></Route>
+          <Route path="/cosmoCodeRegistration" element={<CosmoCode />} />
+          <Route
+            path="/celesticalRegistration"
+            element={<CelesticalPause />}
+          ></Route>
+          <Route
+            path="/astroCaptureRegistration"
+            element={<AstroCapture />}
+          ></Route>
+          <Route
+            path="/AistronomyRegistration"
+            element={<Aistronomy />}
+          ></Route>
           <Route path="/RegistrationSuccessful" element={<Success />}></Route>
           <Route path="/" element={<Loading />} />
-  </Routes> */}
+        </Routes>
 
-        {/* <AnimatedCursor
+        <AnimatedCursor
           // clickables={[
           //   "a",
           //   'input[type="text"]',
@@ -119,9 +123,8 @@ function App() {
             mixBlendMode: "exclusion",
             backdropFilter: 10,
           }}
-        /> */}
+        />
       </div>
-      
     </>
   );
 }

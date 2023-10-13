@@ -10,6 +10,7 @@ import abhi from "../../Assets/Crew/Core/abhi.jpg"
 import sangee from "../../Assets/Crew/Core/sangeetha.jpg"
 import indhu from "../../Assets/Crew/Core/indhu.jpg"
 
+import karthik from "../../Assets/Crew/designdev/Karthik.png"
 import inba from "../../Assets/Crew/designdev/inba.jpg"
 import ani from "../../Assets/Crew/designdev/anijpg.jpg"
 import dhaas from "../../Assets/Crew/designdev/dhaas.jpg"
@@ -34,6 +35,7 @@ import vishali from "../../Assets/Crew/socialmedia/vishali.jpeg"
 import durga from "../../Assets/Crew/socialmedia/jayadurga.jpg"
 import aswanth from "../../Assets/Crew/socialmedia/aswanth.jpg"
 import yuvanesh from "../../Assets/Crew/socialmedia/yuvanesh.jpg"
+import raj from "../../Assets/Crew/office/raj.jpg"
 
 import rajalakshmi from "../../Assets/Crew/visionx/rajalakshmi.jpg"
 import suganya from "../../Assets/Crew/visionx/suganya.jpg"
@@ -67,6 +69,16 @@ import aashrith from "../../Assets/Crew/pixellegacy/aashrith.jpg"
 import rama from "../../Assets/Crew/pixellegacy/jayarama.jpeg"
 import varsh from "../../Assets/Crew/pixellegacy/varshini.jpg"
 
+
+
+import viveka from "../../Assets/Crew/celestial/vivekanandhan.jpg"
+import midhuna from "../../Assets/Crew/celestial/midhuna.jpg"
+import barathkumar from "../../Assets/Crew/celestial/barath.jpg"
+import deeya from "../../Assets/Crew/celestial/deeya.jpeg"
+import madhu from "../../Assets/Crew/celestial/madhu.jpg"
+import pavi from "../../Assets/Crew/celestial/pavithra.jpg"
+import viki from "../../Assets/Crew/celestial/vignesh.jpg"
+
 const Teamstree = () => {
   const coreteam=[
     {image:hod,name:"Dr.B.Sreedevi",role:"HOD CSE"},
@@ -81,15 +93,15 @@ const Teamstree = () => {
   ]
   const devteam=[
     {image:inba,name:"Inbasekar S",role:"Web Developer"},
-    {image:ani,name:"Karthik Maharaja A V",role:"Web Developer"},
+    {image:karthik,name:"Karthik Maharaja A V",role:"Web Developer"},
     {image:ani,name:"Anirudh P Menon",role:"Web Developer"},
     {image:dhaas,name:"Dhaasarathy M",role:"Web Developer"},
     {image:ebhish,name:"Dhanush G",role:"Web Developer"},
     {image:barath,name:"Bharathraj N",role:"Web Developer"},
   ]
   const designteam=[
-    {image:ij,name:"Harish I J",role:"Graphic Designer"},
-    {image:shylash,name:"Shylash Roshin Raj M Y",role:"Graphic Designer"},
+    {image:ij,name:"Harish I J",role:"Graphic Designer & Video Editor"},
+    {image:shylash,name:"Shylashroshinraj M Y",role:"Graphic Designer & Video Editor"},
     {image:janahar,name:"Janahar S",role:"Graphic Designer"},
     {image:sa,name:"Sakthi Arunachalam S",role:"Graphic Designer"},
   ]
@@ -152,6 +164,20 @@ const Teamstree = () => {
     {image:rama,name:"Jayaramakrishna D",role:"Event Coordinator"},
     {image:varsh,name:"Varshini S",role:"Event Coordinator"},
   ]
+  const celestial=[
+    
+      {image:midhuna,name:"Ms.G Midhunadharshini",role:"Staff Coordinator"},
+      {image:viveka,name:"Mr.Vivekanandan G",role:"Staff Coordinator"},
+      {image:barathkumar,name:"Barath Kumar",role:"Event Coordinator"},
+      {image:deeya,name:"Deeyanesh",role:"Event Coordinator"},
+      {image:madhu,name:"Madhumitha",role:"Event Coordinator"},
+      {image:pavi,name:"Pavithra S",role:"Event Coordinator"},
+      {image:viki,name:"Vignesh T",role:"Event Coordinator"},
+    
+  ]
+  const dimen = [
+    {image:madhu,name:"Madhumitha",role:"Event Coordinator"},
+  ]
 
   return (
     <div className="w-full min-h-screen flex flex-wrap justify-center items-center gap-3 py-5 text-white">
@@ -161,7 +187,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Core Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
         
           {coreteam.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -187,7 +213,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Development Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
         
           {devteam.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -213,7 +239,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Design Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
         
           {designteam.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -227,7 +253,7 @@ const Teamstree = () => {
                 <p class="mt-3 tracking-wide font-mono text-sm md:text-lg lg:text-lg text-shadow">
                   {item.name}
                 </p>
-                <p class="mb-3 tracking-wide font-mono text-sm md:text-base lg:text-base text-shadow ">
+                <p class="mb-3 tracking-wide text-center font-mono text-sm md:text-base lg:text-base text-shadow ">
                   {item.role}
                 </p>
               </div>
@@ -265,7 +291,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Office Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
         
           {officeteam.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -292,7 +318,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Digital Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
         
           {digitalteam.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -322,7 +348,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>VisionX Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
         
           {visionx.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -348,7 +374,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>AIstronomy Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
         
           {aistronomy.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -374,7 +400,7 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>CosmoCode Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-3 md:gap-8 place-items-center py-8 lg:px-10 px-5">
         
           {cosmocode.map((item)=>(
             <div className='flex items-center justify-center'>
@@ -400,9 +426,61 @@ const Teamstree = () => {
       <div className='w-full flex items-center justify-center'>
         <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Pixel Legacy Astronauts</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-10 px-5">
         
           {pixellegacy.map((item)=>(
+            <div className='flex items-center justify-center'>
+              <div class="bg-white/[0.1] rounded-xl backdrop-blur-3xl w-full md:w-80 lg:w-80 bg-white bg-opacity-10 p-3 text-white border border-gray-300 shadow-lg">
+              <div className='w-full flex flex-col items-center justify-center'>
+                <img
+                  src={item.image}
+                  alt="image1"
+                  class="flex items-center justify-center w-48 h-48 object-cover mb-2 rounded-full"
+                />
+                <p class="mt-3 tracking-wide font-mono text-sm md:text-lg lg:text-lg text-shadow">
+                  {item.name}
+                </p>
+                <p class="mb-3 tracking-wide font-mono text-sm md:text-base lg:text-base text-shadow">
+                  {item.role}
+                </p>
+              </div>
+            </div>
+            </div>
+          ))}
+        
+      </div>
+      <div className='w-full flex items-center justify-center'>
+        <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Celestial Pasuse Astronauts</h1>
+      </div>
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
+        
+          {celestial.map((item)=>(
+            <div className='flex items-center justify-center'>
+              <div class="bg-white/[0.1] rounded-xl backdrop-blur-3xl w-full md:w-80 lg:w-80 bg-white bg-opacity-10 p-3 text-white border border-gray-300 shadow-lg">
+              <div className='w-full flex flex-col items-center justify-center'>
+                <img
+                  src={item.image}
+                  alt="image1"
+                  class="flex items-center justify-center w-48 h-48 object-cover mb-2 rounded-full"
+                />
+                <p class="mt-3 tracking-wide font-mono text-sm md:text-lg lg:text-lg text-shadow">
+                  {item.name}
+                </p>
+                <p class="mb-3 tracking-wide font-mono text-sm md:text-base lg:text-base text-shadow">
+                  {item.role}
+                </p>
+              </div>
+            </div>
+            </div>
+          ))}
+        
+      </div>
+      <div className='w-full flex items-center justify-center'>
+        <h1 className='font-mono md:text-[3rem] lg:text-[3rem] text-[2rem] text-center'>Dimensional Conquest Astronauts</h1>
+      </div>
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8 place-items-center py-8 lg:px-8 px-5">
+        
+          {celestial.map((item)=>(
             <div className='flex items-center justify-center'>
               <div class="bg-white/[0.1] rounded-xl backdrop-blur-3xl w-full md:w-80 lg:w-80 bg-white bg-opacity-10 p-3 text-white border border-gray-300 shadow-lg">
               <div className='w-full flex flex-col items-center justify-center'>

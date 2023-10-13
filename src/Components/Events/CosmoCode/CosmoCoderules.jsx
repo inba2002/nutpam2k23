@@ -100,7 +100,7 @@ const CosmoCoderules = () => {
         </div>
       </div>
       <div className="w-full md:p-4 p-2 flex items-center justify-center">
-      <Link to="/cosmoCodeRegistration">
+      <Link to="/closed">
           <button className="footer-bg text-white w-64 h-24 text-2xl font-mono hover:shadow-xl hover:bg-white/75">
             Register Now
           </button>
