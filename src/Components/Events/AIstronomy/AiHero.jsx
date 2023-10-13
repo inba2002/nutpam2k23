@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import xtitle from "../AIstronomy/aiasset/xtitlesvg.svg"
-import mreport from "../AIstronomy/aiasset/missionreport.svg"
 import image from "./aiasset/image.svg"
 import "./ai.css";
 import Airules from './Airules'

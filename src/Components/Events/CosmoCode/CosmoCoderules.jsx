@@ -1,10 +1,9 @@
 import React from "react";
-import reg from "./cosmocodeasset/visionxreg.svg";
 import { Link } from "react-router-dom";
 
 const CosmoCoderules = () => {
   return (
-    <div className="flex flex-wrap flex justify-center items-center">
+    <div className="flex flex-wrap justify-center items-center">
       {/* <div className="navbar navbar-end bg-transparent w-full h-32">
         <div className="w-full flex items-center justify-start">
           <div className="flex w-1/2 items-center justify-center">

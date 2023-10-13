@@ -35,6 +35,7 @@ import Deck from "./Components/Slider/Deck";
 import Eventshoriscroll from "./Components/Eventshoriscroll";
 import { Loader } from "@react-three/drei";
 import Success from "./Components/success";
+import Teamstree from "./Components/Teams/Teamstree";
 
 
 
@@ -51,9 +52,10 @@ function App() {
     <>
     
       <div className="cursor-custom-cursor w-full h-screen overflow-x-hidden bg-back bg-cover relative z-0">
+      <Teamstree/>
 {/*         
         <Loading/> */}
-        <Routes>
+        {/* <Routes>
           
           <Route path="/celestialpause" element={<CelesticalPaiseHero />} />
           <Route path="/aistronomy" element={<AIHero />} />
@@ -80,7 +82,7 @@ function App() {
           <Route path="/AistronomyRegistration" element={<Aistronomy />}></Route>
           <Route path="/RegistrationSuccessful" element={<Success />}></Route>
           <Route path="/" element={<Loading />} />
-  </Routes>
+  </Routes> */}
 
         {/* <AnimatedCursor
           // clickables={[

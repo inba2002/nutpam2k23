@@ -1,7 +1,6 @@
 import React from "react";
 import image from "../SpaceOdyssey/spaceodysseyasset/spacebg.png";
 import xtitle from "./spaceodysseyasset/spacetitle.svg";
-import mreport from "./spaceodysseyasset/spacedesc.svg";
 import { Link } from "react-router-dom";
 
 import SpaceOdysseyrules from "./SpaceOdysseyrules";

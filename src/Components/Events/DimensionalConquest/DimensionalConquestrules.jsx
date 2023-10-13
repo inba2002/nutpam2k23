@@ -1,5 +1,4 @@
 import React from "react";
-import reg from "../VisionX/visionxasset/visionxreg.svg";
 import { Link } from "react-router-dom";
 
 const DimensionalConquestrules = () => {

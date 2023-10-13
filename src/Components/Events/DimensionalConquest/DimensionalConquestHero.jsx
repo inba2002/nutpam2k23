@@ -1,6 +1,5 @@
 import React from "react";
 import xtitle from "./dimensionalconquestasset/valtitle.svg";
-import mreport from "./dimensionalconquestasset/valdesc.svg";
 import image1 from "./dimensionalconquestasset/image.svg";
 import DimensionalConquestrules from "./DimensionalConquestrules";
 import Footer from "../../footer";
@@ -199,6 +198,9 @@ const DimensionalConquestHero = () => {
                 </p>
                 <p className="font-mono text-white text-lg pb-2">
                 Aravindan <a href="tel:+919789236655">9789236655</a>
+                </p>
+                <p className="font-mono text-white text-lg pb-2">
+                Gopinathan S <a href="tel:+919360758395">9360758395</a>
                 </p>
                  
               </div>

@@ -1,9 +1,8 @@
 import React from "react";
-import reg from "./aiasset/visionxreg.svg";
 import { Link } from "react-router-dom";
 const Airules = () => {
   return (
-    <div className="flex flex-wrap flex justify-center items-center">
+    <div className="flex flex-wrap justify-center items-center">
       {/* Top row */}
       <div className="w-full md:w-1/4 p-2 md:p-1">
         <div className="flex flex-col bg-white/[0.1] rounded-xl backdrop-blur-3xl p-5 gap-4">
