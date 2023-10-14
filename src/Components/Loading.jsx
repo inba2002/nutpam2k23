@@ -20,6 +20,8 @@ import { Stars } from "@react-three/drei";
 import Deck from "./Slider/Deck";
 import Eventshoriscroll from "./Eventshoriscroll";
 import Teams from "./Teams/Teams";
+import Association from "./Sponsors/Association";
+import Sponsors from "./Sponsors/Sponsors";
 
 const Loading = () => {
   return (
@@ -439,6 +441,12 @@ const Loading = () => {
       </div>
       <div id="Teams" >
         <Teams/>
+      </div>
+      <div id="Association" >
+        <Association/>
+      </div>
+      <div id="Sponsors" >
+        <Sponsors/>
       </div>
       <div id="Foot">
         <Footer />
