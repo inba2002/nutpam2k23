@@ -32,7 +32,12 @@ import rathika from "../../Assets/Crew/office/rathika.jpg";
 import nitheesh from "../../Assets/Crew/office/nithees.jpg";
 import amirtha from "../../Assets/Crew/office/amirthavarsh.png";
 import ragavi from "../../Assets/Crew/office/ragavi.jpg"
+<<<<<<< HEAD
 import srikanth from "../../Assets/Crew/office/srikanth.jpg"
+=======
+import bara from "../../Assets/Crew/office/barath.jpg"
+import sri from "../../Assets/Crew/office/srikanth.jpg"
+>>>>>>> a2ff974c1b5535d526e2b5bc5f3b1f26d37bc2d8
 
 import vishali from "../../Assets/Crew/socialmedia/vishali.jpeg";
 import durga from "../../Assets/Crew/socialmedia/jayadurga.jpg";
@@ -80,7 +85,7 @@ import aravind from "../../Assets/Crew/dimensional/aravind.jpg";
 import gopi from "../../Assets/Crew/dimensional/gopi.jpg";
 
 import viveka from "../../Assets/Crew/celestial/vivekanandhan.jpg";
-import midhuna from "../../Assets/Crew/celestial/midhuna.jpg";
+import midhuna from "../../Assets/Crew/celestial/midhu.jpg";
 import barathkumar from "../../Assets/Crew/celestial/barath.jpg";
 import deeya from "../../Assets/Crew/celestial/deeya.jpeg";
 import madhu from "../../Assets/Crew/celestial/madhu.jpg";
@@ -98,7 +103,7 @@ import vas from "../../Assets/Crew/space/vas.jpg";
 import anu from "../../Assets/Crew/astro/anuradha.jpg"
 import kavi from "../../Assets/Crew/astro/kavi.jpg"
 import suresh from "../../Assets/Crew/astro/suresh.jpg"
-import minu from "../../Assets/Crew/astro/minu.jpg"
+import minu from "../../Assets/Crew/astro/min.jpg"
 import krush from "../../Assets/Crew/astro/kurushna.jpeg"
 import nivi from "../../Assets/Crew/astro/nivi.png"
 
@@ -139,14 +144,22 @@ const Teamstree = () => {
   ];
   const officeteam = [
     { image: rooban, name: "Rooban Chakravarthi B", role: "Office Bearer" },
+<<<<<<< HEAD
     { image: baraths, name: "Barath T", role: "Office Bearer" },
+=======
+    { image: bara, name: "Barath T", role: "Office Bearer" },
+>>>>>>> a2ff974c1b5535d526e2b5bc5f3b1f26d37bc2d8
     { image: raj, name: "Raj Ronald Shaw", role: "Office Bearer" },
     { image: ragavi, name: "Ragavi K", role: "Office Bearer" },
     { image: navin, name: "Navin D", role: "Office Bearer" },
     { image: shiva, name: "Shiva Prasath R", role: "Office Bearer" },
     { image: rathika, name: "Ratikashre S S", role: "Office Bearer" },
     { image: nitheesh, name: "Nitheesh Srinivaasan R", role: "Office Bearer" },
+<<<<<<< HEAD
     { image: srikanth, name: "Srikanth D", role: "Office Bearer" },
+=======
+    { image: sri, name: "Srikanth D", role: "Office Bearer" },
+>>>>>>> a2ff974c1b5535d526e2b5bc5f3b1f26d37bc2d8
     { image: amirtha, name: "Amirthavarshini R", role: "Office Bearer" },
   ];
   const digitalteam = [
