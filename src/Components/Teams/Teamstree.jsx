@@ -23,6 +23,7 @@ import shylash from "../../Assets/Crew/designdev/shylash.jpg";
 import bathri from "../../Assets/Crew/content/bathri..jpg";
 import sriram from "../../Assets/Crew/content/srira.jpg";
 import vincy from "../../Assets/Crew/content/vincy.jpg";
+import baraths from "../../Assets/Crew/office/barath.jpg";
 
 import rooban from "../../Assets/Crew/office/rooban.jpg";
 import navin from "../../Assets/Crew/office/navi.jpg";
@@ -30,6 +31,8 @@ import shiva from "../../Assets/Crew/office/shiv.jpg";
 import rathika from "../../Assets/Crew/office/rathika.jpg";
 import nitheesh from "../../Assets/Crew/office/nithees.jpg";
 import amirtha from "../../Assets/Crew/office/amirthavarsh.png";
+import ragavi from "../../Assets/Crew/office/ragavi.jpg"
+import srikanth from "../../Assets/Crew/office/srikanth.jpg"
 
 import vishali from "../../Assets/Crew/socialmedia/vishali.jpeg";
 import durga from "../../Assets/Crew/socialmedia/jayadurga.jpg";
@@ -136,14 +139,14 @@ const Teamstree = () => {
   ];
   const officeteam = [
     { image: rooban, name: "Rooban Chakravarthi B", role: "Office Bearer" },
-    { image: padhu, name: "Barath T", role: "Office Bearer" },
-    { image: hod, name: "Raj Ronald Shaw", role: "Office Bearer" },
-    { image: padhu, name: "Ragavi K", role: "Office Bearer" },
+    { image: baraths, name: "Barath T", role: "Office Bearer" },
+    { image: raj, name: "Raj Ronald Shaw", role: "Office Bearer" },
+    { image: ragavi, name: "Ragavi K", role: "Office Bearer" },
     { image: navin, name: "Navin D", role: "Office Bearer" },
     { image: shiva, name: "Shiva Prasath R", role: "Office Bearer" },
     { image: rathika, name: "Ratikashre S S", role: "Office Bearer" },
     { image: nitheesh, name: "Nitheesh Srinivaasan R", role: "Office Bearer" },
-    { image: hod, name: "Srikanth D", role: "Office Bearer" },
+    { image: srikanth, name: "Srikanth D", role: "Office Bearer" },
     { image: amirtha, name: "Amirthavarshini R", role: "Office Bearer" },
   ];
   const digitalteam = [
@@ -227,7 +230,7 @@ const Teamstree = () => {
     { image: minu, name: "Minu Dakshina B S", role: "Event Coordinator" },
     { image: suresh, name: "Suresh S", role: "Event Coordinator" },
     { image: nivi, name: "Nivetha S", role: "Event Coordinator" },
-    { image: krush, name: "Krushna Sayi", role: "Event Coordinator" },
+    { image: krush, name: "Krushnasayi S", role: "Event Coordinator" },
     
   ];
 
